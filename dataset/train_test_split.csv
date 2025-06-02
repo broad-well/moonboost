@@ -5,13 +5,11 @@ file_base_name,split,length,duration
 .._midi_super-nintendo_HYPERD.npy,train,816,4267
 .._midi_windows_Human1gm.npy,train,4588,14755
 .._midi_super-nintendo_(RS2)_Dance_4.npy,train,247,1626
-.._midi_super-nintendo_liveforlive.npy,train,10310,38008
 .._midi_super-nintendo_ter10.npy,train,1472,9116
 .._midi_super-nintendo_Ninja_Warriors_Again-Stage6_BOSS.npy,train,3870,11347
 .._midi_nintendo-ds_construction-red.npy,train,1947,9622
 .._midi_nintendo-ds_nsmb-athletic.npy,train,4418,15054
 .._midi_super-nintendo_CRTRPFR4.npy,train,4126,17536
-.._midi_super-nintendo_topdhaos.npy,train,5622,12572
 .._midi_nintendo-ds_kbusdx87.npy,train,1936,5177
 .._midi_super-nintendo_RomancingSaga3_march.npy,train,1367,10795
 .._midi_super-nintendo_som_legend.npy,train,824,11166
@@ -38,7 +36,6 @@ file_base_name,split,length,duration
 .._midi_wii_accf-towngate.npy,train,192,3451
 .._midi_super-nintendo_Dedede.npy,train,4177,10130
 .._midi_wii_Gyro_ZeldaSS_BossBattleMoldarach.npy,train,10258,20721
-.._midi_super-nintendo_27-DopplerBattle.npy,train,3472,10240
 .._midi_super-nintendo_CBmoonlightv2.npy,train,1863,11446
 .._midi_super-nintendo_sfvenom.npy,train,1252,5227
 .._midi_wii_accf-1200-v2.npy,train,744,6957
@@ -52,13 +49,11 @@ file_base_name,split,length,duration
 .._midi_super-nintendo_TetAttLakitu.npy,train,1472,19600
 .._midi_super-nintendo_ff2mysid.npy,train,1882,10392
 .._midi_nintendo-ds_Phoenix_Wright_-_Ace_Attourney_-_Suspense.npy,train,4320,13028
-.._midi_super-nintendo_Aerobiz_Supersonic_Europe.npy,train,612,3822
 .._midi_nintendo-ds_observatory.npy,train,104,1846
 .._midi_super-nintendo_tmnt408.npy,train,754,1761
 .._midi_nintendo-ds_Fawful_Theme.npy,train,866,4126
 .._midi_super-nintendo_luf1market.npy,train,968,7084
 .._midi_windows_HL2--CP_Violation.npy,train,978,9344
-.._midi_nintendo-ds_MLFTLaCentrale.npy,train,1368,8387
 .._midi_super-nintendo_WagyanParadise_Forest.npy,train,2592,9133
 .._midi_super-nintendo_Boss_Fight_2.npy,train,1228,5779
 .._midi_super-nintendo_ninjaw-stg6.npy,train,4991,17347
@@ -74,12 +69,10 @@ file_base_name,split,length,duration
 .._midi_super-nintendo_SailorMoonR_crystaltok.npy,train,2196,17351
 .._midi_super-nintendo_savage.npy,train,1270,8430
 .._midi_super-nintendo_luf1sea.npy,train,1336,7071
-.._midi_nintendo-ds_BW2Kyurem-Finished.npy,train,4544,12118
 .._midi_super-nintendo_smw2boss.npy,train,2884,10285
 .._midi_super-nintendo_LFMGH-128Galeon.npy,train,4825,12944
 .._midi_super-nintendo_T_MortalKombat_Map.npy,train,8284,12287
 .._midi_windows_JazzJackrabbit_4-3_GM.npy,train,18785,39183
-.._midi_nintendo-ds_MLFTTristesse.npy,train,2376,21600
 .._midi_super-nintendo_LRnH-InhumanCondition.npy,train,2204,11520
 .._midi_windows_NanoE.npy,train,8820,22886
 .._midi_wii_KB-MM9_Splash_Woman.npy,train,4292,11164
@@ -93,14 +86,12 @@ file_base_name,split,length,duration
 .._midi_super-nintendo_Ln1_04.npy,train,2418,9592
 .._midi_super-nintendo_LEM2CLSC.npy,train,2164,10837
 .._midi_super-nintendo_Drakkhen-Air_Realm_Night.npy,train,280,5600
-.._midi_super-nintendo_BL_fmgh_enemyraid.npy,train,4026,13000
 .._midi_super-nintendo_Castlevania4-Cellar(stage8)V2.npy,train,2332,12000
 .._midi_super-nintendo_live-a-live_-_the_demon_king_odio.npy,train,848,8821
 .._midi_windows_Ellinia_-_Maplestory_Better.npy,train,768,18788
 .._midi_super-nintendo_7sdunbat2.npy,train,4564,11102
 .._midi_wii_DialgaPalkiaSSBBv3.npy,train,6453,19839
 .._midi_super-nintendo_Factory.npy,train,2382,10243
-.._midi_windows_MR_-_Fractilian_Space.npy,train,6706,16800
 .._midi_super-nintendo_shaqfu5.npy,train,1416,8640
 .._midi_super-nintendo_surprise.npy,train,97,255
 .._midi_nintendo-ds_YTnG_TheSky.npy,train,1667,10254
@@ -108,8 +99,6 @@ file_base_name,split,length,duration
 .._midi_super-nintendo_The_Credits_Concerto.npy,train,1788,10971
 .._midi_super-nintendo_ff2pp.npy,train,595,3568
 .._midi_super-nintendo_SFactory.npy,train,5250,21775
-.._midi_super-nintendo_COLONY.npy,train,9676,45855
-.._midi_super-nintendo_Fortuna.npy,train,2646,11143
 .._midi_super-nintendo_a88canyonXG.npy,train,5136,10300
 .._midi_super-nintendo_SD3Desert.npy,train,3972,25584
 .._midi_FIRST_ACDC.Thunderstruck K.npy,train,8590,30421
@@ -142,7 +131,6 @@ file_base_name,split,length,duration
 .._midi_super-nintendo_SD3retu.npy,train,1238,21277
 .._midi_wii_MM10-CommandoMan.npy,train,2400,13280
 .._midi_old_transformers_Dinobot_Death.npy,train,195,3662
-.._midi_super-nintendo_FE4-Chapter6.npy,train,1650,12270
 .._midi_wii_MM10TRA.npy,train,1526,6467
 .._midi_nintendo-ds_Battle_N_BW.npy,train,2866,7333
 .._midi_nintendo-ds_lozst_rocktitephytopsintro.npy,train,1539,6475
@@ -154,17 +142,14 @@ file_base_name,split,length,duration
 .._midi_nintendo-ds_ndamneepou.npy,train,1544,11520
 .._midi_super-nintendo_jaki_crush_-_mini_game_2.npy,train,8997,21780
 .._midi_super-nintendo_HMSummer-1.npy,train,4819,5333
-.._midi_super-nintendo_07_The_Battle.npy,train,2691,7342
 .._midi_super-nintendo_Mnbossbt.npy,train,2544,5714
 .._midi_super-nintendo_fe3_main.npy,train,4338,20784
 .._midi_super-nintendo_marcel.npy,train,1777,10399
 .._midi_super-nintendo_ArdyLightfoot-Stronghold.npy,train,1391,8990
-.._midi_super-nintendo_cyber_l21.npy,train,5397,13466
 .._midi_super-nintendo_mm7wily.npy,train,2782,6038
 .._midi_super-nintendo_Rowasae.npy,train,2320,19194
 .._midi_star wars_Cantina_Band.npy,train,3055,11178
 .._midi_super-nintendo_dracula4.npy,train,2449,12629
-.._midi_windows_level3_final.npy,train,3976,12650
 .._midi_super-nintendo_BossStage4.npy,train,864,7313
 .._midi_quake_big-gun.npy,train,2083,17600
 .._midi_wii_Smashville_hallandstore.npy,train,3677,16846
@@ -177,7 +162,6 @@ file_base_name,split,length,duration
 .._midi_wii_hawk_and_catseq.npy,train,449,1800
 .._midi_super-nintendo_pq1_naskuot.npy,train,2161,9865
 .._midi_super-nintendo_BatmanReturnsLevel1AmbushOnTheGothamPlaza.npy,train,3040,17796
-.._midi_nintendo-ds_N64_Frappe.npy,train,6246,6295
 .._midi_super-nintendo_rs1_albert.npy,train,1440,8316
 .._midi_super-nintendo_SNES_Toki_Memo_Art_Gallery.npy,train,2216,14049
 .._midi_super-nintendo_End_Theme.npy,train,1012,5463
@@ -191,7 +175,6 @@ file_base_name,split,length,duration
 .._midi_super-nintendo_StarOcean_Sunny_Place.npy,train,2988,11689
 .._midi_windows_Highlands.npy,train,3030,26290
 .._midi_super-nintendo_topoliv.npy,train,5786,14829
-.._midi_super-nintendo_GokujyoParodius_Takosuke.npy,train,1078,4800
 .._midi_super-nintendo_(RS2)_Dance_2.npy,train,493,1562
 .._midi_super-nintendo_power.npy,train,1493,6366
 .._midi_super-nintendo_ctbike.npy,train,1776,7440
@@ -234,7 +217,6 @@ file_base_name,split,length,duration
 .._midi_super-nintendo_sheep_shamble.npy,train,929,10560
 .._midi_wii_hyrule_castle_townseq.npy,train,4900,32256
 .._midi_nintendo-ds_Courage.npy,train,6111,16070
-.._midi_super-nintendo_dk_zb_temple.npy,train,8124,18249
 .._midi_super-nintendo_Live-A-Live_-_Under_The_Fake.npy,train,1982,6666
 .._midi_super-nintendo_DKC2Mine.npy,train,5364,20757
 .._midi_wii_meet_zantseq.npy,train,213,3361
@@ -247,10 +229,8 @@ file_base_name,split,length,duration
 .._midi_super-nintendo_gra3govr.npy,train,214,986
 .._midi_super-nintendo_Grad3SNES_l3_1.npy,train,3134,8836
 .._midi_super-nintendo_Use_Your_Head.npy,train,1314,6261
-.._midi_super-nintendo_snesDKC3_HotPersuit.npy,train,10010,20736
 .._midi_super-nintendo_ctepoch.npy,train,2542,10751
 .._midi_windows_TrueLoveSong9.npy,train,9969,35608
-.._midi_super-nintendo_livetyu1.npy,train,3192,10615
 .._midi_super-nintendo_SD3_Persons_Die.npy,train,1024,9017
 .._midi_wii_LoZTP_-_Mailman_-_By_Nova.npy,train,430,3478
 .._midi_super-nintendo_ao1_blaze.npy,train,2036,8398
@@ -274,7 +254,6 @@ file_base_name,split,length,duration
 .._midi_windows_level1_final.npy,train,4190,14620
 .._midi_super-nintendo_Smkbows.npy,train,821,5634
 .._midi_nintendo-ds_LoopLogicTrick.npy,train,2608,14085
-.._midi_super-nintendo_undertak.npy,train,1165,12430
 .._midi_windows_CC_Chip_01-KM.npy,train,3355,7542
 .._midi_super-nintendo_Good_Nopino_Goblins.npy,train,1968,10000
 .._midi_super-nintendo_ter30.npy,train,555,4915
@@ -283,7 +262,6 @@ file_base_name,split,length,duration
 .._midi_super-nintendo_aridsand.npy,train,3752,11192
 .._midi_super-nintendo_SailorMoonR_pal2.npy,train,2536,16820
 .._midi_super-nintendo_MN_-_Strange_Mans_Home.npy,train,750,3133
-.._midi_wii_Koopa_cape2.npy,train,8287,28218
 .._midi_super-nintendo_DonutPlains.npy,train,1735,6489
 .._midi_super-nintendo_zb_drmario_fever2.npy,train,6524,30205
 .._midi_wii_mm10_Strikeman.npy,train,5234,11496
@@ -298,21 +276,17 @@ file_base_name,split,length,duration
 .._midi_super-nintendo_Grad3SNES_Boss1.npy,train,1942,4431
 .._midi_super-nintendo_sunset_riders_-_bonus_stage.npy,train,1924,4868
 .._midi_super-nintendo_fanfare.npy,train,1383,6277
-.._midi_nintendo-ds_memoriesmidi.npy,train,1805,23008
 .._midi_super-nintendo_7thsaga_town2.npy,train,1378,8869
 .._midi_super-nintendo_Mwvalley.npy,train,264,1544
-.._midi_super-nintendo_SBomb3-Boss2.npy,train,2520,3840
 .._midi_super-nintendo_HereGoesJelly_MiniMaze.npy,train,2800,16128
 .._midi_super-nintendo_BL_jlspg3_halftime.npy,train,998,3202
 .._midi_super-nintendo_dkc2fanfare.npy,train,446,866
-.._midi_super-nintendo_actrstg1.npy,train,2214,10882
 .._midi_super-nintendo_Voloh.npy,train,848,6810
 .._midi_super-nintendo_ter03.npy,train,747,10505
 .._midi_super-nintendo_blopen.npy,train,4548,12934
 .._midi_super-nintendo_SF_Macbeth-KM.npy,train,6121,12179
 .._midi_super-nintendo_BL_plok_rocketlauncher.npy,train,2590,12444
 .._midi_super-nintendo_b2batl2.npy,train,3882,15383
-.._midi_windows_MR_-_Factory_Land.npy,train,6361,21047
 .._midi_windows_Cellar_Song.npy,train,4818,13784
 .._midi_nintendo-ds_KK_Etude.npy,train,250,4033
 .._midi_super-nintendo_dbz_hyper_dimension_-_speed.npy,train,3588,11600
@@ -328,7 +302,6 @@ file_base_name,split,length,duration
 .._midi_super-nintendo_z3home.npy,train,565,11606
 .._midi_super-nintendo_MMX_-_Sigmas_Fortress_Station_1.npy,train,2930,12000
 .._midi_wii_ssbb_-_battlefield2.npy,train,9396,14616
-.._midi_super-nintendo_axe_8p.npy,train,3440,13150
 .._midi_super-nintendo_mmq07.npy,train,673,4833
 .._midi_wii_TP_GoronMines.npy,train,481,11733
 .._midi_super-nintendo_lal_megalomania.npy,train,7906,14222
@@ -344,16 +317,12 @@ file_base_name,split,length,duration
 .._midi_super-nintendo_Dkcjungle.npy,train,7740,37546
 .._midi_super-nintendo_Tragedy.npy,train,1071,15220
 .._midi_wii_MM10_EvilWily.npy,train,2720,7187
-.._midi_super-nintendo_omnitopia.npy,train,531,15338
 .._midi_super-nintendo_ssf2_dhalsim.npy,train,2836,10720
 .._midi_super-nintendo_YS_Bowser's_Castle.npy,train,4745,8276
 .._midi_super-nintendo_dw6_battle.npy,train,2464,13626
 .._midi_windows_JazzJackrabbit_6-1_GMv2.npy,train,13180,27434
-.._midi_super-nintendo_GokujyoParodius_Michael.npy,train,1001,4250
 .._midi_super-nintendo_smt_laworchrem.npy,train,775,9427
 .._midi_super-nintendo_SMKFinish.npy,train,967,5867
-.._midi_super-nintendo_Angel's_Fear.npy,train,698,18203
-.._midi_super-nintendo_For_Pete's_Sake.npy,train,1184,9561
 .._midi_super-nintendo_DV_-_Swamp_Field.npy,train,4254,8577
 .._midi_super-nintendo_gra3east.npy,train,7208,13356
 .._midi_windows_WINDMILL.npy,train,3275,9592
@@ -381,7 +350,6 @@ file_base_name,split,length,duration
 .._midi_super-nintendo_Quagmire.npy,train,1250,19854
 .._midi_super-nintendo_tmnt_winner.npy,train,1746,5639
 .._midi_super-nintendo_little_nori.npy,train,1823,6110
-.._midi_super-nintendo_soecol1.npy,train,4434,18550
 .._midi_super-nintendo_goemon04.npy,train,1845,7848
 .._midi_wii_MM9_Magmaman.npy,train,4436,9642
 .._midi_super-nintendo_magitek4.npy,train,1444,12218
@@ -420,7 +388,6 @@ file_base_name,split,length,duration
 .._midi_super-nintendo_rd-snakebone.npy,train,2886,17231
 .._midi_super-nintendo_SMAS_-_SMB3_-_World_7_Map.npy,train,136,1557
 .._midi_windows_Mysterious_Place.npy,train,448,4421
-.._midi_star wars_The_Dune_Sea_of_Tatooine_And_Jawa_Sandcrawler.npy,train,2776,29142
 .._midi_super-nintendo_mn-Izumo.npy,train,2580,9391
 .._midi_super-nintendo_Shampoo_Airen_My_Husband.npy,train,3437,22720
 .._midi_nintendo-ds_mmzxa_finalboss1_v1_0.npy,train,6999,21000
@@ -433,7 +400,6 @@ file_base_name,split,length,duration
 .._midi_super-nintendo_dkc3_cliff.npy,train,2679,13199
 .._midi_super-nintendo_golbez.npy,train,962,10866
 .._midi_nintendo-ds_crystalrecs.npy,train,1484,20330
-.._midi_super-nintendo_BoF2Devn.npy,train,1740,8009
 .._midi_super-nintendo_OCTO.npy,train,2573,9101
 .._midi_wii_SonicU_-_TornadoDef2.npy,train,5845,17315
 .._midi_wii_GapOfCrag.npy,train,964,5694
@@ -456,7 +422,6 @@ file_base_name,split,length,duration
 .._midi_super-nintendo_KingBoss.npy,train,8345,13359
 .._midi_super-nintendo_SNES_Toki_Memo_Megumi.npy,train,1057,9000
 .._midi_super-nintendo_Mines.npy,train,3374,10494
-.._midi_super-nintendo_SD3lscafe.npy,train,3903,17552
 .._midi_super-nintendo_Drakkhen_Haaggkha_Castle.npy,train,768,18505
 .._midi_super-nintendo_ffmq-gameover.npy,train,1747,14597
 .._midi_star wars_The_Imperial_March_Darth_Vaders_Theme_Version_Two.npy,train,9927,18465
@@ -479,11 +444,8 @@ file_base_name,split,length,duration
 .._midi_super-nintendo_Tales_of_Phantasia-Take_Up_the_Cross_Instrumental.npy,train,3958,6677
 .._midi_nintendo-ds_tarv_zxa_target_chaser_FINAL_2.npy,train,2829,10234
 .._midi_super-nintendo_SBomb1-Stage4.npy,train,1682,9600
-.._midi_super-nintendo_SD3Dark.npy,train,956,24899
-.._midi_nintendo-ds_Anno_Explore_A_New_World_II.npy,train,1672,16424
 .._midi_super-nintendo_X2Ostrich.npy,train,2050,8499
 .._midi_nintendo-ds_Amp_Plains_v1.npy,train,9030,26239
-.._midi_super-nintendo_GokujyoParodius_Hikaru.npy,train,998,4329
 .._midi_super-nintendo_ff3troop.npy,train,2196,11727
 .._midi_windows_Human3gm.npy,train,3931,12716
 .._midi_windows_SP-Mimiga_Village.npy,train,1420,12618
@@ -504,7 +466,6 @@ file_base_name,split,length,duration
 .._midi_super-nintendo_mission2v2.npy,train,1535,12043
 .._midi_super-nintendo_IoGvllge.npy,train,1178,17513
 .._midi_super-nintendo_pq1_bt1.npy,train,2096,7249
-.._midi_windows_JazzJackrabbit2_TSFHaunted_XGv103.npy,train,22211,39179
 .._midi_super-nintendo_Luf2lfia.npy,train,1429,23656
 .._midi_star wars_Star_Wars_Disco.npy,train,6434,23177
 .._midi_super-nintendo_IogInca.npy,train,2837,16364
@@ -530,15 +491,11 @@ file_base_name,split,length,duration
 .._midi_super-nintendo_ss6blast.npy,train,1728,10665
 .._midi_windows_Lith_Harbor.npy,train,6634,26654
 .._midi_super-nintendo_overw.npy,train,3272,15232
-.._midi_super-nintendo_mmq06.npy,train,937,6728
-.._midi_super-nintendo_FF5_dear.npy,train,1152,24556
 .._midi_nintendo-ds_mlpit_thwomp_volcano_exterior.npy,train,3924,11987
 .._midi_super-nintendo_Action.npy,train,3471,11680
 .._midi_super-nintendo_live-a-live_japan_-_present_day_chapter_knock_you_down.npy,train,5621,12017
-.._midi_super-nintendo_ctschala1.npy,train,1254,9069
 .._midi_super-nintendo_Sommatango.npy,train,9094,13326
 .._midi_super-nintendo_BlueStone_Cave.npy,train,2154,13682
-.._midi_super-nintendo_DKC3cavern.npy,train,4653,16485
 .._midi_super-nintendo_cyclopsxmenmutantapocluminath.npy,train,4264,8452
 .._midi_wii_mm10-wily2.npy,train,4275,12654
 .._midi_super-nintendo_luf1doom.npy,train,1196,9742
@@ -549,7 +506,6 @@ file_base_name,split,length,duration
 .._midi_super-nintendo_DX-_Opus_13.npy,train,9596,21500
 .._midi_super-nintendo_Sai_2-1.npy,train,8381,28219
 .._midi_super-nintendo_rs1_beforelbt.npy,train,860,8353
-.._midi_super-nintendo_FrontMissionGunHazard_PromiseEngagement.npy,train,261,11555
 .._midi_super-nintendo_rudora_spirit_chaser.npy,train,5072,12097
 .._midi_super-nintendo_Weapon.npy,train,216,2135
 .._midi_nintendo-ds_Nuvema_Town.npy,train,1041,4964
@@ -574,8 +530,6 @@ file_base_name,split,length,duration
 .._midi_wii_accf-townhall-day-v2.npy,train,468,7178
 .._midi_wii_Zelda_TP_Boss1-4_pt1.npy,train,4296,12374
 .._midi_super-nintendo_DV_-_Town_of_Rysis.npy,train,574,3802
-.._midi_super-nintendo_Symbolofdarkness2.npy,train,5015,23122
-.._midi_super-nintendo_top_streamoftime.npy,train,3088,18652
 .._midi_super-nintendo_smwwin.npy,train,183,909
 .._midi_nintendo-ds_KSSU_Boss.npy,train,5390,14371
 .._midi_windows_TheMissionarySong.npy,train,579,10230
@@ -604,21 +558,17 @@ file_base_name,split,length,duration
 .._midi_super-nintendo_bszeldatitle.npy,train,704,7741
 .._midi_super-nintendo_SD3cfs.npy,train,7252,20400
 .._midi_super-nintendo_05-Shop.npy,train,3806,10300
-.._midi_wii_MM9_-_Tornado.npy,train,6279,16000
 .._midi_wii_Omega_Ridley.npy,train,10669,21119
 .._midi_super-nintendo_12-TunnelRhino.npy,train,2170,10391
 .._midi_super-nintendo_Saleste_l7.npy,train,3987,12219
 .._midi_nintendo-ds_MLFTChateaudePeachv1_1.npy,train,3808,12519
 .._midi_super-nintendo_M1Psylocke.npy,train,5118,14933
-.._midi_quake_descent-into-cerberon.npy,train,3201,15709
 .._midi_super-nintendo_BDDStage1GM.npy,train,8616,15817
 .._midi_nintendo-ds_mmzxa_finalboss2.npy,train,7119,21333
 .._midi_nintendo-ds_tag_power.npy,train,4261,11520
-.._midi_super-nintendo_cyber_l3_v2.npy,train,2634,8348
 .._midi_wii_SMG_GoodEgg.npy,train,4286,16184
 .._midi_super-nintendo_T16.npy,train,5535,24000
 .._midi_nintendo-ds_overworld-1.npy,train,1207,5596
-.._midi_super-nintendo_Soerat.npy,train,1198,13984
 .._midi_super-nintendo_BatmanReturnsLevel6CircusTrain.npy,train,5633,22317
 .._midi_super-nintendo_spkpaswd.npy,train,1196,6684
 .._midi_super-nintendo_snesDKC2_MapV1.2.npy,train,2830,5621
@@ -659,22 +609,17 @@ file_base_name,split,length,duration
 .._midi_super-nintendo_mn-AmusementPark.npy,train,1119,5400
 .._midi_super-nintendo_MushroomKingdom.npy,train,4176,16686
 .._midi_super-nintendo_ff3blackjack.npy,train,4602,18078
-.._midi_windows_JazzJackrabbit_6-3_GM.npy,train,8360,52188
 .._midi_super-nintendo_TA_Koopa_Battle.npy,train,4138,18293
 .._midi_super-nintendo_mounthob.npy,train,2680,9705
 .._midi_nintendo-ds_elite_4_bw.npy,train,4141,9347
 .._midi_super-nintendo_Sunset_Riders_-_Victory.npy,train,132,615
-.._midi_super-nintendo_GokujyoParodius_Goemon.npy,train,2085,6459
 .._midi_super-nintendo_LEM2SPAC.npy,train,5528,24574
 .._midi_super-nintendo_Phalanx_-_Level_4_-_Deep_Core.npy,train,3228,11559
-.._midi_super-nintendo_Underworld.npy,train,2859,31787
 .._midi_super-nintendo_T_OmakeVGTitle.npy,train,1474,2990
-.._midi_super-nintendo_ter41.npy,train,272,2950
 .._midi_super-nintendo_runawayfive.npy,train,1399,8885
 .._midi_super-nintendo_DrCain.npy,train,1275,4533
 .._midi_wii_6-22_ganonseq.npy,train,4320,23250
 .._midi_wii_spm_floro_caverns.npy,train,1443,7289
-.._midi_super-nintendo_Highwaystar.npy,train,12531,37111
 .._midi_windows_UT_Its_Showtime_v2_Lu9.npy,train,1523,4489
 .._midi_super-nintendo_Magic_Sword_-_At_Brokmars_Gate.npy,train,5135,14162
 .._midi_super-nintendo_snesKDCCourse_8.npy,train,2806,10025
@@ -682,11 +627,9 @@ file_base_name,split,length,duration
 .._midi_super-nintendo_DKC2_Funkys_Flights-KM.npy,train,2292,9442
 .._midi_star wars_Parade_of_the_Ewoks.npy,train,3398,19720
 .._midi_super-nintendo_eb_snowhouse.npy,train,1997,13241
-.._midi_windows_Background.npy,train,1263,24246
 .._midi_super-nintendo_T_AVGFighter_YukaTheme.npy,train,15155,20069
 .._midi_super-nintendo_Tales_of_Phantasia-Vigorous_Town.npy,train,2568,13759
 .._midi_super-nintendo_SAI2SalaSalaIslandByCryogen.npy,train,3702,10718
-.._midi_nintendo-ds_MLFTEmpireXhampi_.npy,train,1488,12571
 .._midi_super-nintendo_do1_vicram.npy,train,896,8000
 .._midi_windows_ominous3.npy,train,3363,16238
 .._midi_super-nintendo_Cutman.npy,train,1305,6400
@@ -694,7 +637,6 @@ file_base_name,split,length,duration
 .._midi_windows_touhou_6_stage2_boss.npy,train,4070,8691
 .._midi_super-nintendo_bofovrwrld1.npy,train,2069,14800
 .._midi_wii_ilias_theme.npy,train,284,9014
-.._midi_windows_MR_-_Terminal_City.npy,train,5651,17169
 .._midi_super-nintendo_Magic_Sword_-_Title.npy,train,837,1833
 .._midi_super-nintendo_25-FortressTheme.npy,train,225,996
 .._midi_super-nintendo_Arena_Superstar.npy,train,2887,11680
@@ -707,17 +649,13 @@ file_base_name,split,length,duration
 .._midi_super-nintendo_Broli.npy,train,3401,10628
 .._midi_super-nintendo_Paranoid2.npy,train,4833,15770
 .._midi_nintendo-ds_Fight.npy,train,1735,7765
-.._midi_super-nintendo_SkyRunner.npy,train,1960,10338
 .._midi_super-nintendo_celes.npy,train,1679,23100
 .._midi_nintendo-ds_ds_nsmb_sm04.npy,train,2000,11520
 .._midi_wii_insidetempletime.npy,train,814,2935
 .._midi_windows_title_final.npy,train,3475,6938
-.._midi_super-nintendo_ter32.npy,train,183,1926
 .._midi_wii_flying_up_the_river_tp.npy,train,1515,7148
-.._midi_super-nintendo_ff5world.npy,train,3019,11247
 .._midi_wii_MM10-WilyFortress2.npy,train,2388,12502
 .._midi_super-nintendo_tristam(1).npy,train,1889,9188
-.._midi_super-nintendo_lb3_bt2-1.npy,train,2415,8715
 .._midi_super-nintendo_The_keeper_of_the_next_dimension_-_King_Kaio's_Theme.npy,train,1578,8400
 .._midi_super-nintendo_DKC2BonusGameIntro.npy,train,1844,4860
 .._midi_super-nintendo_SuperMarioAllStars-SMB3_Boss_Battle.npy,train,1344,4322
@@ -741,14 +679,11 @@ file_base_name,split,length,duration
 .._midi_super-nintendo_actend1.npy,train,596,12209
 .._midi_super-nintendo_oedo2.npy,train,2256,13200
 .._midi_super-nintendo_T_NinjaGaidenTri_GoingGetsTough.npy,train,4802,12675
-.._midi_wii_SonicU_-_ApotosDay.npy,train,12797,29879
 .._midi_super-nintendo_dw5_gettingmarried.npy,train,2606,20560
 .._midi_windows_AsaMS_ElliniaForest.npy,train,1733,14970
 .._midi_windows_mkdos_warrior.npy,train,1377,8654
 .._midi_super-nintendo_luf1town.npy,train,2158,9600
 .._midi_super-nintendo_goemon02.npy,train,2064,6600
-.._midi_super-nintendo_SBomb3-Map1.npy,train,1482,8076
-.._midi_super-nintendo_dq6_lastdg.npy,train,722,22048
 .._midi_super-nintendo_soeqsand.npy,train,136,8600
 .._midi_super-nintendo_FF5_final.npy,train,4401,19821
 .._midi_super-nintendo_Mario3_Level2.npy,train,1107,6480
@@ -774,7 +709,6 @@ file_base_name,split,length,duration
 .._midi_super-nintendo_Town.npy,train,819,23040
 .._midi_super-nintendo_Arctic.npy,train,1678,9936
 .._midi_super-nintendo_blizdnce.npy,train,1619,7846
-.._midi_nintendo-ds_BOSS_A.npy,train,1496,7678
 .._midi_super-nintendo_SNES_Toki_Memo_Yuko2.npy,train,3344,15309
 .._midi_super-nintendo_t_ogre15.npy,train,1280,8360
 .._midi_super-nintendo_mxcboss.npy,train,1964,7543
@@ -785,13 +719,11 @@ file_base_name,split,length,duration
 .._midi_super-nintendo_T_RomancingSaGa_BattleTheme2.npy,train,5199,12070
 .._midi_nintendo-ds_nds-mkds-sneskoopabeach.npy,train,1878,8207
 .._midi_super-nintendo_claykeepcastle.npy,train,1198,6288
-.._midi_super-nintendo_TG-Track2.npy,train,22325,23347
 .._midi_super-nintendo_Ys_3-_Eldam_Mountains.npy,train,4729,19935
 .._midi_super-nintendo_owzer.npy,train,2198,19143
 .._midi_super-nintendo_yi-bowser.npy,train,6673,15201
 .._midi_nintendo-ds_Route_110.npy,train,2508,7534
 .._midi_super-nintendo_bombermanbattlehysterical.npy,train,11053,13579
-.._midi_super-nintendo_gra3king.npy,train,3591,6516
 .._midi_super-nintendo_(RnH)_Battle_of_the_Last_Enemy_-_In_the_Mirror.npy,train,986,10113
 .._midi_windows_CS_Plant.npy,train,2035,11520
 .._midi_super-nintendo_MMS_WilyField.npy,train,2690,12800
@@ -799,11 +731,8 @@ file_base_name,split,length,duration
 .._midi_transformers_TFPrime.npy,train,1003,17630
 .._midi_windows_JazzJackrabbit_2-1_GM.npy,train,14160,33219
 .._midi_super-nintendo_tuxedo_kamen1.npy,train,720,3913
-.._midi_super-nintendo_SBomb3-Stage6.npy,train,3796,8533
 .._midi_windows_Henesys.npy,train,4813,14100
 .._midi_windows_IncaPaititi.npy,train,929,8136
-.._midi_super-nintendo_SMASMysterious-V1.1.npy,train,1926,18241
-.._midi_super-nintendo_SoE-_Great_Pyramid.npy,train,5013,22815
 .._midi_super-nintendo_rs1_dungeon1.npy,train,1446,12360
 .._midi_super-nintendo_SD3meri.npy,train,5892,27200
 .._midi_super-nintendo_ebfinalbattle.npy,train,864,3199
@@ -813,13 +742,11 @@ file_base_name,split,length,duration
 .._midi_super-nintendo_livealive-wanderer.npy,train,4141,13834
 .._midi_super-nintendo_dkc2-ending.npy,train,3196,12801
 .._midi_wii_accf-1400.npy,train,369,4686
-.._midi_windows_Fine_Layers_Of_Slaysenflite.npy,train,4045,17721
 .._midi_super-nintendo_cv4s4b.npy,train,9242,39041
 .._midi_super-nintendo_b2bbatl3.npy,train,3519,8775
 .._midi_super-nintendo_Metal_Works.npy,train,2014,5760
 .._midi_star wars_Anakins_Theme.npy,train,971,15857
 .._midi_super-nintendo_ayasad.npy,train,759,6558
-.._midi_wii_SonicU_-_TornadoDef1.npy,train,6597,15671
 .._midi_super-nintendo_LaunchOctopus.npy,train,2794,9900
 .._midi_super-nintendo_rs1_lbt.npy,train,3079,16351
 .._midi_windows_Summer_Style.npy,train,1501,18343
@@ -833,7 +760,6 @@ file_base_name,split,length,duration
 .._midi_wii_spm_pixel_water2.npy,train,2690,9216
 .._midi_nintendo-ds_Champion_Lance.npy,train,2507,6781
 .._midi_super-nintendo_KishinDoujiZenki-Stage5-1.npy,train,7448,26240
-.._midi_wii_the_light_spirit_appears2.npy,train,307,5975
 .._midi_super-nintendo_SSF2-ZangiefStage-X.npy,train,2767,10921
 .._midi_super-nintendo_YcookieA_zb.npy,train,2743,10081
 .._midi_super-nintendo_ter17.npy,train,1068,5357
@@ -842,7 +768,6 @@ file_base_name,split,length,duration
 .._midi_super-nintendo_t_ogre42.npy,train,824,13036
 .._midi_windows_CaveStory.npy,train,5927,28320
 .._midi_super-nintendo_LEM2CLSC(1).npy,train,2164,10837
-.._midi_super-nintendo_aiwokatarautoki_2.npy,train,1245,10929
 .._midi_super-nintendo_BL_fmgh_pullout.npy,train,586,4162
 .._midi_super-nintendo_FF5_edtit.npy,train,9194,48597
 .._midi_old_transformers_autobotdecepticon.npy,train,422,5700
@@ -868,7 +793,6 @@ file_base_name,split,length,duration
 .._midi_windows_Undertale_ASGORE.npy,train,4864,17224
 .._midi_super-nintendo_rh_rudra.npy,train,1025,12438
 .._midi_random_Avengers Theme Song.npy,train,1192,11412
-.._midi_super-nintendo_24-LabDestroyed.npy,train,573,8256
 .._midi_super-nintendo_dw5_demonworld.npy,train,272,4380
 .._midi_super-nintendo_arcana-final.npy,train,1671,6400
 .._midi_wii_SMG_DangersAfoot.npy,train,618,7200
@@ -899,7 +823,6 @@ file_base_name,split,length,duration
 .._midi_super-nintendo_TOPMintByCryogen.npy,train,1850,10678
 .._midi_super-nintendo_Drakkhen_Naaktkha_Castle.npy,train,956,18558
 .._midi_super-nintendo_BL_popntwin_level7.npy,train,3067,10823
-.._midi_super-nintendo_Legendary_Esper.npy,train,1554,10260
 .._midi_super-nintendo_Magic_Sword_-_Enemy_Battle.npy,train,1344,4719
 .._midi_windows_IncaCuzco.npy,train,5089,13199
 .._midi_super-nintendo_marpgbow.npy,train,1493,5170
@@ -907,12 +830,10 @@ file_base_name,split,length,duration
 .._midi_super-nintendo_soeflght.npy,train,1030,16104
 .._midi_super-nintendo_mahou_poipoi_poitto_japan_-_stage_6.npy,train,2186,8842
 .._midi_super-nintendo_SuperBonk_City.npy,train,4439,16739
-.._midi_super-nintendo_GokujyoParodius_Twinbee.npy,train,1196,4562
 .._midi_super-nintendo_mahou_poipoi_poitto_japan_-_stage_1.npy,train,2048,8403
 .._midi_super-nintendo_yuu_yuu_hakusho_kakutou_no_syo_japan_-_theme_4-edt.npy,train,2989,10368
 .._midi_super-nintendo_rivalt-lvl1.npy,train,2864,7224
 .._midi_super-nintendo_fls2_eatbag.npy,train,2614,9821
-.._midi_super-nintendo_FMGH_GunHazard.npy,train,1531,17682
 .._midi_super-nintendo_somdt.npy,train,5002,18944
 .._midi_super-nintendo_fe4battle1.npy,train,844,3933
 .._midi_super-nintendo_T_SuperS_MakoImproved.npy,train,6588,16128
@@ -928,14 +849,11 @@ file_base_name,split,length,duration
 .._midi_nintendo-ds_sm64ds-rabbit.npy,train,609,6000
 .._midi_super-nintendo_luf2air.npy,train,1447,12000
 .._midi_super-nintendo_BatmanReturnsLevel4ThePenguinsTrap.npy,train,4912,22747
-.._midi_super-nintendo_GokujyoParodius_Stage2.npy,train,2701,9010
 .._midi_super-nintendo_KoD_-_Treasure_in_an_Old_Castle.npy,train,1212,2855
 .._midi_super-nintendo_bio_metal_JPN_St1.npy,train,3996,13652
-.._midi_super-nintendo_Soecstl.npy,train,895,12800
 .._midi_super-nintendo_YS_Ghost_Mansion.npy,train,6000,13091
 .._midi_super-nintendo_simcz1_1.npy,train,2108,4180
 .._midi_super-nintendo_falcon.npy,train,2786,16839
-.._midi_super-nintendo_GokujyoParodius_Mambo.npy,train,1161,4781
 .._midi_super-nintendo_topdesol.npy,train,2500,15338
 .._midi_super-nintendo_Night_Shift.npy,train,684,7232
 .._midi_wii_SSBB_CruelBrawl.npy,train,5826,13809
@@ -944,11 +862,9 @@ file_base_name,split,length,duration
 .._midi_nintendo-ds_GYM_LEADER_DEFEAT.npy,train,1009,4350
 .._midi_super-nintendo_bumpty.npy,train,1590,8206
 .._midi_nintendo-ds_PWTAT_Cross-examination.npy,train,4604,10919
-.._midi_wii_Dark_Samus.npy,train,8078,20677
 .._midi_super-nintendo_BL_kd3_hyperzone1.npy,train,4525,10952
 .._midi_super-nintendo_SNES_Toki_Memo_Central_Park.npy,train,212,3147
 .._midi_super-nintendo_rs2final.npy,train,2651,16200
-.._midi_super-nintendo_RDream-UnderMoonlight.npy,train,1553,24194
 .._midi_super-nintendo_smt-embassy.npy,train,1328,5132
 .._midi_super-nintendo_ayasesen2.npy,train,922,9053
 .._midi_nintendo-ds_YoshiVillage.npy,train,1098,5759
@@ -963,7 +879,6 @@ file_base_name,split,length,duration
 .._midi_super-nintendo_ter01.npy,train,715,6820
 .._midi_super-nintendo_bttddlev6.npy,train,1606,10835
 .._midi_super-nintendo_Final_Fantasy_Mystic_Quest_-_Overworld_(MWS_v1.1).npy,train,1420,5727
-.._midi_super-nintendo_rd-star_stealing_girl.npy,train,1816,18758
 .._midi_super-nintendo_iogmu.npy,train,2908,22546
 .._midi_nintendo-ds_PMD_LowerBrineCave.npy,train,3290,18071
 .._midi_super-nintendo_Under_Attack!_(Ver._X.X).npy,train,2520,5120
@@ -974,7 +889,6 @@ file_base_name,split,length,duration
 .._midi_super-nintendo_rattle.npy,train,24355,29656
 .._midi_windows_JazzJackrabbit_3-1_GM.npy,train,10764,35650
 .._midi_super-nintendo_rd-requiem_dream_shore.npy,train,720,7859
-.._midi_nintendo-ds_DawnofSorrow_SubterraneanHell.npy,train,9210,29791
 .._midi_super-nintendo_stfxoutofthisdimension.npy,train,1856,6286
 .._midi_super-nintendo_dbth-opening.npy,train,3410,11512
 .._midi_super-nintendo_dbz_bat.npy,train,3142,11393
@@ -983,13 +897,10 @@ file_base_name,split,length,duration
 .._midi_super-nintendo_z3fairy.npy,train,468,4797
 .._midi_super-nintendo_smt-ginza.npy,train,4569,11471
 .._midi_super-nintendo_rmfburner.npy,train,3404,11482
-.._midi_super-nintendo_sonata.npy,train,1156,26613
 .._midi_nintendo-ds_pkmnBW_Gate.npy,train,715,5331
-.._midi_super-nintendo_Soecol2.npy,train,1780,11918
 .._midi_super-nintendo_jaki_crush_japan_-_main_table.npy,train,12684,34499
 .._midi_super-nintendo_Avalanche.npy,train,2080,5760
 .._midi_super-nintendo_SMK_DK_Jr._Wins.npy,train,865,2988
-.._midi_super-nintendo_cv5stg3.npy,train,1391,7018
 .._midi_super-nintendo_luf1tragedy.npy,train,692,11112
 .._midi_super-nintendo_sb-lightshrine.npy,train,1902,10518
 .._midi_super-nintendo_dw5_continueyourquest.npy,train,392,3471
@@ -1002,11 +913,9 @@ file_base_name,split,length,duration
 .._midi_super-nintendo_YS_Pipe_Island.npy,train,3475,7655
 .._midi_super-nintendo_VegasStakes_TheHideout.npy,train,468,3711
 .._midi_super-nintendo_ffmqfireburg.npy,train,2260,10991
-.._midi_super-nintendo_DKC3Jungle.npy,train,3691,16954
 .._midi_super-nintendo_somSei2-13x.npy,train,1021,7604
 .._midi_nintendo-ds_ACWW_Save_Room_Song-1.npy,train,640,15992
 .._midi_super-nintendo_07-santa.npy,train,3018,15479
-.._midi_super-nintendo_EasyBattle2.npy,train,1247,6579
 .._midi_super-nintendo_GokujyoParodius_KidDracula.npy,train,1607,7500
 .._midi_super-nintendo_top_japon.npy,train,4315,22315
 .._midi_super-nintendo_SuperMarioRPG-CulexDeparture.npy,train,1152,6450
@@ -1020,10 +929,8 @@ file_base_name,split,length,duration
 .._midi_super-nintendo_Imperium-Stagesong9.npy,train,4879,11148
 .._midi_super-nintendo_SMASRuinedMillenniumByCryogen.npy,train,786,9143
 .._midi_super-nintendo_mn-Ryukyu.npy,train,2262,10980
-.._midi_super-nintendo_dkccoral.npy,train,2588,19996
 .._midi_super-nintendo_T_AVGFighter_FightEnd.npy,train,312,341
 .._midi_nintendo-ds_sr_mirage_road.npy,train,5460,25440
-.._midi_wii_goldenwolf.npy,train,722,8000
 .._midi_wii_Starbit_Festival.npy,train,1032,8019
 .._midi_super-nintendo_SD3powe.npy,train,3028,12102
 .._midi_super-nintendo_ffmq_title.npy,train,2811,12556
@@ -1051,10 +958,8 @@ file_base_name,split,length,duration
 .._midi_super-nintendo_Bio_Metal_Japanese_Ver-Stage7BGM.npy,train,3794,12861
 .._midi_super-nintendo_Dkcmap.npy,train,3222,16097
 .._midi_nintendo-ds_Frontier_Brain.npy,train,2921,9393
-.._midi_super-nintendo_FrontMissionGunHazard_ApproachToAShrine.npy,train,8526,21332
 .._midi_super-nintendo_topawak.npy,train,114,574
 .._midi_super-nintendo_KI_Orchid.npy,train,1624,7869
-.._midi_super-nintendo_cttogood.npy,train,4760,25683
 .._midi_super-nintendo_SD3_-_Secret_of_Mana_-_GM.npy,train,11680,21594
 .._midi_super-nintendo_FoxTrot.npy,train,1970,8862
 .._midi_nintendo-ds_pokemon_diamond_pearl-wild_pokemon_fainted_v2.npy,train,963,4274
@@ -1063,14 +968,11 @@ file_base_name,split,length,duration
 .._midi_super-nintendo_FighHis_Miz-ST.npy,train,2308,10339
 .._midi_super-nintendo_Happy.npy,train,2402,13077
 .._midi_windows_title_trk01.npy,train,599,7215
-.._midi_super-nintendo_sftitaniab.npy,train,3634,8987
-.._midi_old_transformers_blaster.npy,train,3120,19763
 .._midi_super-nintendo_07-StageSelect.npy,train,2984,13355
 .._midi_super-nintendo_fesils.npy,train,855,8887
 .._midi_super-nintendo_ninja_warriors_-_last_boss.npy,train,12494,19500
 .._midi_super-nintendo_XkyGuile.npy,train,2945,13850
 .._midi_super-nintendo_ter31.npy,train,607,3276
-.._midi_super-nintendo_t_ogre01.npy,train,1595,6664
 .._midi_super-nintendo_YIInvinc.npy,train,1335,4794
 .._midi_super-nintendo_IOG_Boss.npy,train,3538,12299
 .._midi_super-nintendo_ff3oppanic.npy,train,2340,9814
@@ -1090,15 +992,12 @@ file_base_name,split,length,duration
 .._midi_super-nintendo_DragonsLair-ARatherSwampyArea.npy,train,2291,21196
 .._midi_nintendo-ds_FFCCEoT_Road.npy,train,1408,7940
 .._midi_super-nintendo_DKQLava.npy,train,2113,10548
-.._midi_super-nintendo_MM7_Turbo_Man-KM.npy,train,4503,8869
-.._midi_nintendo-ds_PHmonster_ship.npy,train,1306,6718
 .._midi_super-nintendo_rosa.npy,train,786,14720
 .._midi_super-nintendo_FighHis_Mar-ST.npy,train,1795,8700
 .._midi_super-nintendo_Thg_kana.npy,train,5264,28168
 .._midi_super-nintendo_deathwind.npy,train,1978,11611
 .._midi_super-nintendo_SD3_-_Innocent_Sea.npy,train,1812,16485
 .._midi_super-nintendo_TMNT4_Technodrome-KM.npy,train,7963,10950
-.._midi_super-nintendo_rd-presentiment.npy,train,189,2623
 .._midi_super-nintendo_Valentina_Beta.npy,train,1988,11815
 .._midi_nintendo-ds_jollyrogerbay_kitmix.npy,train,6427,13366
 .._midi_nintendo-ds_pokecenter.npy,train,1755,4137
@@ -1122,7 +1021,6 @@ file_base_name,split,length,duration
 .._midi_super-nintendo_B1L_twin2_area6a.npy,train,3724,15598
 .._midi_super-nintendo_do1_ow-town.npy,train,998,7517
 .._midi_super-nintendo_ter42.npy,train,875,3401
-.._midi_nintendo-ds_PKBW_BLACKCITY_KIO_v1-1.npy,train,3750,9800
 .._midi_super-nintendo_FireEmblem3EncounterTheme2.npy,train,1161,9826
 .._midi_super-nintendo_Star_Ocean_Tactics.npy,train,1299,14657
 .._midi_nintendo-ds_PMD_DuskForest.npy,train,6140,13352
@@ -1143,8 +1041,6 @@ file_base_name,split,length,duration
 .._midi_super-nintendo_mn-FortuneTeller.npy,train,1270,7384
 .._midi_super-nintendo_KEBAB2.npy,train,2241,7164
 .._midi_super-nintendo_TMNT4-Dino-.npy,train,4046,8807
-.._midi_windows_bman_pc_aoe2_15to18.npy,train,2186,18673
-.._midi_super-nintendo_dkc3watr.npy,train,3103,16478
 .._midi_super-nintendo_clocktowerysiii.npy,train,3175,10281
 .._midi_nintendo-ds_The_boundless_ocean.npy,train,9361,104945
 .._midi_super-nintendo_Wizardry5-Mysterious.npy,train,348,6894
@@ -1154,7 +1050,6 @@ file_base_name,split,length,duration
 .._midi_super-nintendo_FinalFight6.npy,train,7329,19602
 .._midi_super-nintendo_Smwghost.npy,train,3084,15644
 .._midi_super-nintendo_BossAppr.npy,train,154,1205
-.._midi_nintendo-ds_ds_nsmb_sm03.npy,train,321,3898
 .._midi_super-nintendo_KishinDoujiZenki-Stage2-3.npy,train,5122,15060
 .._midi_windows_MapleStory_Henesys_Market.npy,train,958,7296
 .._midi_super-nintendo_ctbattle.npy,train,4054,17658
@@ -1195,10 +1090,8 @@ file_base_name,split,length,duration
 .._midi_super-nintendo_Crystal_Snail.npy,train,2856,8549
 .._midi_super-nintendo_StarOcean_forachieve.npy,train,4726,20109
 .._midi_super-nintendo_CV4-DemonCastleDracula_fixed.npy,train,146,4905
-.._midi_super-nintendo_PLOK_Beach_v2.npy,train,11145,30371
 .._midi_super-nintendo_ff311.npy,train,316,8897
 .._midi_super-nintendo_Tadpolep.npy,train,4924,13200
-.._midi_random_Tune__Jurassic_Park_4.npy,train,3328,22719
 .._midi_windows_sims2_simbuilder.npy,train,3495,20705
 .._midi_super-nintendo_BossStage1.npy,train,1744,5031
 .._midi_windows_TY-Torm-TheGathering11-X.npy,train,5767,10115
@@ -1214,11 +1107,9 @@ file_base_name,split,length,duration
 .._midi_nintendo-ds_Pokemon_Diamond_Pearl_Route205.npy,train,2576,9406
 .._midi_wii_mm10_wilystage1_v2.npy,train,5967,10655
 .._midi_super-nintendo_sd375.npy,train,1328,5333
-.._midi_super-nintendo_Borntobewild.npy,train,6269,21277
 .._midi_super-nintendo_LEM2CIRC.npy,train,2808,25427
 .._midi_wii_YouCallThisaUtopiav2.npy,train,5424,24458
 .._midi_super-nintendo_T_SecretofStars_HomncrusesFollowers.npy,train,1067,6259
-.._midi_super-nintendo_rsaga201.npy,train,6032,39775
 .._midi_super-nintendo_lv2w4.npy,train,2188,7616
 .._midi_super-nintendo_CV4-_Secret_Room.npy,train,5364,20239
 .._midi_super-nintendo_SNES_Toki_Memo_Summer.npy,train,3536,18828
@@ -1235,7 +1126,6 @@ file_base_name,split,length,duration
 .._midi_nintendo-ds_Zekrom.npy,train,5463,13925
 .._midi_wii_Twilight_Princess_-_Talking_to_Impaz.npy,train,251,9036
 .._midi_super-nintendo_fls_blackknight.npy,train,2041,10500
-.._midi_super-nintendo_GokujyoParodius_Stage4.npy,train,2743,7266
 .._midi_wii_death_swordseq.npy,train,2796,15861
 .._midi_super-nintendo_luf1castle.npy,train,754,9800
 .._midi_wii_Seven_Rings_in_Hand.npy,train,7174,30245
@@ -1259,7 +1149,6 @@ file_base_name,split,length,duration
 .._midi_super-nintendo_rivalt-lvl4.npy,train,2789,5998
 .._midi_nintendo-ds_Poundamnee.npy,train,2550,12515
 .._midi_super-nintendo_FireFieldByCryogen.npy,train,2536,7680
-.._midi_old_transformers_blaster2.npy,train,3120,19984
 .._midi_windows_TrueLoveSong6.npy,train,13360,32086
 .._midi_nintendo-ds_Emerald_Mist.npy,train,3172,11974
 .._midi_super-nintendo_smt-bossbttl.npy,train,1384,4431
@@ -1277,14 +1166,12 @@ file_base_name,split,length,duration
 .._midi_windows_CB_EastFreport.npy,train,4847,7789
 .._midi_windows_t13.npy,train,3584,17485
 .._midi_super-nintendo_smas_smb_underwater.npy,train,2697,10982
-.._midi_super-nintendo_StarOcean_New_Age.npy,train,2309,12939
 .._midi_super-nintendo_blarcs.npy,train,1524,12516
 .._midi_super-nintendo_SNOW.npy,train,2070,5580
 .._midi_super-nintendo_PLOK_Boss.npy,train,15736,20726
 .._midi_super-nintendo_dw5_town.npy,train,567,6550
 .._midi_super-nintendo_smwintro.npy,train,1281,7995
 .._midi_super-nintendo_Arcboss.npy,train,10576,28585
-.._midi_super-nintendo_rf-Pirate2.npy,train,2767,12414
 .._midi_windows_AnotherMedium-Updated.npy,train,5326,27609
 .._midi_super-nintendo_Ninja_Warriors_Again-Stage7-BGM.npy,train,4359,17266
 .._midi_super-nintendo_ctspekkio.npy,train,3819,15306
@@ -1292,7 +1179,6 @@ file_base_name,split,length,duration
 .._midi_super-nintendo_MonkeyCave.npy,train,1996,10240
 .._midi_super-nintendo_LAL_NFChapter_WaitForTruth.npy,train,3078,9600
 .._midi_super-nintendo_sf2capcom.npy,train,102,270
-.._midi_nintendo-ds_MLFTForetToadbois.npy,train,2314,14306
 .._midi_super-nintendo_BTDD-Level7.npy,train,2984,7892
 .._midi_super-nintendo_somsumm.npy,train,4750,13538
 .._midi_super-nintendo_grmusic1.npy,train,5288,28229
@@ -1309,7 +1195,6 @@ file_base_name,split,length,duration
 .._midi_wii_Skyward_Sword_-_Ballad_of_Goddess.npy,train,1806,11831
 .._midi_super-nintendo_FMElegie.npy,train,2878,14893
 .._midi_nintendo-ds_Objection.npy,train,797,7588
-.._midi_nintendo-ds_CVOoE_wandering_the_crystal_blue.npy,train,5542,14602
 .._midi_super-nintendo_BL_sbm5_nightcarnival.npy,train,2845,10080
 .._midi_super-nintendo_DV_-_Mysterious_Cave.npy,train,1149,5266
 .._midi_nintendo-ds_waluigipinball_remix.npy,train,1655,13599
@@ -1322,7 +1207,6 @@ file_base_name,split,length,duration
 .._midi_super-nintendo_SUNSET1.npy,train,1038,6797
 .._midi_windows_TYRIAN_Transon_v103.npy,train,16638,51784
 .._midi_wii_SuperMarioGalaxy-HungryLumaTheme.npy,train,240,1028
-.._midi_super-nintendo_Shadowrun-HotelRoom.npy,train,1514,12783
 .._midi_wii_73_Zoras_Domain_GM.npy,train,1897,22650
 .._midi_super-nintendo_FF5_ahead.npy,train,3075,11155
 .._midi_super-nintendo_SD3inno.npy,train,362,9659
@@ -1339,7 +1223,6 @@ file_base_name,split,length,duration
 .._midi_super-nintendo_sbseabed.npy,train,1333,11299
 .._midi_wii_mm10_wilycapsule.npy,train,6171,8914
 .._midi_windows_Lemmings3D-Snow.npy,train,3862,11050
-.._midi_nintendo-ds_VGAllegro.npy,train,2502,11549
 .._midi_nintendo-ds_MKDSStarman.npy,train,1377,2456
 .._midi_windows_SC4m02.npy,train,9098,36400
 .._midi_super-nintendo_lv2w1.npy,train,1272,8614
@@ -1348,17 +1231,12 @@ file_base_name,split,length,duration
 .._midi_super-nintendo_3world6.npy,train,352,2549
 .._midi_super-nintendo_SMAS_SMB2_Birdo.npy,train,1072,1990
 .._midi_super-nintendo_live-a-live_japan_-_uranus_speech.npy,train,1113,8440
-.._midi_super-nintendo_t_ogre05.npy,train,1761,8780
 .._midi_super-nintendo_SQ-StageClear2.npy,train,157,600
-.._midi_old_transformers_deadop.npy,train,884,13936
-.._midi_super-nintendo_DV_-_Distraught.npy,train,370,4800
-.._midi_super-nintendo_SOEHorace-GM.npy,train,2484,18443
 .._midi_super-nintendo_mm7cloud.npy,train,1596,10365
 .._midi_nintendo-ds_ml2_toadtown.npy,train,1200,11043
 .._midi_super-nintendo_06-MaverickIntro.npy,train,332,1157
 .._midi_super-nintendo_mmq05.npy,train,1699,8709
 .._midi_super-nintendo_SD3mountain.npy,train,4386,26520
-.._midi_windows_pc_dond_sm02_XG.npy,train,456,4522
 .._midi_super-nintendo_C-sidetw_2.npy,train,2782,14826
 .._midi_super-nintendo_Wolverine.npy,train,2716,11448
 .._midi_super-nintendo_FE3_-_Love_Theme.npy,train,1260,7375
@@ -1367,9 +1245,6 @@ file_base_name,split,length,duration
 .._midi_super-nintendo_ter12.npy,train,789,8354
 .._midi_super-nintendo_mmx1b.npy,train,808,5354
 .._midi_super-nintendo_SuperBomberman4-Stage1.npy,train,13341,23160
-.._midi_super-nintendo_ki.npy,train,880,8897
-.._midi_super-nintendo_GokujyoParodius_Stage1.npy,train,2569,10282
-.._midi_super-nintendo_hotel-trap.npy,train,318,4789
 .._midi_super-nintendo_top_arche.npy,train,5156,14479
 .._midi_nintendo-ds_DANCE_SADNESS.npy,train,2503,12301
 .._midi_windows_TrueLoveSong2.npy,train,4104,28902
@@ -1379,7 +1254,6 @@ file_base_name,split,length,duration
 .._midi_super-nintendo_live-a-live_japan_-_sound_of_shinobi.npy,train,7025,16985
 .._midi_super-nintendo_rudora_battle.npy,train,2622,7741
 .._midi_super-nintendo_SD3cas.npy,train,4002,32401
-.._midi_super-nintendo_GokujyoParodius_Koitsu.npy,train,1179,4778
 .._midi_super-nintendo_MagnaCentipede.npy,train,3004,8266
 .._midi_super-nintendo_kss_halfmoon.npy,train,6024,14135
 .._midi_windows_UT_Once_Upon_A_Time_Lu9.npy,train,726,8218
@@ -1393,10 +1267,8 @@ file_base_name,split,length,duration
 .._midi_nintendo-ds_KANOKO.npy,train,368,4964
 .._midi_super-nintendo_T_TsubasaIII_TaroHyugaTheme_ReMix12.npy,train,32064,31726
 .._midi_super-nintendo_Ctproto.npy,train,658,16320
-.._midi_windows_zp-radix1.npy,train,3244,12114
 .._midi_super-nintendo_SailorMoonR_esmerude.npy,train,3156,15496
 .._midi_super-nintendo_jrlepage_smw_vanilladome.npy,train,621,3840
-.._midi_super-nintendo_Voyage_to_the_Bottom_of_the_Sea.npy,train,424,7153
 .._midi_super-nintendo_Rosetown.npy,train,3204,9768
 .._midi_super-nintendo_YS_Grand_Bridge2.npy,train,3054,11249
 .._midi_super-nintendo_Super_Mario_All_Stars_SMB_3_over.npy,train,908,5706
@@ -1440,11 +1312,9 @@ file_base_name,split,length,duration
 .._midi_super-nintendo_Smklake.npy,train,1181,3928
 .._midi_super-nintendo_FF5_carw.npy,train,1898,6368
 .._midi_super-nintendo_(RS)_Hurry_Out.npy,train,966,1952
-.._midi_super-nintendo_cv5boss.npy,train,983,2879
 .._midi_wii_whoa_zone.npy,train,3089,6857
 .._midi_nintendo-ds_overworldph.npy,train,412,4241
 .._midi_super-nintendo_dkc2Klba.npy,train,1660,5770
-.._midi_super-nintendo_SMRPG_The_Starlights_Flower.npy,train,1552,6545
 .._midi_super-nintendo_ff4-1.npy,train,10849,27041
 .._midi_super-nintendo_Saleste_l51.npy,train,4248,13964
 .._midi_super-nintendo_andyast.npy,train,3358,9534
@@ -1454,23 +1324,18 @@ file_base_name,split,length,duration
 .._midi_super-nintendo_SNES_Toki_Memo_Autumn.npy,train,1952,17194
 .._midi_super-nintendo_aqutallion_bt_k.npy,train,1152,8370
 .._midi_windows_SpaceJourney1-X.npy,train,3007,9405
-.._midi_nintendo-ds_ZeldaST_Cole.npy,train,1254,7600
 .._midi_windows_UT_Wrong_Enemy_Lu9.npy,train,1581,5790
-.._midi_super-nintendo_FMGHWarningOne.npy,train,2903,8129
 .._midi_super-nintendo_dkc3_jangle-bells.npy,train,5448,18714
 .._midi_super-nintendo_bldroog.npy,train,4035,18164
 .._midi_super-nintendo_SBomb3-Map3.npy,train,1413,3994
 .._midi_super-nintendo_crashranmavsryoga.npy,train,2701,6756
 .._midi_star wars_Battle_in_the_Snow.npy,train,6607,24006
-.._midi_super-nintendo_som_ending.npy,train,2627,17420
 .._midi_super-nintendo_sots_likado.npy,train,1274,7363
 .._midi_windows_CiscoCars-Race.npy,train,1224,11613
 .._midi_wii_mm10_chill_man_-_absolute_chill_fixed.npy,train,6397,14659
-.._midi_super-nintendo_topprem.npy,train,1364,11788
 .._midi_super-nintendo_RomancingSaga3_voyag.npy,train,1643,8799
 .._midi_wii_MM10-WilyStage4.npy,train,1520,8534
 .._midi_super-nintendo_Wilderness.npy,train,1356,5891
-.._midi_super-nintendo_ff5air.npy,train,4198,11748
 .._midi_nintendo-ds_PKM_HGSS_Champion_Battle_Theme_V2.npy,train,7205,20087
 .._midi_super-nintendo_KishinDoujiZenki-Stage5-3.npy,train,3632,12763
 .._midi_super-nintendo_AR-MMX1BattleTheme.npy,train,1767,5646
@@ -1482,18 +1347,13 @@ file_base_name,split,length,duration
 .._midi_super-nintendo_sporick.npy,train,1072,4043
 .._midi_super-nintendo_sd3_meridian.npy,train,2634,23387
 .._midi_super-nintendo_taBlargg.npy,train,4639,23743
-.._midi_super-nintendo_GokujyoParodius_StageSecret.npy,train,2033,7350
-.._midi_old_transformers_backroundmusic.npy,train,3120,19984
 .._midi_super-nintendo_7thsaga_world1.npy,train,2934,15815
 .._midi_super-nintendo_dragon.npy,train,4349,12589
 .._midi_super-nintendo_Techno_de_chocobo.npy,train,3330,9443
 .._midi_super-nintendo_XHunterBattle(1).npy,train,1072,5120
 .._midi_wii_RenadosHouse.npy,train,67,5483
 .._midi_super-nintendo_mission3.npy,train,2116,12278
-.._midi_nintendo-ds_Gloomy_Memories.npy,train,1043,11900
 .._midi_minecraft_LivingMice.npy,train,459,14667
-.._midi_wii_Meg_Man_10_-_Boss_Battle_Arranged.npy,train,1022,3987
-.._midi_nintendo-ds_ZX__Area_MN.npy,train,2659,7599
 .._midi_super-nintendo_luf2mapB.npy,train,13341,48321
 .._midi_wii_Megaman_10_Pump_Man_Theme.npy,train,1590,10971
 .._midi_super-nintendo_Smktit.npy,train,2148,5796
@@ -1526,7 +1386,6 @@ file_base_name,split,length,duration
 .._midi_super-nintendo_TMMPRM_Stage_1.npy,train,3218,10011
 .._midi_super-nintendo_T_NinjaGaidenTri_UnlimitedMoment.npy,train,8035,20640
 .._midi_super-nintendo_SparkMandrill.npy,train,3857,9740
-.._midi_super-nintendo_EB_Power_Up.npy,train,762,7365
 .._midi_super-nintendo_SD3Jado.npy,train,3457,16540
 .._midi_super-nintendo_r&fbossbattle.npy,train,2503,7571
 .._midi_windows_Human4gm.npy,train,4644,17765
@@ -1543,8 +1402,6 @@ file_base_name,split,length,duration
 .._midi_super-nintendo_smt2-3dvalhalla.npy,train,1838,4518
 .._midi_nintendo-ds_BlackWhiteGaryRemix.npy,train,3605,9888
 .._midi_super-nintendo_diarya.npy,train,1144,5380
-.._midi_wii_Wii_Sports_Smash_Brothers_Remix.npy,train,3609,14011
-.._midi_super-nintendo_dkc2boss.npy,train,2879,6572
 .._midi_super-nintendo_ff5crystal.npy,train,1524,19200
 .._midi_super-nintendo_SMASCave.npy,train,3921,18442
 .._midi_super-nintendo_FF5_The_Silent_Beyond(1).npy,train,2603,12575
@@ -1563,7 +1420,6 @@ file_base_name,split,length,duration
 .._midi_super-nintendo_b2field2.npy,train,2761,16205
 .._midi_windows_IN-Winter.npy,train,2999,14063
 .._midi_wii_Twilight-Princess-Death_mountain.npy,train,4322,11803
-.._midi_super-nintendo_livealive-victoryroad.npy,train,6414,15994
 .._midi_super-nintendo_FF6_Aria_Di_Mezzo_Carattere_Xg.npy,train,1669,23433
 .._midi_super-nintendo_Thimale.npy,train,7348,24366
 .._midi_super-nintendo_ao2_enmity.npy,train,1183,9771
@@ -1611,13 +1467,11 @@ file_base_name,split,length,duration
 .._midi_windows_JazzJackrabbit_MainTheme_GM.npy,train,9468,45256
 .._midi_super-nintendo_LEM2OUTD.npy,train,662,12288
 .._midi_wii_SkywSword_skyview_temple.npy,train,213,7567
-.._midi_super-nintendo_somSei2-28x.npy,train,1381,14920
 .._midi_super-nintendo_LevelTheme.npy,train,5293,14399
 .._midi_super-nintendo_LEM2EGYP.npy,train,7586,35122
 .._midi_super-nintendo_bszeldadungeonv12.npy,train,404,3868
 .._midi_windows_Command_and_Conquer_-_Warfare.npy,train,3832,17881
 .._midi_wii_twilight_princess_boss_blizzeta_pt2.npy,train,7288,18614
-.._midi_super-nintendo_f2elban.npy,train,1677,11402
 .._midi_wii_MM9-HornetMan-TS.npy,train,1906,8960
 .._midi_super-nintendo_Mwyoshi.npy,train,252,2000
 .._midi_super-nintendo_DV_-_Fire_Field.npy,train,1203,4916
@@ -1634,15 +1488,12 @@ file_base_name,split,length,duration
 .._midi_super-nintendo_BL_fls_valkyries.npy,train,2311,10056
 .._midi_old_transformers_transformers.npy,train,1251,4011
 .._midi_nintendo-ds_PKMN_BW_wild_battle_midi.npy,train,4726,11368
-.._midi_windows_Hoping_for_Real_Betterness.npy,train,3097,18360
 .._midi_nintendo-ds_HGSS_Goldenrod_City.npy,train,1192,4227
 .._midi_super-nintendo_rs1_emerald.npy,train,819,8923
 .._midi_super-nintendo_Unsqfbos.npy,train,1691,11707
 .._midi_super-nintendo_Evovctry.npy,train,3371,16671
-.._midi_super-nintendo_rs1_salute.npy,train,200,1543
 .._midi_super-nintendo_ter47.npy,train,632,2680
 .._midi_nintendo-ds_route-216-217.npy,train,2761,10722
-.._midi_super-nintendo_SailorMoonAS_Juuban.npy,train,1833,16628
 .._midi_nintendo-ds_NIGHT.npy,train,963,11375
 .._midi_super-nintendo_TLOTR_The_Shire_Xg.npy,train,3730,24101
 .._midi_super-nintendo_mission4.npy,train,2803,11476
@@ -1655,7 +1506,6 @@ file_base_name,split,length,duration
 .._midi_super-nintendo_rs1_ed.npy,train,5888,46245
 .._midi_super-nintendo_z3bunny.npy,train,1304,9725
 .._midi_super-nintendo_SBonk_Water.npy,train,2375,10229
-.._midi_super-nintendo_CBUnderground.npy,train,1978,12179
 .._midi_super-nintendo_paula.npy,train,980,12787
 .._midi_super-nintendo_YS_Mini-Boss.npy,train,9313,16000
 .._midi_windows_Tepec.npy,train,3233,11950
@@ -1664,7 +1514,6 @@ file_base_name,split,length,duration
 .._midi_nintendo-ds_nds-acww-townhall-day.npy,train,408,7178
 .._midi_super-nintendo_Actraiser2-forest.npy,train,1678,7078
 .._midi_super-nintendo_bofballa.npy,train,746,9750
-.._midi_nintendo-ds_pokemon_friends.npy,train,884,14136
 .._midi_super-nintendo_ebsatvly.npy,train,1335,10269
 .._midi_super-nintendo_Guardian_of_Righteousness-_Theme_of_Son_Goku.npy,train,4752,10800
 .._midi_windows_Orc3gm.npy,train,5002,14050
@@ -1675,7 +1524,6 @@ file_base_name,split,length,duration
 .._midi_nintendo-ds_SubwayTrainer.npy,train,5622,10904
 .._midi_nintendo-ds_M64DS_Bob-omb_Squad_MG.npy,train,1444,8533
 .._midi_super-nintendo_FE4-Silesia.npy,train,1035,8978
-.._midi_super-nintendo_SBomb1-Stage6.npy,train,2296,8213
 .._midi_super-nintendo_EarthboundKraken.npy,train,4740,16066
 .._midi_super-nintendo_fe3-enemyattack-violin.npy,train,562,3314
 .._midi_super-nintendo_TMNT_-_VS_Stats.npy,train,3195,6783
@@ -1691,9 +1539,7 @@ file_base_name,split,length,duration
 .._midi_nintendo-ds_GTS.npy,train,1895,7600
 .._midi_super-nintendo_B1L_smk_character.npy,train,1396,4518
 .._midi_nintendo-ds_RockinKK.npy,train,3988,9172
-.._midi_nintendo-ds_VGMVonBolt.npy,train,4883,16234
 .._midi_super-nintendo_Tetris2a.npy,train,1864,5647
-.._midi_super-nintendo_mmx0d.npy,train,293,1835
 .._midi_wii_Power-Hungry_Fool.npy,train,1652,18562
 .._midi_super-nintendo_BL_Hero_Xg.npy,train,3307,15582
 .._midi_super-nintendo_do2_hilandia.npy,train,1866,12108
@@ -1712,7 +1558,6 @@ file_base_name,split,length,duration
 .._midi_super-nintendo_FM-CoaxialTown-X.npy,train,7438,11030
 .._midi_super-nintendo_YISLE20S.npy,train,4863,14366
 .._midi_windows_CORE_.npy,train,7178,16457
-.._midi_super-nintendo_Secret_of_Mana-In_the_Darkness_Depths.npy,train,1103,6461
 .._midi_wii_jrlepage_-_XG_-_ssbb_-_mario_kart_circuit.npy,train,7087,13765
 .._midi_super-nintendo_SMK_Princess_Wins.npy,train,1202,4642
 .._midi_nintendo-ds_duel.npy,train,3305,12150
@@ -1727,7 +1572,6 @@ file_base_name,split,length,duration
 .._midi_wii_departureseq.npy,train,911,15706
 .._midi_super-nintendo_SMASInfinitySchool-V1.1.npy,train,3087,18187
 .._midi_super-nintendo_TA-flying_wiggler.npy,train,2420,15518
-.._midi_super-nintendo_title(1).npy,train,320,7661
 .._midi_super-nintendo_zozo.npy,train,951,6686
 .._midi_super-nintendo_Donkey_Kong_Country_2_-_Crankys_Conga_.npy,train,2464,7623
 .._midi_super-nintendo_sandocean.npy,train,2392,11700
@@ -1735,7 +1579,6 @@ file_base_name,split,length,duration
 .._midi_super-nintendo_z3intro.npy,train,982,7144
 .._midi_super-nintendo_(RnH)_Bio_Hazard.npy,train,256,1513
 .._midi_super-nintendo_srfx_radiocontrol.npy,train,3782,8021
-.._midi_windows_Oh_My.npy,train,1012,3183
 .._midi_super-nintendo_MickeyManiaSteamboat.npy,train,826,5169
 .._midi_super-nintendo_ultro.npy,train,5615,20120
 .._midi_super-nintendo_YuuYuuFinalMajinYusukeThemeSNES.npy,train,2566,8534
@@ -1757,7 +1600,6 @@ file_base_name,split,length,duration
 .._midi_super-nintendo_BL_alca_castle.npy,train,3169,9333
 .._midi_super-nintendo_funky(1).npy,train,4400,12798
 .._midi_super-nintendo_moleville.npy,train,1053,4400
-.._midi_super-nintendo_smss-fighting-saturn.npy,train,2158,10147
 .._midi_super-nintendo_LEM2POLR.npy,train,4106,25600
 .._midi_super-nintendo_BL_dtai_bigenemy1.npy,train,3031,9236
 .._midi_super-nintendo_lv2end.npy,train,1252,5478
@@ -1768,7 +1610,6 @@ file_base_name,split,length,duration
 .._midi_nintendo-ds_KSSD_Last_Boss.npy,train,1667,7713
 .._midi_super-nintendo_BL_wagyan_kumkum.npy,train,2707,18437
 .._midi_super-nintendo_YS_Spirit_Mountain.npy,train,5700,12799
-.._midi_wii_MM9Shop1.npy,train,2292,5800
 .._midi_wii_tp_ordonvillage.npy,train,575,8914
 .._midi_super-nintendo_Live-A-Live-Select-A-Live.npy,train,2142,10473
 .._midi_super-nintendo_aqutallion_field_k.npy,train,860,6198
@@ -1814,20 +1655,16 @@ file_base_name,split,length,duration
 .._midi_nintendo-ds_CyrusBattlev1_2.npy,train,4614,13956
 .._midi_super-nintendo_FFMQVolcano.npy,train,6082,14056
 .._midi_wii_graveyardseq.npy,train,190,8960
-.._midi_super-nintendo_CV4_Ending_Theme.npy,train,2820,38807
 .._midi_wii_twilit_battleseq.npy,train,1394,8000
-.._midi_windows_zp-radix3.npy,train,4218,13599
 .._midi_super-nintendo_btbm-stage2.npy,train,3902,19200
 .._midi_nintendo-ds_rhythmheaven4thmix.npy,train,2634,9586
 .._midi_super-nintendo_rs1_victory.npy,train,1053,4078
-.._midi_super-nintendo_RomancingSaga3_leon.npy,train,1181,17646
 .._midi_super-nintendo_dbth-worthy.npy,train,2531,8525
 .._midi_super-nintendo_celsjump.npy,train,752,15778
 .._midi_super-nintendo_CV4-_Vampire_Killer.npy,train,2181,9064
 .._midi_nintendo-ds_Lyra.npy,train,1709,5593
 .._midi_nintendo-ds_KOLLOSS.npy,train,6370,17834
 .._midi_super-nintendo_Kasandora.npy,train,1983,23649
-.._midi_star wars_Darth_Vaders_Death.npy,train,247,13256
 .._midi_super-nintendo_ffpwndr.npy,train,4075,23400
 .._midi_super-nintendo_dw6_dragon.npy,train,2089,19434
 .._midi_super-nintendo_Wizardry5-TrainingGround.npy,train,723,9705
@@ -1851,25 +1688,19 @@ file_base_name,split,length,duration
 .._midi_nintendo-ds_cds-village.npy,train,4116,18667
 .._midi_super-nintendo_Pilot2.npy,train,878,5539
 .._midi_wii_accf-1100.npy,train,451,6165
-.._midi_super-nintendo_som_emporor's_castle.npy,train,3312,9169
 .._midi_super-nintendo_lufia1menu.npy,train,2788,12334
-.._midi_super-nintendo_SBomb3-Credits.npy,train,4561,11239
 .._midi_windows_CSGestation.npy,train,2453,13277
 .._midi_super-nintendo_Dkc2hntd.npy,train,5748,12732
 .._midi_super-nintendo_som_dwarfs.npy,train,2116,5561
 .._midi_super-nintendo_ghouls08.npy,train,602,4115
-.._midi_super-nintendo_BrutalScene1.npy,train,7374,23567
 .._midi_windows_menacing.npy,train,4187,17708
 .._midi_nintendo-ds_PKBW_AL_Kio_V1-1.npy,train,3290,8676
-.._midi_wii_hyrule_field_night.npy,train,526,7983
 .._midi_old_transformers_Dare.npy,train,4850,19716
-.._midi_super-nintendo_rudora_no_hihou_japan_-_purgation.npy,train,1916,6113
 .._midi_super-nintendo_BL_sb_intothedream.npy,train,1299,14120
 .._midi_super-nintendo_dbz2bvt.npy,train,6917,25245
 .._midi_super-nintendo_sf2honda.npy,train,783,4000
 .._midi_super-nintendo_dkc2krl.npy,train,4638,11103
 .._midi_windows_BNiceAndEasy2.npy,train,5989,15272
-.._midi_super-nintendo_smetsecr.npy,train,110,3593
 .._midi_nintendo-ds_Relic_Song.npy,train,155,3750
 .._midi_super-nintendo_front_mission_gh_japan_-_royces_death.npy,train,882,14400
 .._midi_super-nintendo_MagicalQuest-Level1_Treetops.npy,train,8811,18161
@@ -1885,7 +1716,6 @@ file_base_name,split,length,duration
 .._midi_super-nintendo_BIB-level1.npy,train,6865,26124
 .._midi_super-nintendo_DKC3Pipe.npy,train,5490,13773
 .._midi_super-nintendo_YI_Maps.npy,train,3266,12121
-.._midi_super-nintendo_TLK_SNES_Return_to_Pride_Rock.npy,train,3028,16200
 .._midi_wii_mm10_specialstage1_v1_1.npy,train,5305,10064
 .._midi_super-nintendo_ninja_warriors_-_boss_7.npy,train,6581,17850
 .._midi_windows_Forgotten_Passage.npy,train,2980,17920
@@ -1905,7 +1735,6 @@ file_base_name,split,length,duration
 .._midi_super-nintendo_ter35.npy,train,208,3542
 .._midi_super-nintendo_xkygour3.npy,train,4110,18732
 .._midi_super-nintendo_SsKLaterTreasure.npy,train,7146,22422
-.._midi_super-nintendo_Shenron.npy,train,854,9005
 .._midi_super-nintendo_SNES_Romancing_SaGa_3_Last_Battle.npy,train,4503,21790
 .._midi_super-nintendo_da_KSS_springbreeze-end-GM.npy,train,4804,11921
 .._midi_wii_5-36_ilias_memory_restoredseq.npy,train,303,3760
@@ -1915,17 +1744,13 @@ file_base_name,split,length,duration
 .._midi_super-nintendo_Alcahest_-_Floor.npy,train,4930,9058
 .._midi_super-nintendo_MQ_Town_Xg.npy,train,1492,12645
 .._midi_wii_MM9_WilyStage3.npy,train,5575,12037
-.._midi_super-nintendo_livetyu2.npy,train,1296,7543
 .._midi_super-nintendo_soe-opening.npy,train,4257,28147
 .._midi_super-nintendo_mm3_chapter5.npy,train,1866,16214
 .._midi_super-nintendo_gra3enem.npy,train,10722,15352
 .._midi_super-nintendo_Theme_final.npy,train,1939,8256
-.._midi_super-nintendo_dkckrool1.npy,train,3817,17689
 .._midi_super-nintendo_SwampV2.npy,train,5215,17066
 .._midi_nintendo-ds_fossilroom.npy,train,193,4154
 .._midi_super-nintendo_SNES_Toki_Memo_Boutique.npy,train,1688,14164
-.._midi_super-nintendo_FMGH-Tension.npy,train,2738,15179
-.._midi_nintendo-ds_SONG_005.npy,train,3485,8337
 .._midi_super-nintendo_Chichi.npy,train,1462,7839
 .._midi_super-nintendo_sbunderground.npy,train,3660,19238
 .._midi_super-nintendo_yuu_yuu_hakusho_kakutou_no_syo_japan_-_theme_7.npy,train,3404,7680
@@ -1948,7 +1773,6 @@ file_base_name,split,length,duration
 .._midi_windows_oppress.npy,train,1364,4271
 .._midi_super-nintendo_sf2ken.npy,train,1999,7017
 .._midi_super-nintendo_old_mans_prayer_2.npy,train,499,6346
-.._midi_super-nintendo_SS-Earthquake.npy,train,4890,12674
 .._midi_super-nintendo_Top_Gear_Track_4.npy,train,6478,9540
 .._midi_super-nintendo_popntwinbee-stage3.npy,train,4326,13553
 .._midi_super-nintendo_somSei2-16x.npy,train,437,11280
@@ -1963,7 +1787,6 @@ file_base_name,split,length,duration
 .._midi_super-nintendo_sd363.npy,train,1079,8178
 .._midi_nintendo-ds_ZXA__BioLab.npy,train,4422,8640
 .._midi_super-nintendo_cyan2.npy,train,501,12715
-.._midi_super-nintendo_StarOcean_Depatrues.npy,train,1456,9789
 .._midi_super-nintendo_(KoD)_Boss_2.npy,train,1549,3911
 .._midi_super-nintendo_rs1_gray.npy,train,1547,8475
 .._midi_super-nintendo_T_AVGFighter_ChihoTheme.npy,train,11212,23608
@@ -1974,11 +1797,9 @@ file_base_name,split,length,duration
 .._midi_super-nintendo_luf1sad.npy,train,1013,17316
 .._midi_wii_zeldas_lullaby.npy,train,615,13424
 .._midi_super-nintendo_returner.npy,train,2550,16539
-.._midi_super-nintendo_SBomb2-Credits.npy,train,3779,8972
 .._midi_super-nintendo_CelesMix.npy,train,2933,17262
 .._midi_super-nintendo_RomancingSaga3_bat1.npy,train,6338,22421
 .._midi_windows_Jenka.npy,train,675,4200
-.._midi_super-nintendo_ff5castle2.npy,train,2690,11710
 .._midi_wii_MKWii_BoisVermeil.npy,train,6644,14958
 .._midi_wii_Mega_Man_9_-_We_are_The_Robots_-_Dr_Wily_Stage_2.npy,train,3688,16640
 .._midi_super-nintendo_SC-Megaoplis.npy,train,4265,23485
@@ -1999,7 +1820,6 @@ file_base_name,split,length,duration
 .._midi_super-nintendo_MPGNAT3-1.npy,train,1146,6523
 .._midi_super-nintendo_ter39.npy,train,726,7301
 .._midi_super-nintendo_WhiteLand2.npy,train,2391,9853
-.._midi_super-nintendo_FrontMission_Final_Battle.npy,train,1512,18106
 .._midi_super-nintendo_mrpgmajr.npy,train,1121,5863
 .._midi_super-nintendo_FILENA.npy,train,5740,31265
 .._midi_windows_KneesUp.npy,train,4188,11730
@@ -2049,7 +1869,6 @@ file_base_name,split,length,duration
 .._midi_super-nintendo_Thg-russ.npy,train,3185,11995
 .._midi_super-nintendo_top_martel.npy,train,2684,7837
 .._midi_super-nintendo_HiryunoKenGF_Boss.npy,train,1676,8493
-.._midi_wii_queen_rutelaseq.npy,train,458,7235
 .._midi_super-nintendo_combatribes-lvl5.npy,train,1254,5486
 .._midi_nintendo-ds_Mega_Man_ZX_Advent_-_Ouroboros_-_United_Forces.npy,train,5479,17538
 .._midi_super-nintendo_HM_-_Egg_Festival.npy,train,1700,5480
@@ -2058,12 +1877,10 @@ file_base_name,split,length,duration
 .._midi_super-nintendo_livealive-armageddon.npy,train,3253,19200
 .._midi_nintendo-ds_FF4_Main_Theme_DS.npy,train,1828,7886
 .._midi_super-nintendo_Battle.npy,train,4700,14529
-.._midi_super-nintendo_MXS__Super_Metroid_-_Minako_Hamano_-_Lower_Maridia.npy,train,715,19991
 .._midi_FIRST_Macarena-1.npy,train,7851,22448
 .._midi_nintendo-ds_CVPoRGazeUpattheDarknessv1_1.npy,train,8228,28222
 .._midi_super-nintendo_MCWong.npy,train,4106,11744
 .._midi_star wars_The_Desert.npy,train,332,3250
-.._midi_FIRST_Witch Doctor Song _Ooh Eeh Ooh Ah Ah Ting Tang Walla Walla Bing Bang_.npy,train,9058,16326
 .._midi_super-nintendo_Ff54war.npy,train,2132,12185
 .._midi_super-nintendo_CVDX_-_Beginning.npy,train,5907,16487
 .._midi_nintendo-ds_mmzxa_floatingruins_v1_0.npy,train,8227,17067
@@ -2076,7 +1893,6 @@ file_base_name,split,length,duration
 .._midi_super-nintendo_kefka.npy,train,2876,14574
 .._midi_super-nintendo_Level3-2.npy,train,541,18119
 .._midi_windows_AGroover.npy,train,1862,12600
-.._midi_windows_TYRIAN_TheSong.npy,train,3166,10670
 .._midi_super-nintendo_The_Wedding_Waltz_Duel_Part_A.npy,train,1403,8550
 .._midi_super-nintendo_yuu_yuu_hakusho_kakutou_no_syo_japan_-_theme_1.npy,train,3340,8017
 .._midi_super-nintendo_rmfmuseum.npy,train,5304,25487
@@ -2084,12 +1900,9 @@ file_base_name,split,length,duration
 .._midi_super-nintendo_smk_koopabeach.npy,train,754,7679
 .._midi_super-nintendo_RH_A05S.npy,train,2164,12998
 .._midi_super-nintendo_mickeybeanstalk.npy,train,663,9280
-.._midi_super-nintendo_ffmqlf(2).npy,train,2330,20034
 .._midi_super-nintendo_Kirby_Super_Star_-_Dynablade_Overworld.npy,train,656,5609
 .._midi_super-nintendo_Solifort2.npy,train,3102,22586
 .._midi_super-nintendo_B1L_kd3_friends2.npy,train,3336,6982
-.._midi_super-nintendo_Tetris_Attack_-_Bowser_Introduction.npy,train,3251,21350
-.._midi_super-nintendo_IoGmother.npy,train,802,21039
 .._midi_nintendo-ds_ff3-road-to-the-summit.npy,train,4692,11811
 .._midi_super-nintendo_sfxslots.npy,train,5222,17542
 .._midi_super-nintendo_Ewj2lrsl.npy,train,3614,27542
@@ -2102,7 +1915,6 @@ file_base_name,split,length,duration
 .._midi_super-nintendo_7thsaga_world3.npy,train,2124,16358
 .._midi_super-nintendo_SB5_zone5d_magnets.npy,train,2846,9828
 .._midi_super-nintendo_FF5_-_Hurry_Hurry.npy,train,2054,3796
-.._midi_wii_ssbb_-_flatzone2.npy,train,4617,20990
 .._midi_super-nintendo_rh_bfte.npy,train,2930,15096
 .._midi_super-nintendo_z3sanct1.npy,train,1685,8676
 .._midi_super-nintendo_The_prince_of_the_Saiyajins_-_Theme_of_Vegeta.npy,train,4384,12800
@@ -2114,9 +1926,7 @@ file_base_name,split,length,duration
 .._midi_windows_lastbtl.npy,train,708,2648
 .._midi_super-nintendo_mk2_gameover_zb.npy,train,575,6460
 .._midi_super-nintendo_smw_secret_door.npy,train,10,285
-.._midi_super-nintendo_cv5stg7c.npy,train,2091,9032
 .._midi_super-nintendo_lmm1stlv.npy,train,4226,19236
-.._midi_super-nintendo_dk_zb_mistmine.npy,train,1837,23707
 .._midi_super-nintendo_do1_deserted.npy,train,1152,12427
 .._midi_super-nintendo_ctlavoc2.npy,train,5562,20427
 .._midi_super-nintendo_fls2_bbt.npy,train,1614,4946
@@ -2130,18 +1940,15 @@ file_base_name,split,length,duration
 .._midi_nintendo-ds_Chain_Chomp_Theme_DS.npy,train,1006,3378
 .._midi_super-nintendo_Balstan3.npy,train,3459,7918
 .._midi_nintendo-ds_PMD_HiddenHighland.npy,train,2190,16000
-.._midi_wii_cy_world_8_underground_v1_0.npy,train,955,12747
 .._midi_super-nintendo_FF5_land.npy,train,1714,17760
 .._midi_wii_How_It_Started.npy,train,6196,25748
 .._midi_super-nintendo_dq6_pegasus.npy,train,1460,15042
 .._midi_nintendo-ds_Rockman_ZX_-_Area_A.npy,train,1908,6045
 .._midi_nintendo-ds_cac_am2_sbr.npy,train,697,16560
 .._midi_nintendo-ds_entralink.npy,train,1231,5224
-.._midi_super-nintendo_smw2castle.npy,train,963,12142
 .._midi_super-nintendo_Dungeon-Master_Scene_of_Pandemonium.npy,train,2945,24495
 .._midi_super-nintendo_shanghai_ii_-_hanafuda_match.npy,train,612,4585
 .._midi_super-nintendo_sf2Chunl.npy,train,2072,6361
-.._midi_super-nintendo_eek_flyingsaucer.npy,train,29309,28793
 .._midi_super-nintendo_topseren.npy,train,1752,14105
 .._midi_super-nintendo_sigma_1.npy,train,1131,3252
 .._midi_super-nintendo_mn-Otafu.npy,train,1762,7241
@@ -2155,10 +1962,8 @@ file_base_name,split,length,duration
 .._midi_super-nintendo_SuperBomberman2-Password_Screen.npy,train,3496,4601
 .._midi_wii_cy_nsmbw_world_5_ow_theme_v1_0.npy,train,1447,6024
 .._midi_super-nintendo_Atlena.npy,train,1223,11282
-.._midi_super-nintendo_IoGfinal.npy,train,8034,34240
 .._midi_super-nintendo_tmm_Kat_Theme.npy,train,2410,9333
 .._midi_nintendo-ds_CIRCUIT2.npy,train,4545,9905
-.._midi_wii_TPFishingHole.npy,train,546,15925
 .._midi_super-nintendo_BlackHole.npy,train,1888,8661
 .._midi_nintendo-ds_dooplissheartgoldjhototrainer.npy,train,2767,11666
 .._midi_super-nintendo_Bio_Metal-Stage_5.npy,train,1772,7429
@@ -2169,7 +1974,6 @@ file_base_name,split,length,duration
 .._midi_super-nintendo_Curious.npy,train,1841,10519
 .._midi_super-nintendo_Portal.npy,train,70,390
 .._midi_super-nintendo_Boss_Fight_1.npy,train,1016,6595
-.._midi_super-nintendo_SBomb3-Boss1.npy,train,2441,4960
 .._midi_wii_Fight_the_Knight.npy,train,3288,11502
 .._midi_nintendo-ds_Brine_Cave.npy,train,4134,16887
 .._midi_super-nintendo_SBomb4-Story.npy,train,2476,7354
@@ -2180,20 +1984,15 @@ file_base_name,split,length,duration
 .._midi_super-nintendo_topgear3000fristrace.npy,train,4427,31714
 .._midi_super-nintendo_SD3Sad.npy,train,1270,18624
 .._midi_nintendo-ds_Gumbo.npy,train,1877,9152
-.._midi_super-nintendo_Calm_Disrupted.npy,train,3300,14782
 .._midi_super-nintendo_SBonk_Voice.npy,train,4885,17121
 .._midi_super-nintendo_SB5FinalBoss_TrueV1_1.npy,train,14444,27470
 .._midi_super-nintendo_Boss_1.npy,train,698,6045
 .._midi_super-nintendo_Actbop.npy,train,1308,9063
-.._midi_super-nintendo_DKC_-_Cave_Dweller_Concert.npy,train,1266,16800
-.._midi_super-nintendo_ter28.npy,train,135,1231
 .._midi_nintendo-ds_Koopa_Battle.npy,train,2797,8533
 .._midi_nintendo-ds_nds-acww-0600.npy,train,732,10504
 .._midi_super-nintendo_flamestag.npy,train,2772,8266
 .._midi_super-nintendo_rpgmallo.npy,train,178,4500
 .._midi_star wars_Augies_Great_Municipal_Band_And_End_Credits.npy,train,9718,55641
-.._midi_super-nintendo_fourside1.npy,train,1212,14790
-.._midi_super-nintendo_SBomb1-Stage1.npy,train,3033,15292
 .._midi_super-nintendo_firegrotto.npy,train,3715,22186
 .._midi_windows_Parade.npy,train,3519,8591
 .._midi_quake_climb.npy,train,2684,10944
@@ -2220,7 +2019,6 @@ file_base_name,split,length,duration
 .._midi_wii_enter_the_darknessseq.npy,train,777,9903
 .._midi_super-nintendo_Zelda'sRescue.npy,train,237,4766
 .._midi_wii_supermariogalaxy-floaterlandXGv1.npy,train,5552,18707
-.._midi_star wars_Bens_Death_And_TIE_Fighter_Attack.npy,train,4115,22802
 .._midi_super-nintendo_HM_-_Spring_Theme.npy,train,1138,8769
 .._midi_super-nintendo_BL_mn_burger.npy,train,2124,7264
 .._midi_super-nintendo_top_treant.npy,train,4589,20903
@@ -2236,7 +2034,6 @@ file_base_name,split,length,duration
 .._midi_super-nintendo_RomancingSaga3_field.npy,train,3245,19333
 .._midi_star wars_TIE_Fighter_Attack.npy,train,4496,23880
 .._midi_super-nintendo_31-BassTheme.npy,train,3138,15111
-.._midi_nintendo-ds_YoshiTNG_Challenge_Course.npy,train,1077,4597
 .._midi_nintendo-ds_velanova.npy,train,8407,12870
 .._midi_super-nintendo_t_ogre02.npy,train,4369,15414
 .._midi_super-nintendo_SBomb2-Roulette.npy,train,819,2193
@@ -2256,7 +2053,6 @@ file_base_name,split,length,duration
 .._midi_wii_BrambleBlastSSBBv4.npy,train,10468,22390
 .._midi_wii_MM9-GalaxyMan-TS.npy,train,2016,9309
 .._midi_minecraft_WetHands.npy,train,239,8687
-.._midi_super-nintendo_som_element.npy,train,2986,17110
 .._midi_super-nintendo_PRTM_RangerSelect_UAZ.npy,train,2513,8533
 .._midi_super-nintendo_mn-RyukyuCastlePassage.npy,train,6699,18462
 .._midi_super-nintendo_BL_fm_canyoncrow.npy,train,5281,9972
@@ -2271,13 +2067,10 @@ file_base_name,split,length,duration
 .._midi_super-nintendo_StarOcean_Encourage.npy,train,3338,16215
 .._midi_super-nintendo_PushOver-Level6.npy,train,4180,36831
 .._midi_super-nintendo_bofbattle.npy,train,2439,12132
-.._midi_nintendo-ds_BomberBarbara_v1_1.npy,train,5790,14289
-.._midi_super-nintendo_ctblkomn.npy,train,2532,15519
 .._midi_super-nintendo_a88mksbsnc.npy,train,1696,10232
 .._midi_super-nintendo_YC_Music_B.npy,train,3022,7466
 .._midi_super-nintendo_TMNT4Downtown.npy,train,4174,8760
 .._midi_super-nintendo_FrontMission_evils.npy,train,7061,9296
-.._midi_super-nintendo_Elemen.npy,train,5956,25390
 .._midi_super-nintendo_do1_lbt.npy,train,1769,9799
 .._midi_nintendo-ds_TheKudoOfficersInspectionWarSong.npy,train,1269,13786
 .._midi_super-nintendo_Bio_Metal_Japanese_Ver-Satge4BGM.npy,train,1520,10492
@@ -2299,9 +2092,7 @@ file_base_name,split,length,duration
 .._midi_super-nintendo_ff5waltz.npy,train,1517,11901
 .._midi_wii_ztp_Agitha_s_Castle.npy,train,1002,12221
 .._midi_nintendo-ds_Cynthia.npy,train,1755,4076
-.._midi_super-nintendo_ewj_heck.npy,train,1685,13871
 .._midi_super-nintendo_CBvile.npy,train,820,2742
-.._midi_super-nintendo_Mpntbgm1.npy,train,1674,10622
 .._midi_super-nintendo_SD3Highlands.npy,train,4680,14961
 .._midi_super-nintendo_tmnt400.npy,train,1927,4473
 .._midi_wii_Gerudo_Desert.npy,train,1916,10400
@@ -2310,8 +2101,6 @@ file_base_name,split,length,duration
 .._midi_super-nintendo_EB_Summers.npy,train,1359,5280
 .._midi_super-nintendo_DarkWoods.npy,train,1053,5437
 .._midi_super-nintendo_cy_magicalquest2_password.npy,train,705,2215
-.._midi_super-nintendo_ceremony.npy,train,698,4806
-.._midi_super-nintendo_kiglacius.npy,train,3470,11402
 .._midi_super-nintendo_ff2bat.npy,train,2102,10036
 .._midi_super-nintendo_21-BattleFinished.npy,train,89,378
 .._midi_windows_TrueLoveSong4.npy,train,16940,30593
@@ -2330,7 +2119,6 @@ file_base_name,split,length,duration
 .._midi_super-nintendo_yi-stg1.npy,train,2996,15548
 .._midi_super-nintendo_Bean_Valley.npy,train,4159,14708
 .._midi_nintendo-ds_Lament_to_the_Master.npy,train,4592,16705
-.._midi_windows_JazzJackrabbit_5-3_GM.npy,train,8955,46068
 .._midi_super-nintendo_BL_jlspg3_yourehero.npy,train,4391,11070
 .._midi_nintendo-ds_Dont_Ever_Forget_MIDI.npy,train,2941,23381
 .._midi_windows_TH6ESOD_-_UNOwen.npy,train,4039,14560
@@ -2340,17 +2128,13 @@ file_base_name,split,length,duration
 .._midi_super-nintendo_esper.npy,train,501,12050
 .._midi_super-nintendo_finiculi.npy,train,2364,13587
 .._midi_nintendo-ds_MLFTProfKTastroff.npy,train,1053,8564
-.._midi_super-nintendo_26-Station1.npy,train,3067,14207
 .._midi_super-nintendo_luf2capsule.npy,train,2809,12754
 .._midi_super-nintendo_13-VoltCatfish.npy,train,3245,9733
 .._midi_super-nintendo_Vs_Magneto.npy,train,1766,13550
-.._midi_super-nintendo_MRpgSlope.npy,train,8153,17429
 .._midi_super-nintendo_fzintro.npy,train,221,1195
-.._midi_super-nintendo_K3_12.npy,train,4339,15977
 .._midi_super-nintendo_SMT_II_PSX_Common_Battle.npy,train,11868,18352
 .._midi_wii_song_of_storms_brawl.npy,train,3300,25798
 .._midi_super-nintendo_rudora_no_hihou_japan_-_evil_eyes.npy,train,3961,10329
-.._midi_super-nintendo_KirbyDC-Course3.npy,train,2856,9778
 .._midi_super-nintendo_ff2cid.npy,train,4343,24000
 .._midi_super-nintendo_TheDarkroom_DollsHouse.npy,train,2736,15508
 .._midi_super-nintendo_SD3Elemental.npy,train,420,3536
@@ -2396,7 +2180,6 @@ file_base_name,split,length,duration
 .._midi_super-nintendo_SailorMoonSSF_rei.npy,train,5090,10845
 .._midi_super-nintendo_ffmqaqua.npy,train,1695,21600
 .._midi_super-nintendo_MMX3_Sigma_Battle_2-KM.npy,train,1560,7164
-.._midi_super-nintendo_ctcrono3.npy,train,2783,11281
 .._midi_windows_pc_dond_sm01_XG.npy,train,366,7179
 .._midi_super-nintendo_smas58.npy,train,24,129
 .._midi_super-nintendo_KishinDoujiZenki1-Stage1-1.npy,train,2544,9761
@@ -2412,8 +2195,6 @@ file_base_name,split,length,duration
 .._midi_super-nintendo_SD3_-_Whiz_Kid.npy,train,4846,24843
 .._midi_super-nintendo_som_palace.npy,train,1486,10691
 .._midi_super-nintendo_NW-select.npy,train,2725,10748
-.._midi_super-nintendo_BLEFConflict.npy,train,2397,9432
-.._midi_super-nintendo_t_ogre17.npy,train,1583,12824
 .._midi_super-nintendo_BL_wagyan_ending.npy,train,200,1617
 .._midi_nintendo-ds_ZeldaPhVillageDuDebut.npy,train,920,3927
 .._midi_super-nintendo_K3-Number_13.npy,train,4342,14986
@@ -2423,7 +2204,6 @@ file_base_name,split,length,duration
 .._midi_nintendo-ds_FF3_caveofcrystals.npy,train,1446,9013
 .._midi_nintendo-ds_zph-island.npy,train,664,4243
 .._midi_super-nintendo_live-a-live_japan_-_old_west_chapter_the_wilds.npy,train,2661,5669
-.._midi_super-nintendo_ter33.npy,train,11,1339
 .._midi_windows_SP-Eyes_of_Flame.npy,train,3340,9598
 .._midi_wii_Endless_Possibility.npy,train,7169,24633
 .._midi_super-nintendo_rudora_no_hihou_japan_-_the_nightbreed.npy,train,7068,18024
@@ -2450,7 +2230,6 @@ file_base_name,split,length,duration
 .._midi_super-nintendo_09-BlastHornet.npy,train,3326,8533
 .._midi_super-nintendo_Sky_Ramp.npy,train,4382,10320
 .._midi_super-nintendo_mkr1.npy,train,6537,23450
-.._midi_nintendo-ds_RockmanZXAGreysOpeningStageFix.npy,train,10422,16457
 .._midi_super-nintendo_UNSquadron_-_The_Seavet.npy,train,1504,7074
 .._midi_super-nintendo_3-10-Epoch-TheWingsThatCrossTime.npy,train,8380,36978
 .._midi_super-nintendo_fmgh-violent.npy,train,3411,10917
@@ -2472,7 +2251,6 @@ file_base_name,split,length,duration
 .._midi_super-nintendo_sombest.npy,train,8190,22115
 .._midi_super-nintendo_Sponge.npy,train,2146,9750
 .._midi_super-nintendo_sf2vega3.npy,train,2379,7600
-.._midi_super-nintendo_ff2_Epilogue2_mid.npy,train,10630,68950
 .._midi_wii_mm10_specialstage3-DS.npy,train,8099,17387
 .._midi_super-nintendo_dbzhdopen-1.npy,train,1616,4653
 .._midi_super-nintendo_mk2_CPUtower_zb.npy,train,1350,3713
@@ -2489,16 +2267,12 @@ file_base_name,split,length,duration
 .._midi_super-nintendo_ao2_ode.npy,train,1131,17893
 .._midi_super-nintendo_HM_-_Town.npy,train,1732,9414
 .._midi_super-nintendo_ff2airsh.npy,train,1725,6545
-.._midi_super-nintendo_(SDDstg1).npy,train,787,4796
-.._midi_super-nintendo_Aitos.npy,train,1098,22224
 .._midi_super-nintendo_eb_thred.npy,train,2096,19216
 .._midi_super-nintendo_earthbound-sailing1-sailingtoscaraba.npy,train,1072,6574
 .._midi_super-nintendo_vegas_stakes_-_the_golden_paradise.npy,train,1338,9763
-.._midi_super-nintendo_27-Station2.npy,train,3008,16251
 .._midi_super-nintendo_b2bbatle.npy,train,2996,10807
 .._midi_wii_accf-0600.npy,train,381,5691
 .._midi_super-nintendo_luf1map.npy,train,2816,11947
-.._midi_super-nintendo_dkckrool1(1).npy,train,3817,17689
 .._midi_super-nintendo_poplv1.npy,train,866,7199
 .._midi_super-nintendo_Ending1.npy,train,1482,10065
 .._midi_super-nintendo_UNSquadron_-_Ground_Carrier.npy,train,2887,10764
@@ -2517,13 +2291,11 @@ file_base_name,split,length,duration
 .._midi_super-nintendo_b2field3.npy,train,2436,12885
 .._midi_nintendo-ds_Team_Galactic_Battle.npy,train,2287,7564
 .._midi_nintendo-ds_nsmb-castle.npy,train,2788,12240
-.._midi_super-nintendo_title.npy,train,320,7661
 .._midi_wii_accf-0900.npy,train,311,3953
 .._midi_super-nintendo_winners.npy,train,4677,12737
 .._midi_super-nintendo_YS_Boss_Battle.npy,train,7200,10164
 .._midi_nintendo-ds_BWRival.npy,train,2016,5181
 .._midi_wii_zeldatp_snowpeak_ruins.npy,train,1740,24408
-.._midi_super-nintendo_DKC2rig.npy,train,2361,11170
 .._midi_super-nintendo_ctfairen.npy,train,3104,15443
 .._midi_super-nintendo_btbm-bonus2.npy,train,3822,18581
 .._midi_super-nintendo_ff2lsub.npy,train,3821,17916
@@ -2556,7 +2328,6 @@ file_base_name,split,length,duration
 .._midi_super-nintendo_Star_Ocean_New_World.npy,train,1570,10675
 .._midi_super-nintendo_SMK_Yoshi_Wins.npy,train,707,3333
 .._midi_nintendo-ds_AJAA-Suspense.npy,train,2496,7289
-.._midi_super-nintendo_BlueStone_AndonutsLab.npy,train,228,7058
 .._midi_nintendo-ds_behindyoshivillage.npy,train,5506,15251
 .._midi_super-nintendo_z3dw4v2.npy,train,2198,5962
 .._midi_windows_HL2--Something_Secret_Steers_Us.npy,train,2516,8632
@@ -2569,18 +2340,13 @@ file_base_name,split,length,duration
 .._midi_super-nintendo_7thsaga_world4.npy,train,2071,15512
 .._midi_super-nintendo_t_ogre14.npy,train,2202,9700
 .._midi_super-nintendo_Lufiabat.npy,train,3746,7602
-.._midi_windows_rollin5.npy,train,6709,21794
-.._midi_nintendo-ds_Mystery_Dungeon_-_Sky_Tower.npy,train,6111,22974
 .._midi_super-nintendo_bubblecrab.npy,train,2362,9179
-.._midi_super-nintendo_GokujyoParodius_Ranking.npy,train,971,5597
 .._midi_nintendo-ds_JDC_GoLHailv13.npy,train,5032,15344
-.._midi_wii_courageseq.npy,train,248,9093
 .._midi_super-nintendo_Luf2fod.npy,train,4922,14234
 .._midi_super-nintendo_YI_Bonus.npy,train,1034,7258
 .._midi_super-nintendo_B1L_pr2_princessluna.npy,train,1352,6303
 .._midi_super-nintendo_tm_rnh_downfall.npy,train,3776,16012
 .._midi_windows_Last_Cave.npy,train,1988,8862
-.._midi_super-nintendo_fmgh-silencer-b.npy,train,1141,14080
 .._midi_super-nintendo_alefgard.npy,train,5398,21943
 .._midi_windows_Round1.npy,train,354,2888
 .._midi_super-nintendo_MegaManSoccer_-_RockField.npy,train,16210,22080
@@ -2593,7 +2359,6 @@ file_base_name,split,length,duration
 .._midi_windows_TYRIAN_DeliShopQuartetNo2.npy,train,10368,29792
 .._midi_nintendo-ds_Mega_Man_ZX_-_Area_C_-_Brilliant_Show_Window.npy,train,6417,14428
 .._midi_super-nintendo_eb_soundstone.npy,train,952,3085
-.._midi_super-nintendo_BL_bof_story.npy,train,1754,8455
 .._midi_super-nintendo_avp.npy,train,5647,14578
 .._midi_nintendo-ds_lozst_temple1.npy,train,960,5754
 .._midi_nintendo-ds_pmd_eosopening.npy,train,1766,7792
@@ -2605,13 +2370,10 @@ file_base_name,split,length,duration
 .._midi_super-nintendo_stragos.npy,train,1400,11707
 .._midi_super-nintendo_Drakkhen-Inn.npy,train,2992,5826
 .._midi_super-nintendo_SQ-Stage2.npy,train,4046,11428
-.._midi_super-nintendo_sd371.npy,train,2887,31264
 .._midi_super-nintendo_ff3unfor.npy,train,3395,11945
 .._midi_nintendo-ds_Ace_Castlevania_DoS-Cursed_Clock_Tower.npy,train,2321,13455
 .._midi_windows_TYRIAN_Zanac5_v103.npy,train,4320,17865
-.._midi_super-nintendo_actraiser_ancient.npy,train,1972,22289
 .._midi_super-nintendo_bewarethemushroom.npy,train,810,5739
-.._midi_wii_Sammers.npy,train,1248,6635
 .._midi_wii_marioKartMenu.npy,train,8684,22094
 .._midi_wii_ssbb_nazonomurasamejou.npy,train,1932,8145
 .._midi_super-nintendo_JDC_BMBonus1-1.npy,train,4068,10277
@@ -2628,7 +2390,6 @@ file_base_name,split,length,duration
 .._midi_super-nintendo_luf2port.npy,train,1967,13293
 .._midi_super-nintendo_T_NinjaGaidenTomoe_Skyline.npy,train,7072,12580
 .._midi_super-nintendo_DQ3_Overworld_Map.npy,train,3574,14375
-.._midi_star wars_The_Emperor_Arrives.npy,train,1154,10295
 .._midi_super-nintendo_dbz3_-_battle_theme_2.npy,train,3250,10059
 .._midi_windows_TYRIAN_SomebodyPickUpTheGryphonev103.npy,train,8520,24000
 .._midi_super-nintendo_tm_rnh_ridethebreeze.npy,train,3001,17600
@@ -2654,18 +2415,15 @@ file_base_name,split,length,duration
 .._midi_super-nintendo_Ninja_Warriors_Again-stage5-1.npy,train,6200,14974
 .._midi_super-nintendo_sd331.npy,train,2775,9119
 .._midi_nintendo-ds_ds_nsmb_sm02.npy,train,460,2181
-.._midi_windows_HL2--Kaon.npy,train,791,4158
 .._midi_super-nintendo_Star_Fox_-_Asteroids_-_Hajime_Hirasawa.npy,train,3398,14555
 .._midi_nintendo-ds_nds-mkds-delfinosquare-fixed-again.npy,train,5576,13563
 .._midi_nintendo-ds_EBONY.npy,train,5863,14515
-.._midi_super-nintendo_Gradius3_UnchartedTerritory.npy,train,5161,12491
 .._midi_super-nintendo_Grad3SNES_l1_1.npy,train,1982,5876
 .._midi_super-nintendo_locke.npy,train,2198,11142
 .._midi_super-nintendo_aqutallion_field_h.npy,train,658,8150
 .._midi_super-nintendo_B1L_sd3_electric_talk.npy,train,4954,16440
 .._midi_super-nintendo_luf2sea.npy,train,1920,11094
 .._midi_super-nintendo_SailorMoonR_Jungle.npy,train,5583,17520
-.._midi_super-nintendo_sd327.npy,train,1346,13071
 .._midi_nintendo-ds_yoshidsunderground.npy,train,826,10950
 .._midi_super-nintendo_EpochsEnd.npy,train,2221,9389
 .._midi_super-nintendo_serpent.npy,train,4152,12000
@@ -2694,12 +2452,9 @@ file_base_name,split,length,duration
 .._midi_super-nintendo_mm7story.npy,train,735,7388
 .._midi_super-nintendo_baron.npy,train,3852,20655
 .._midi_windows_UT_Enemy_Approaching_v2_Lu9.npy,train,1962,5508
-.._midi_super-nintendo_SMT_DMusic.npy,train,2951,8533
 .._midi_super-nintendo_Super_Bomberman_2_Battle_Theme_No3.npy,train,10404,18978
 .._midi_windows_HL2--Youre_Not_Supposed_to_Be_Here.npy,train,3182,16194
-.._midi_super-nintendo_rd-facing.npy,train,1980,16358
 .._midi_wii_2-36_kakariko_villageseq.npy,train,1542,16534
-.._midi_super-nintendo_(SDDstg2).npy,train,2171,11363
 .._midi_super-nintendo_Mninja-Mole.npy,train,1888,6343
 .._midi_super-nintendo_mahou_poipoi_poitto_japan_-_stage_3.npy,train,1966,5265
 .._midi_super-nintendo_Ys_3-_Ilvern_Ruins.npy,train,5433,18400
@@ -2710,7 +2465,6 @@ file_base_name,split,length,duration
 .._midi_super-nintendo_SNES_Toki_Memo_Winter_Break.npy,train,1104,15578
 .._midi_windows_Scorching_Back.npy,train,1675,6727
 .._midi_wii_Captain_Rainbow_-_Good_Tidings_-_Hirofumi_Taniguchi.npy,train,172,5257
-.._midi_super-nintendo_t_ogre41.npy,train,4990,20318
 .._midi_super-nintendo_bf2bridge.npy,train,4925,15011
 .._midi_super-nintendo_mm7burst.npy,train,1636,10800
 .._midi_super-nintendo_Spaceup.npy,train,1884,15272
@@ -2739,7 +2493,6 @@ file_base_name,split,length,duration
 .._midi_super-nintendo_luf1fod.npy,train,5068,15149
 .._midi_super-nintendo_SNES_Toki_Memo_Good_Ending_Part_3.npy,train,1609,10200
 .._midi_super-nintendo_merry.npy,train,3809,17595
-.._midi_super-nintendo_Corneria_v1_1.npy,train,10579,27437
 .._midi_super-nintendo_LEM2BECH.npy,train,3077,17920
 .._midi_super-nintendo_BarrelVolcano.npy,train,3285,12600
 .._midi_FIRST_Billy Joel - Piano Man.npy,train,2809,33317
@@ -2765,13 +2518,10 @@ file_base_name,split,length,duration
 .._midi_super-nintendo_igflute.npy,train,179,3544
 .._midi_super-nintendo_BL_fm_risetoaction.npy,train,5431,4722
 .._midi_super-nintendo_FF5_pirat.npy,train,3492,11312
-.._midi_super-nintendo_Mini-Boss.npy,train,4185,15361
 .._midi_super-nintendo_demon_final.npy,train,1482,6889
 .._midi_super-nintendo_tetris_drm_mixedmusic1.npy,train,3938,13292
-.._midi_super-nintendo_The3fiends.npy,train,1322,8154
 .._midi_super-nintendo_FFMQMine-V2.0.npy,train,2043,19396
 .._midi_super-nintendo_gogo.npy,train,1601,13197
-.._midi_super-nintendo_GokujyoParodius_Pentarou.npy,train,1038,4107
 .._midi_super-nintendo_SD3_-_Rolling_Cradle.npy,train,9996,20306
 .._midi_super-nintendo_IoGtitle.npy,train,2361,15587
 .._midi_super-nintendo_rs1_horrible.npy,train,2598,13660
@@ -2780,7 +2530,6 @@ file_base_name,split,length,duration
 .._midi_super-nintendo_FMGH_Warning2.npy,train,7446,19732
 .._midi_windows_PsychoPinball-TrickOrTreat.npy,train,1209,7308
 .._midi_windows_Streamside.npy,train,3356,15169
-.._midi_super-nintendo_liveoveragain.npy,train,1950,16264
 .._midi_super-nintendo_dq6_village.npy,train,1990,15562
 .._midi_super-nintendo_Calcobre.npy,train,4150,7200
 .._midi_super-nintendo_thg_109.npy,train,5617,14880
@@ -2792,7 +2541,6 @@ file_base_name,split,length,duration
 .._midi_super-nintendo_MMX2_X-Hunter_Stage_2-KM.npy,train,2265,6750
 .._midi_wii_ssbb_goldenhammer1_1.npy,train,2214,7040
 .._midi_super-nintendo_macross1.npy,train,2715,8926
-.._midi_super-nintendo_FE3-Mystery.npy,train,1366,12035
 .._midi_super-nintendo_sunrdr-stg3endrmx.npy,train,207,837
 .._midi_super-nintendo_DragonsLair-BattlingAMonster.npy,train,1407,6400
 .._midi_super-nintendo_Actbattle.npy,train,113,1124
@@ -2804,7 +2552,6 @@ file_base_name,split,length,duration
 .._midi_super-nintendo_MC_Viscount.npy,train,1741,8854
 .._midi_super-nintendo_PistonHurricane.npy,train,896,2739
 .._midi_nintendo-ds_Dress_UpINSTR-ByDJ.npy,train,1768,6162
-.._midi_super-nintendo_DKC_-_Northern_Hemispheres.npy,train,3170,22399
 .._midi_super-nintendo_alad04.npy,train,1919,8128
 .._midi_super-nintendo_T_AVGFighter_ReimiTheme.npy,train,11452,16013
 .._midi_super-nintendo_Cs_bonus.npy,train,3753,12746
@@ -2835,7 +2582,6 @@ file_base_name,split,length,duration
 .._midi_super-nintendo_snsm-scorpion.npy,train,2516,11812
 .._midi_super-nintendo_18-ShadeManSpecialTheme.npy,train,3290,14400
 .._midi_wii_prince_ralis_is_savedseq.npy,train,927,15726
-.._midi_wii_MM9_-_OverDrive.npy,train,5205,11200
 .._midi_wii_4-05_deku_toadseq.npy,train,3316,17714
 .._midi_super-nintendo_btddlev2.npy,train,2672,10970
 .._midi_super-nintendo_music_1f.npy,train,276,2783
@@ -2846,7 +2592,6 @@ file_base_name,split,length,duration
 .._midi_wii_LOZTP_-_SGrove.npy,train,1748,9623
 .._midi_super-nintendo_Sgg6.npy,train,1420,10769
 .._midi_nintendo-ds_TinyWoods.npy,train,1193,9300
-.._midi_super-nintendo_SMASMediasByCryogen.npy,train,1424,11603
 .._midi_nintendo-ds_zxa_flashover_tarv.npy,train,1687,7752
 .._midi_super-nintendo_luf2tower.npy,train,1688,11908
 .._midi_nintendo-ds_VGMYCTheme.npy,train,2336,8084
@@ -2857,7 +2602,6 @@ file_base_name,split,length,duration
 .._midi_super-nintendo_thg_131.npy,train,1506,5311
 .._midi_super-nintendo_rs1_claudia_w.npy,train,826,9768
 .._midi_super-nintendo_enemy2.npy,train,2014,3840
-.._midi_super-nintendo_FrontMissionGunHazard_Remains.npy,train,564,12631
 .._midi_super-nintendo_SUNBOSS.npy,train,1357,5797
 .._midi_nintendo-ds_COOE-Lighthouse-GM.npy,train,9480,30140
 .._midi_super-nintendo_fanatic.npy,train,1452,10799
@@ -2889,7 +2633,6 @@ file_base_name,split,length,duration
 .._midi_super-nintendo_Iog_end.npy,train,1941,21929
 .._midi_super-nintendo_ebnesshouse.npy,train,421,9900
 .._midi_super-nintendo_TalesOfPhantasia_ThreateningSky_GM.npy,train,22272,54646
-.._midi_super-nintendo_DKC_-_Voices_of_the_Temple.npy,train,2406,19200
 .._midi_wii_Mega_Man_9_-_Jewel_Man_Stage.npy,train,1516,8571
 .._midi_super-nintendo_lb3_town1.npy,train,2844,18920
 .._midi_super-nintendo_ranma_rpg_last_boss.npy,train,807,4140
@@ -2899,14 +2642,12 @@ file_base_name,split,length,duration
 .._midi_super-nintendo_StarOcean_What_Should_Be.npy,train,3123,23124
 .._midi_super-nintendo_icecastl.npy,train,4111,16699
 .._midi_wii_Captain_Rainbow_-_Happy_Sign_-_Hirofumi_Taniguchi.npy,train,812,5032
-.._midi_super-nintendo_FZ_Mute_City_Arr-KM.npy,train,5215,12511
 .._midi_super-nintendo_sbleopainting.npy,train,1416,10914
 .._midi_super-nintendo_FrontMission-NextResolution_-_-Rocco.npy,train,3476,12797
 .._midi_super-nintendo_z3boss.npy,train,1285,3513
 .._midi_super-nintendo_TalesOfPhantasia_FinalAct_GM.npy,train,20554,32066
 .._midi_super-nintendo_T_Tsubasa3Snes8.npy,train,12138,12950
 .._midi_super-nintendo_rs1_kignt.npy,train,1216,16866
-.._midi_nintendo-ds_Moderate.npy,train,1272,9600
 .._midi_super-nintendo_rs2_village1.npy,train,592,7722
 .._midi_super-nintendo_SMK_Luigi_Wins.npy,train,717,2733
 .._midi_super-nintendo_Astro_Guy.npy,train,6615,20582
@@ -2926,10 +2667,7 @@ file_base_name,split,length,duration
 .._midi_wii_Celica_Map_1.npy,train,7082,25133
 .._midi_nintendo-ds_Mario_Luigi_Battle.npy,train,4822,7536
 .._midi_super-nintendo_mmq01.npy,train,387,1712
-.._midi_super-nintendo_Dk1ice.npy,train,1931,12430
-.._midi_super-nintendo_tophydro.npy,train,1554,17441
 .._midi_super-nintendo_rs1_requiem.npy,train,341,7307
-.._midi_super-nintendo_Star_Ocean_Ambition.npy,train,3610,18321
 .._midi_super-nintendo_DV_-_Desert_Field.npy,train,2239,8232
 .._midi_star wars_The_Trip_to_the_Naboo_Temple.npy,train,2793,7640
 .._midi_super-nintendo_YoshisCookie_VsSlave.npy,train,1488,2710
@@ -2953,9 +2691,7 @@ file_base_name,split,length,duration
 .._midi_wii_The_Hidden_Village.npy,train,2075,6408
 .._midi_windows_Undertale_Hopes-and-Dreams.npy,train,7799,17606
 .._midi_super-nintendo_sbb2-04.npy,train,437,5983
-.._midi_super-nintendo_ImpatienceArranged.npy,train,10955,41828
 .._midi_super-nintendo_ff3mog.npy,train,1120,9380
-.._midi_star wars_The_Asteroid_Field.npy,train,9053,24240
 .._midi_super-nintendo_livealive-secretmission.npy,train,6496,14400
 .._midi_wii_mm10_futureworld.npy,train,6483,6400
 .._midi_super-nintendo_dw3_bt1.npy,train,2549,7100
@@ -2979,7 +2715,6 @@ file_base_name,split,length,duration
 .._midi_super-nintendo_FrontMission_setup.npy,test,2238,7889
 .._midi_super-nintendo_ter24.npy,test,436,2285
 .._midi_super-nintendo_Main_Room.npy,test,6629,19459
-.._midi_windows_zp-radix2.npy,test,3331,12324
 .._midi_super-nintendo_Sr2.npy,test,1362,12617
 .._midi_super-nintendo_FrontMission_shop.npy,test,1939,9350
 .._midi_nintendo-ds_ZeldaPhLinebackLeMarin.npy,test,1244,3199
@@ -2995,7 +2730,6 @@ file_base_name,split,length,duration
 .._midi_super-nintendo_rs1_prologue.npy,test,887,9936
 .._midi_super-nintendo_SailorMoonSSF_ed1.npy,test,2362,5170
 .._midi_nintendo-ds_ML-HJ.npy,test,456,8667
-.._midi_nintendo-ds_awdsnormalcopower.npy,test,2612,10316
 .._midi_super-nintendo_ter51.npy,test,135,410
 .._midi_super-nintendo_KishinDoujiZenki1-Stage4-3.npy,test,1904,15319
 .._midi_super-nintendo_FFIV_-_Run.npy,test,1554,3573
@@ -3005,7 +2739,6 @@ file_base_name,split,length,duration
 .._midi_super-nintendo_rudora_no_hihou_japan_-_the_inhuman_condition.npy,test,2662,11520
 .._midi_nintendo-ds_cvdos_darknight.npy,test,4184,10172
 .._midi_super-nintendo_dkc3tree.npy,test,4770,14343
-.._midi_super-nintendo_CT_medina_village.npy,test,1608,12924
 .._midi_super-nintendo_StarOcean_Dance_In_Sword.npy,test,4735,12726
 .._midi_super-nintendo_IllusionOfGaia_Pyramid.npy,test,5282,29204
 .._midi_super-nintendo_Evoboss.npy,test,4000,16102
@@ -3027,9 +2760,7 @@ file_base_name,split,length,duration
 .._midi_windows_Windows__Sims_2__Build_a_House.npy,test,3804,21638
 .._midi_wii_Captain_Rainbow_-_Hikaris_Unfulfilled_Dream_-_Hirofumi_Taniguchi.npy,test,221,6092
 .._midi_super-nintendo_rpgvict.npy,test,1075,2713
-.._midi_windows_Orc4gm.npy,test,4107,13743
 .._midi_super-nintendo_smas50.npy,test,1097,4641
-.._midi_star wars_Main_Title.npy,test,2381,7576
 .._midi_super-nintendo_sb_cloud_Bluev2.npy,test,3417,14926
 .._midi_random_Soundtrack_Jurassic_Park.npy,test,3813,29144
 .._midi_super-nintendo_rpgfigh2.npy,test,2029,6086
@@ -3047,7 +2778,6 @@ file_base_name,split,length,duration
 .._midi_super-nintendo_mwbattle.npy,test,4792,11383
 .._midi_super-nintendo_dw5_ship.npy,test,586,6239
 .._midi_super-nintendo_HM_-_Fall_Theme.npy,test,1308,4620
-.._midi_wii_Trailer_-_Zelda_Twilight_Princess.npy,test,1443,11150
 .._midi_wii_zoratheme.npy,test,181,3600
 .._midi_nintendo-ds_CASTLEVANIA.npy,test,5488,20033
 .._midi_super-nintendo_DBZ_select.npy,test,1190,5729
@@ -3079,12 +2809,10 @@ file_base_name,split,length,duration
 .._midi_wii_CHASING.npy,test,3963,10490
 .._midi_super-nintendo_tmnt4supshred.npy,test,4205,10749
 .._midi_super-nintendo_DracX-VampireKiller.npy,test,3623,13614
-.._midi_super-nintendo_LFMGH-102Emergency.npy,test,1280,11833
 .._midi_super-nintendo_(RnH)_Battle_of_the_Last_Enemy_-_Evolution.npy,test,5980,18308
 .._midi_super-nintendo_MickeyManiaTable.npy,test,2860,13963
 .._midi_super-nintendo_Ctfrogrm.npy,test,4698,8229
 .._midi_nintendo-ds_Zenkusa_-_MMZX_AreaD_seq.npy,test,12076,21128
-.._midi_super-nintendo_ter23.npy,test,1323,14298
 .._midi_super-nintendo_M3norfr_V2.npy,test,344,14754
 .._midi_nintendo-ds_Anno-Explore_A_New_World_I.npy,test,3044,17583
 .._midi_super-nintendo_Level_2_2.npy,test,1412,11864
@@ -3093,7 +2821,6 @@ file_base_name,split,length,duration
 .._midi_super-nintendo_front_mission_-_arena_horn.npy,test,2366,5807
 .._midi_super-nintendo_csrrails.npy,test,3970,11958
 .._midi_super-nintendo_FMGH_-_FinalMission.npy,test,5113,15000
-.._midi_super-nintendo_GokujyoParodius_VicViper.npy,test,1065,4342
 .._midi_windows_UT_Ruins_Lu9.npy,test,1523,9000
 .._midi_nintendo-ds_HGSS_Dragon_Den.npy,test,4750,13107
 .._midi_nintendo-ds_Questionnaire.npy,test,909,15481
@@ -3114,7 +2841,6 @@ file_base_name,split,length,duration
 .._midi_wii_twilight_princess_boss_diababa_pt2.npy,test,5717,18212
 .._midi_nintendo-ds_Mini_Game_1.npy,test,1359,3733
 .._midi_super-nintendo_SunsetRiders-Boss.npy,test,1706,5480
-.._midi_super-nintendo_Lovaous.npy,test,1022,8930
 .._midi_nintendo-ds_KSSU_SB_OP.npy,test,2256,7199
 .._midi_super-nintendo_SD3_-_Last_Audience.npy,test,4731,24587
 .._midi_windows_CSGrasstown.npy,test,5274,16800
@@ -3131,15 +2857,12 @@ file_base_name,split,length,duration
 .._midi_super-nintendo_ayatrach.npy,test,570,6122
 .._midi_super-nintendo_Legend-Overworld.npy,test,2379,10080
 .._midi_super-nintendo_mm7bass.npy,test,786,4195
-.._midi_super-nintendo_bofworld2.npy,test,2728,16015
 .._midi_super-nintendo_jrlepage_smas_undergr.npy,test,458,4000
-.._midi_wii_save_iliaseq.npy,test,313,11577
 .._midi_windows_TunnelingTrolls-X.npy,test,3702,8420
 .._midi_super-nintendo_FFV_-_Intension_of_the_Earth.npy,test,2919,13335
 .._midi_wii_SMGStardustRoad3.npy,test,908,11175
 .._midi_super-nintendo_CT1000ad.npy,test,2527,12218
 .._midi_super-nintendo_fmgh-blue.npy,test,350,12159
-.._midi_super-nintendo_SuperDoubleDragon-Mission3-1.npy,test,4566,17997
 .._midi_super-nintendo_IoGcstle.npy,test,2323,25027
 .._midi_super-nintendo_Bloodpool-1.npy,test,10106,21628
 .._midi_nintendo-ds_nds-mkds-gcnluigicircuit-gcnyoshicircuit.npy,test,6437,15042
@@ -3157,7 +2880,6 @@ file_base_name,split,length,duration
 .._midi_super-nintendo_dbz1_-_theme_of_vegeta.npy,test,3788,11465
 .._midi_nintendo-ds_cynthia_battle_redone_MIDI.npy,test,7321,15749
 .._midi_super-nintendo_cavegirl_song.npy,test,2989,8015
-.._midi_windows_JazzJackrabbit_5-2_GM.npy,test,10992,39936
 .._midi_nintendo-ds_Do_Your_Best_As_Always.npy,test,3484,10061
 .._midi_super-nintendo_Mario3MusicBox.npy,test,145,1814
 .._midi_super-nintendo_Axmchase.npy,test,6068,12361
@@ -3168,7 +2890,6 @@ file_base_name,split,length,duration
 .._midi_super-nintendo_dtai-23.npy,test,3403,13482
 .._midi_super-nintendo_Dbz2.npy,test,594,8533
 .._midi_super-nintendo_yosterisle2.npy,test,2132,7909
-.._midi_super-nintendo_RomancingSaga3_dkc.npy,test,1005,12352
 .._midi_super-nintendo_Peaceful_Village.npy,test,1242,21600
 .._midi_super-nintendo_snesDKC3_K.Rool.npy,test,4240,9125
 .._midi_nintendo-ds_victofear.npy,test,4021,12196
@@ -3181,7 +2902,6 @@ file_base_name,split,length,duration
 .._midi_super-nintendo_mn-Iga.npy,test,2168,8727
 .._midi_super-nintendo_bl-zakoh.npy,test,4350,14558
 .._midi_super-nintendo_RainbowRoad.npy,test,2033,10240
-.._midi_quake_the-underworld.npy,test,1703,14400
 .._midi_super-nintendo_gau.npy,test,1197,14293
 .._midi_super-nintendo_do2_bt.npy,test,2628,9432
 .._midi_wii_T_MegaMan9_Introduction2.npy,test,4954,9831
@@ -3189,7 +2909,6 @@ file_base_name,split,length,duration
 .._midi_super-nintendo_FF5_a14.npy,test,1933,11193
 .._midi_nintendo-ds_KSSD_Dedede-MK.npy,test,1854,5234
 .._midi_super-nintendo_Unsqfsft.npy,test,1816,13714
-.._midi_super-nintendo_CV4-DraculasTheme.npy,test,1190,14745
 .._midi_nintendo-ds_prelude6.npy,test,260,1941
 .._midi_super-nintendo_avp-stage4.npy,test,5384,12486
 .._midi_super-nintendo_BoF2_whitewings.npy,test,1806,9077
@@ -3201,7 +2920,6 @@ file_base_name,split,length,duration
 .._midi_super-nintendo_front_mission_-_field_hospital_horn.npy,test,2255,6931
 .._midi_super-nintendo_SNES_MMX_Boomer_Kuwanger_V1.npy,test,4156,14214
 .._midi_super-nintendo_dwarf.npy,test,345,3109
-.._midi_super-nintendo_DKC_Water-Arr-KM.npy,test,4060,20412
 .._midi_super-nintendo_actra_11.npy,test,1701,16388
 .._midi_super-nintendo_SD3_-_Raven.npy,test,5326,22072
 .._midi_super-nintendo_SailorMoonSSF_usagi.npy,test,1471,9633
@@ -3217,7 +2935,6 @@ file_base_name,split,length,duration
 .._midi_super-nintendo_chronodance-V1.1.npy,test,2835,11999
 .._midi_super-nintendo_Bloodpool.npy,test,3868,9029
 .._midi_windows_CS_Geothermal.npy,test,3928,14369
-.._midi_nintendo-ds_Dusks_Holy_Mark.npy,test,895,6559
 .._midi_nintendo-ds_PKMNHGSS_-_ShintoRuins.npy,test,3767,16711
 .._midi_nintendo-ds_MMZX_Onslaught-KM.npy,test,9566,18486
 .._midi_super-nintendo_JUI_DBZHD-18.npy,test,999,10666
@@ -3233,9 +2950,7 @@ file_base_name,split,length,duration
 .._midi_nintendo-ds_PKMN-D_P-GalaticCommanderMetal.npy,test,5685,12839
 .._midi_random_jurassicparktheme.npy,test,40,883
 .._midi_super-nintendo_mn-NinjaCastle.npy,test,2578,8229
-.._midi_nintendo-ds_CHAOTIC_PLAYGROUND.npy,test,2193,14659
 .._midi_super-nintendo_MarbleAlley.npy,test,1784,9600
-.._midi_super-nintendo_dkc3frst.npy,test,3146,12639
 .._midi_super-nintendo_mtkoltz(1).npy,test,2830,13334
 .._midi_nintendo-ds_VGMAndyDS.npy,test,5203,14519
 .._midi_wii_statue_gameseq.npy,test,644,7754
@@ -3254,7 +2969,6 @@ file_base_name,split,length,duration
 .._midi_nintendo-ds_mmzx_prometheuspandora_v1_1.npy,test,6443,16467
 .._midi_super-nintendo_lb3_village.npy,test,1837,12600
 .._midi_super-nintendo_clock_tower_-_cradle_under_the_star.npy,test,1664,5020
-.._midi_super-nintendo_actraiser_great_tree.npy,test,1642,8754
 .._midi_wii_Skyward_Sword_-_The_Goddess_Song.npy,test,72,4275
 .._midi_nintendo-ds_Pokemon_HGSS_Kanto_Trainer_Battle.npy,test,2940,9333
 .._midi_super-nintendo_cttheme.npy,test,3418,14781
@@ -3278,11 +2992,9 @@ file_base_name,split,length,duration
 .._midi_wii_house.npy,test,1702,13885
 .._midi_super-nintendo_rs1_solitude.npy,test,876,12864
 .._midi_super-nintendo_godoml.npy,test,163,8203
-.._midi_star wars_Clash_of_Lightsabers.npy,test,4551,20490
 .._midi_super-nintendo_sailvl5.npy,test,6829,16146
 .._midi_super-nintendo_SPOcirc2.npy,test,2166,11402
 .._midi_super-nintendo_catcafemenusong.npy,test,2312,13716
-.._midi_super-nintendo_GokujyoParodius_Stage3.npy,test,2563,7572
 .._midi_super-nintendo_DV_-_Field_Battle.npy,test,848,2000
 .._midi_nintendo-ds_30682_I-Don_t-Want-To-Say-Goodbye.npy,test,1565,11393
 .._midi_windows_Papyrus.npy,test,2668,12784

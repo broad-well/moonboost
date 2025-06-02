@@ -1419,3 +1419,2285 @@ Traceback (most recent call last):
     raise OSError('data byte must be in range 0..127')
 OSError: data byte must be in range 0..127
 
+Failed to process ..\dataset\processed\.._midi_super-nintendo_fe4chap2.npy:
+..\dataset\processed\.._midi_super-nintendo_fe4chap2.npy contains large onsets: False, large durations: True
+Largest duration: 5309
+Failed to process ..\dataset\processed\.._midi_super-nintendo_topdhaos.npy:
+..\dataset\processed\.._midi_super-nintendo_topdhaos.npy contains large onsets: False, large durations: True
+Largest duration: 3505
+Failed to process ..\dataset\processed\.._midi_super-nintendo_liveforlive.npy:
+..\dataset\processed\.._midi_super-nintendo_liveforlive.npy contains large onsets: False, large durations: True
+Largest duration: 1477
+Failed to process ..\dataset\processed\.._midi_super-nintendo_Tier1.npy:
+..\dataset\processed\.._midi_super-nintendo_Tier1.npy contains large onsets: False, large durations: True
+Largest duration: 10283
+Failed to process ..\dataset\processed\.._midi_super-nintendo_27-DopplerBattle.npy:
+..\dataset\processed\.._midi_super-nintendo_27-DopplerBattle.npy contains large onsets: False, large durations: True
+Largest duration: 2570
+Failed to process ..\dataset\processed\.._midi_super-nintendo_Aerobiz_Supersonic_Europe.npy:
+..\dataset\processed\.._midi_super-nintendo_Aerobiz_Supersonic_Europe.npy contains large onsets: False, large durations: True
+Largest duration: 1088
+Failed to process ..\dataset\processed\.._midi_super-nintendo_SMAS-TSDoor.npy:
+..\dataset\processed\.._midi_super-nintendo_SMAS-TSDoor.npy contains large onsets: False, large durations: True
+Largest duration: 5819
+Failed to process ..\dataset\processed\.._midi_nintendo-ds_MLFTLaCentrale.npy:
+..\dataset\processed\.._midi_nintendo-ds_MLFTLaCentrale.npy contains large onsets: False, large durations: True
+Largest duration: 1200
+Failed to process ..\midi\super-nintendo\tmm_Kag_Theme.mid:
+Traceback (most recent call last):
+  File "C:\Users\ElenaTomson\moonboost\Moonbeam-MIDI-Foundation-Model\data_preprocess.py", line 82, in process_midi_file_safe_v2
+    out = process_midi_file_v2(tokenizer, midi_file, split, onset_vocab_size, dur_vocab_size, output_folder, log_file, silence_threshold)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ElenaTomson\moonboost\Moonbeam-MIDI-Foundation-Model\data_preprocess.py", line 138, in process_midi_file_v2
+    compounds = tokenizer.midi_to_compound(midi_file)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ElenaTomson\moonboost\.venv\Lib\site-packages\llama_recipes\datasets\music_tokenizer.py", line 350, in midi_to_compound
+    midi = mido.MidiFile(midifile)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ElenaTomson\moonboost\.venv\Lib\site-packages\mido\midifiles\midifiles.py", line 320, in __init__
+    self._load(file)
+  File "C:\Users\ElenaTomson\moonboost\.venv\Lib\site-packages\mido\midifiles\midifiles.py", line 371, in _load
+    self.tracks.append(read_track(infile,
+                       ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ElenaTomson\moonboost\.venv\Lib\site-packages\mido\midifiles\midifiles.py", line 216, in read_track
+    msg = read_sysex(infile, delta, clip)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ElenaTomson\moonboost\.venv\Lib\site-packages\mido\midifiles\midifiles.py", line 150, in read_sysex
+    return Message('sysex', data=data, time=delta)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ElenaTomson\moonboost\.venv\Lib\site-packages\mido\messages\messages.py", line 120, in __init__
+    check_msgdict(msgdict)
+  File "C:\Users\ElenaTomson\moonboost\.venv\Lib\site-packages\mido\messages\checks.py", line 107, in check_msgdict
+    check_value(name, value)
+  File "C:\Users\ElenaTomson\moonboost\.venv\Lib\site-packages\mido\messages\checks.py", line 94, in check_value
+    _CHECKS[name](value)
+  File "C:\Users\ElenaTomson\moonboost\.venv\Lib\site-packages\mido\messages\checks.py", line 46, in check_data
+    check_data_byte(byte)
+  File "C:\Users\ElenaTomson\moonboost\.venv\Lib\site-packages\mido\messages\checks.py", line 67, in check_data_byte
+    raise ValueError('data byte must be in range 0..127')
+ValueError: data byte must be in range 0..127
+
+Failed to process ..\dataset\processed\.._midi_nintendo-ds_MLFTTristesse.npy:
+..\dataset\processed\.._midi_nintendo-ds_MLFTTristesse.npy contains large onsets: False, large durations: True
+Largest duration: 1500
+Failed to process ..\dataset\processed\.._midi_nintendo-ds_BW2Kyurem-Finished.npy:
+..\dataset\processed\.._midi_nintendo-ds_BW2Kyurem-Finished.npy contains large onsets: False, large durations: True
+Largest duration: 1092
+Failed to process ..\dataset\processed\.._midi_windows_MR_-_Fractilian_Space.npy:
+..\dataset\processed\.._midi_windows_MR_-_Fractilian_Space.npy contains large onsets: False, large durations: True
+Largest duration: 1440
+Failed to process ..\dataset\processed\.._midi_super-nintendo_Fortuna.npy:
+..\dataset\processed\.._midi_super-nintendo_Fortuna.npy contains large onsets: False, large durations: True
+Largest duration: 2143
+Failed to process ..\dataset\processed\.._midi_super-nintendo_BL_fmgh_enemyraid.npy:
+..\dataset\processed\.._midi_super-nintendo_BL_fmgh_enemyraid.npy contains large onsets: False, large durations: True
+Largest duration: 2000
+Failed to process ..\dataset\processed\.._midi_super-nintendo_c4final.npy:
+..\dataset\processed\.._midi_super-nintendo_c4final.npy contains large onsets: False, large durations: True
+Largest duration: 5163
+Failed to process ..\dataset\processed\.._midi_super-nintendo_COLONY.npy:
+..\dataset\processed\.._midi_super-nintendo_COLONY.npy contains large onsets: False, large durations: True
+Largest duration: 1402
+Failed to process ..\dataset\processed\.._midi_super-nintendo_FE4-Chapter6.npy:
+..\dataset\processed\.._midi_super-nintendo_FE4-Chapter6.npy contains large onsets: False, large durations: True
+Largest duration: 2832
+Failed to process ..\dataset\processed\.._midi_super-nintendo_lb3_megalopolis.npy:
+..\dataset\processed\.._midi_super-nintendo_lb3_megalopolis.npy contains large onsets: False, large durations: True
+Largest duration: 5007
+Failed to process ..\dataset\processed\.._midi_super-nintendo_07_The_Battle.npy:
+..\dataset\processed\.._midi_super-nintendo_07_The_Battle.npy contains large onsets: False, large durations: True
+Largest duration: 1231
+Failed to process ..\dataset\processed\.._midi_windows_level3_final.npy:
+..\dataset\processed\.._midi_windows_level3_final.npy contains large onsets: False, large durations: True
+Largest duration: 1324
+Failed to process ..\dataset\processed\.._midi_super-nintendo_cyber_l21.npy:
+..\dataset\processed\.._midi_super-nintendo_cyber_l21.npy contains large onsets: False, large durations: True
+Largest duration: 3067
+Failed to process ..\dataset\processed\.._midi_nintendo-ds_N64_Frappe.npy:
+..\dataset\processed\.._midi_nintendo-ds_N64_Frappe.npy contains large onsets: False, large durations: True
+Largest duration: 2176
+Failed to process ..\dataset\processed\.._midi_super-nintendo_GokujyoParodius_Takosuke.npy:
+..\dataset\processed\.._midi_super-nintendo_GokujyoParodius_Takosuke.npy contains large onsets: False, large durations: True
+Largest duration: 3675
+Failed to process ..\dataset\processed\.._midi_super-nintendo_gra3fs.npy:
+..\dataset\processed\.._midi_super-nintendo_gra3fs.npy contains large onsets: False, large durations: True
+Largest duration: 4565
+Failed to process ..\dataset\processed\.._midi_super-nintendo_SBomb3-Battle.npy:
+..\dataset\processed\.._midi_super-nintendo_SBomb3-Battle.npy contains large onsets: False, large durations: True
+Largest duration: 7370
+Failed to process ..\dataset\processed\.._midi_super-nintendo_SBomb3-Stage3.npy:
+..\dataset\processed\.._midi_super-nintendo_SBomb3-Stage3.npy contains large onsets: False, large durations: True
+Largest duration: 4524
+Failed to process ..\midi\super-nintendo\love_panic.mid:
+Traceback (most recent call last):
+  File "C:\Users\ElenaTomson\moonboost\.venv\Lib\site-packages\mido\midifiles\meta.py", line 404, in decode
+    message.key = _key_signature_decode[(key, mode)]
+                  ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+KeyError: (-3, 255)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\ElenaTomson\moonboost\Moonbeam-MIDI-Foundation-Model\data_preprocess.py", line 82, in process_midi_file_safe_v2
+    out = process_midi_file_v2(tokenizer, midi_file, split, onset_vocab_size, dur_vocab_size, output_folder, log_file, silence_threshold)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ElenaTomson\moonboost\Moonbeam-MIDI-Foundation-Model\data_preprocess.py", line 138, in process_midi_file_v2
+    compounds = tokenizer.midi_to_compound(midi_file)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ElenaTomson\moonboost\.venv\Lib\site-packages\llama_recipes\datasets\music_tokenizer.py", line 350, in midi_to_compound
+    midi = mido.MidiFile(midifile)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ElenaTomson\moonboost\.venv\Lib\site-packages\mido\midifiles\midifiles.py", line 320, in __init__
+    self._load(file)
+  File "C:\Users\ElenaTomson\moonboost\.venv\Lib\site-packages\mido\midifiles\midifiles.py", line 371, in _load
+    self.tracks.append(read_track(infile,
+                       ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ElenaTomson\moonboost\.venv\Lib\site-packages\mido\midifiles\midifiles.py", line 212, in read_track
+    msg = read_meta_message(infile, delta)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ElenaTomson\moonboost\.venv\Lib\site-packages\mido\midifiles\midifiles.py", line 167, in read_meta_message
+    return build_meta_message(meta_type, data, delta)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ElenaTomson\moonboost\.venv\Lib\site-packages\mido\midifiles\meta.py", line 471, in build_meta_message
+    spec.decode(msg, data)
+  File "C:\Users\ElenaTomson\moonboost\.venv\Lib\site-packages\mido\midifiles\meta.py", line 412, in decode
+    raise KeySignatureError(msg) from ke
+mido.midifiles.meta.KeySignatureError: Could not decode key with 3 flats and mode 255
+
+Failed to process ..\dataset\processed\.._midi_super-nintendo_som_credits.npy:
+..\dataset\processed\.._midi_super-nintendo_som_credits.npy contains large onsets: False, large durations: True
+Largest duration: 13109
+Failed to process ..\dataset\processed\.._midi_super-nintendo_dk_zb_temple.npy:
+..\dataset\processed\.._midi_super-nintendo_dk_zb_temple.npy contains large onsets: False, large durations: True
+Largest duration: 1487
+Failed to process ..\dataset\processed\.._midi_super-nintendo_livetyu1.npy:
+..\dataset\processed\.._midi_super-nintendo_livetyu1.npy contains large onsets: False, large durations: True
+Largest duration: 3797
+Failed to process ..\dataset\processed\.._midi_super-nintendo_CV4-_Level_9.npy:
+..\dataset\processed\.._midi_super-nintendo_CV4-_Level_9.npy contains large onsets: False, large durations: True
+Largest duration: 6608
+Failed to process ..\dataset\processed\.._midi_super-nintendo_snesDKC3_HotPersuit.npy:
+..\dataset\processed\.._midi_super-nintendo_snesDKC3_HotPersuit.npy contains large onsets: False, large durations: True
+Largest duration: 1332
+Failed to process ..\dataset\processed\.._midi_super-nintendo_undertak.npy:
+..\dataset\processed\.._midi_super-nintendo_undertak.npy contains large onsets: False, large durations: True
+Largest duration: 3920
+Failed to process ..\dataset\processed\.._midi_windows_In_the_clink.npy:
+..\dataset\processed\.._midi_windows_In_the_clink.npy contains large onsets: False, large durations: True
+Largest duration: 9196
+Failed to process ..\dataset\processed\.._midi_nintendo-ds_memoriesmidi.npy:
+..\dataset\processed\.._midi_nintendo-ds_memoriesmidi.npy contains large onsets: False, large durations: True
+Largest duration: 1883
+Failed to process ..\dataset\processed\.._midi_super-nintendo_SBomb3-Boss2.npy:
+..\dataset\processed\.._midi_super-nintendo_SBomb3-Boss2.npy contains large onsets: False, large durations: True
+Largest duration: 1880
+Failed to process ..\dataset\processed\.._midi_super-nintendo_gambit.npy:
+..\dataset\processed\.._midi_super-nintendo_gambit.npy contains large onsets: False, large durations: True
+Largest duration: 12768
+Failed to process ..\dataset\processed\.._midi_wii_Koopa_cape2.npy:
+..\dataset\processed\.._midi_wii_Koopa_cape2.npy contains large onsets: False, large durations: True
+Largest duration: 2318
+Failed to process ..\dataset\processed\.._midi_super-nintendo_actrstg1.npy:
+..\dataset\processed\.._midi_super-nintendo_actrstg1.npy contains large onsets: False, large durations: True
+Largest duration: 4042
+Failed to process ..\dataset\processed\.._midi_super-nintendo_felast.npy:
+..\dataset\processed\.._midi_super-nintendo_felast.npy contains large onsets: False, large durations: True
+Largest duration: 13564
+Failed to process ..\dataset\processed\.._midi_windows_MR_-_Factory_Land.npy:
+..\dataset\processed\.._midi_windows_MR_-_Factory_Land.npy contains large onsets: False, large durations: True
+Largest duration: 1662
+Failed to process ..\dataset\processed\.._midi_super-nintendo_omnitopia.npy:
+..\dataset\processed\.._midi_super-nintendo_omnitopia.npy contains large onsets: False, large durations: True
+Largest duration: 1097
+Failed to process ..\dataset\processed\.._midi_super-nintendo_axe_8p.npy:
+..\dataset\processed\.._midi_super-nintendo_axe_8p.npy contains large onsets: False, large durations: True
+Largest duration: 1785
+Failed to process ..\dataset\processed\.._midi_super-nintendo_GokujyoParodius_Michael.npy:
+..\dataset\processed\.._midi_super-nintendo_GokujyoParodius_Michael.npy contains large onsets: False, large durations: True
+Largest duration: 3316
+Failed to process ..\dataset\processed\.._midi_super-nintendo_Angel's_Fear.npy:
+..\dataset\processed\.._midi_super-nintendo_Angel's_Fear.npy contains large onsets: False, large durations: True
+Largest duration: 4003
+Failed to process ..\dataset\processed\.._midi_super-nintendo_SMAS-Temple.npy:
+..\dataset\processed\.._midi_super-nintendo_SMAS-Temple.npy contains large onsets: False, large durations: True
+Largest duration: 5740
+Failed to process ..\dataset\processed\.._midi_super-nintendo_For_Pete's_Sake.npy:
+..\dataset\processed\.._midi_super-nintendo_For_Pete's_Sake.npy contains large onsets: False, large durations: True
+Largest duration: 1211
+Failed to process ..\dataset\processed\.._midi_super-nintendo_ter20(1).npy:
+..\dataset\processed\.._midi_super-nintendo_ter20(1).npy contains large onsets: False, large durations: True
+Largest duration: 14144
+Failed to process ..\dataset\processed\.._midi_super-nintendo_soecol1.npy:
+..\dataset\processed\.._midi_super-nintendo_soecol1.npy contains large onsets: False, large durations: True
+Largest duration: 1400
+Failed to process ..\dataset\processed\.._midi_star wars_The_Dune_Sea_of_Tatooine_And_Jawa_Sandcrawler.npy:
+..\dataset\processed\.._midi_star wars_The_Dune_Sea_of_Tatooine_And_Jawa_Sandcrawler.npy contains large onsets: False, large durations: True
+Largest duration: 1604
+Failed to process ..\dataset\processed\.._midi_super-nintendo_SMAS-Crisis.npy:
+..\dataset\processed\.._midi_super-nintendo_SMAS-Crisis.npy contains large onsets: False, large durations: True
+Largest duration: 5110
+Failed to process ..\dataset\processed\.._midi_super-nintendo_BoF2Devn.npy:
+..\dataset\processed\.._midi_super-nintendo_BoF2Devn.npy contains large onsets: False, large durations: True
+Largest duration: 2860
+Failed to process ..\dataset\processed\.._midi_super-nintendo_som_manafortress.npy:
+..\dataset\processed\.._midi_super-nintendo_som_manafortress.npy contains large onsets: False, large durations: True
+Largest duration: 5309
+Failed to process ..\dataset\processed\.._midi_super-nintendo_SD3lscafe.npy:
+..\dataset\processed\.._midi_super-nintendo_SD3lscafe.npy contains large onsets: False, large durations: True
+Largest duration: 2096
+Failed to process ..\dataset\processed\.._midi_nintendo-ds_Anno_Explore_A_New_World_II.npy:
+..\dataset\processed\.._midi_nintendo-ds_Anno_Explore_A_New_World_II.npy contains large onsets: False, large durations: True
+Largest duration: 1371
+Failed to process ..\dataset\processed\.._midi_super-nintendo_GokujyoParodius_Hikaru.npy:
+..\dataset\processed\.._midi_super-nintendo_GokujyoParodius_Hikaru.npy contains large onsets: False, large durations: True
+Largest duration: 1592
+Failed to process ..\dataset\processed\.._midi_super-nintendo_SD3Dark.npy:
+..\dataset\processed\.._midi_super-nintendo_SD3Dark.npy contains large onsets: False, large durations: True
+Largest duration: 1189
+Failed to process ..\midi\super-nintendo\mkr-battle.mid:
+Traceback (most recent call last):
+  File "C:\Users\ElenaTomson\moonboost\Moonbeam-MIDI-Foundation-Model\data_preprocess.py", line 82, in process_midi_file_safe_v2
+    out = process_midi_file_v2(tokenizer, midi_file, split, onset_vocab_size, dur_vocab_size, output_folder, log_file, silence_threshold)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ElenaTomson\moonboost\Moonbeam-MIDI-Foundation-Model\data_preprocess.py", line 138, in process_midi_file_v2
+    compounds = tokenizer.midi_to_compound(midi_file)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ElenaTomson\moonboost\.venv\Lib\site-packages\llama_recipes\datasets\music_tokenizer.py", line 350, in midi_to_compound
+    midi = mido.MidiFile(midifile)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ElenaTomson\moonboost\.venv\Lib\site-packages\mido\midifiles\midifiles.py", line 320, in __init__
+    self._load(file)
+  File "C:\Users\ElenaTomson\moonboost\.venv\Lib\site-packages\mido\midifiles\midifiles.py", line 371, in _load
+    self.tracks.append(read_track(infile,
+                       ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ElenaTomson\moonboost\.venv\Lib\site-packages\mido\midifiles\midifiles.py", line 218, in read_track
+    msg = read_message(infile, status_byte, peek_data, delta, clip)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ElenaTomson\moonboost\.venv\Lib\site-packages\mido\midifiles\midifiles.py", line 131, in read_message
+    raise OSError('data byte must be in range 0..127')
+OSError: data byte must be in range 0..127
+
+Failed to process ..\dataset\processed\.._midi_super-nintendo_mmq06.npy:
+..\dataset\processed\.._midi_super-nintendo_mmq06.npy contains large onsets: False, large durations: True
+Largest duration: 1201
+Failed to process ..\dataset\processed\.._midi_super-nintendo_FF5_dear.npy:
+..\dataset\processed\.._midi_super-nintendo_FF5_dear.npy contains large onsets: False, large durations: True
+Largest duration: 2305
+Failed to process ..\dataset\processed\.._midi_windows_rollin1.npy:
+..\dataset\processed\.._midi_windows_rollin1.npy contains large onsets: False, large durations: True
+Largest duration: 8154
+Failed to process ..\dataset\processed\.._midi_super-nintendo_FrontMissionGunHazard_PromiseEngagement.npy:
+..\dataset\processed\.._midi_super-nintendo_FrontMissionGunHazard_PromiseEngagement.npy contains large onsets: False, large durations: True
+Largest duration: 1853
+Failed to process ..\dataset\processed\.._midi_super-nintendo_DKC3cavern.npy:
+..\dataset\processed\.._midi_super-nintendo_DKC3cavern.npy contains large onsets: False, large durations: True
+Largest duration: 1041
+Failed to process ..\dataset\processed\.._midi_super-nintendo_ctschala1.npy:
+..\dataset\processed\.._midi_super-nintendo_ctschala1.npy contains large onsets: False, large durations: True
+Largest duration: 1176
+Failed to process ..\midi\wii\BEACHGAX.mid:
+Traceback (most recent call last):
+  File "C:\Users\ElenaTomson\moonboost\Moonbeam-MIDI-Foundation-Model\data_preprocess.py", line 82, in process_midi_file_safe_v2
+    out = process_midi_file_v2(tokenizer, midi_file, split, onset_vocab_size, dur_vocab_size, output_folder, log_file, silence_threshold)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ElenaTomson\moonboost\Moonbeam-MIDI-Foundation-Model\data_preprocess.py", line 138, in process_midi_file_v2
+    compounds = tokenizer.midi_to_compound(midi_file)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ElenaTomson\moonboost\.venv\Lib\site-packages\llama_recipes\datasets\music_tokenizer.py", line 350, in midi_to_compound
+    midi = mido.MidiFile(midifile)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ElenaTomson\moonboost\.venv\Lib\site-packages\mido\midifiles\midifiles.py", line 320, in __init__
+    self._load(file)
+  File "C:\Users\ElenaTomson\moonboost\.venv\Lib\site-packages\mido\midifiles\midifiles.py", line 371, in _load
+    self.tracks.append(read_track(infile,
+                       ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ElenaTomson\moonboost\.venv\Lib\site-packages\mido\midifiles\midifiles.py", line 218, in read_track
+    msg = read_message(infile, status_byte, peek_data, delta, clip)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ElenaTomson\moonboost\.venv\Lib\site-packages\mido\midifiles\midifiles.py", line 131, in read_message
+    raise OSError('data byte must be in range 0..127')
+OSError: data byte must be in range 0..127
+
+Failed to process ..\dataset\processed\.._midi_super-nintendo_WPRollerCoasterXG.npy:
+..\dataset\processed\.._midi_super-nintendo_WPRollerCoasterXG.npy contains large onsets: False, large durations: True
+Largest duration: 4181
+Failed to process ..\dataset\processed\.._midi_windows_JazzJackrabbit2_TSFHaunted_XGv103.npy:
+..\dataset\processed\.._midi_windows_JazzJackrabbit2_TSFHaunted_XGv103.npy contains large onsets: False, large durations: True
+Largest duration: 2304
+Failed to process ..\dataset\processed\.._midi_super-nintendo_Symbolofdarkness2.npy:
+..\dataset\processed\.._midi_super-nintendo_Symbolofdarkness2.npy contains large onsets: False, large durations: True
+Largest duration: 1422
+Failed to process ..\dataset\processed\.._midi_super-nintendo_top_streamoftime.npy:
+..\dataset\processed\.._midi_super-nintendo_top_streamoftime.npy contains large onsets: False, large durations: True
+Largest duration: 2133
+Failed to process ..\dataset\processed\.._midi_super-nintendo_ff3end.npy:
+..\dataset\processed\.._midi_super-nintendo_ff3end.npy contains large onsets: False, large durations: True
+Largest duration: 81541
+Failed to process ..\dataset\processed\.._midi_super-nintendo_Killer_Instinct.npy:
+..\dataset\processed\.._midi_super-nintendo_Killer_Instinct.npy contains large onsets: False, large durations: True
+Largest duration: 4460
+Failed to process ..\dataset\processed\.._midi_wii_MM9_-_Tornado.npy:
+..\dataset\processed\.._midi_wii_MM9_-_Tornado.npy contains large onsets: False, large durations: True
+Largest duration: 1220
+Failed to process ..\dataset\processed\.._midi_quake_descent-into-cerberon.npy:
+..\dataset\processed\.._midi_quake_descent-into-cerberon.npy contains large onsets: False, large durations: True
+Largest duration: 1732
+Failed to process ..\dataset\processed\.._midi_super-nintendo_cyber_l3_v2.npy:
+..\dataset\processed\.._midi_super-nintendo_cyber_l3_v2.npy contains large onsets: False, large durations: True
+Largest duration: 2504
+Failed to process ..\midi\minecraft\MoogCity(clavinet).mid:
+Traceback (most recent call last):
+  File "C:\Users\ElenaTomson\moonboost\Moonbeam-MIDI-Foundation-Model\data_preprocess.py", line 82, in process_midi_file_safe_v2
+    out = process_midi_file_v2(tokenizer, midi_file, split, onset_vocab_size, dur_vocab_size, output_folder, log_file, silence_threshold)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ElenaTomson\moonboost\Moonbeam-MIDI-Foundation-Model\data_preprocess.py", line 138, in process_midi_file_v2
+    compounds = tokenizer.midi_to_compound(midi_file)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ElenaTomson\moonboost\.venv\Lib\site-packages\llama_recipes\datasets\music_tokenizer.py", line 350, in midi_to_compound
+    midi = mido.MidiFile(midifile)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ElenaTomson\moonboost\.venv\Lib\site-packages\mido\midifiles\midifiles.py", line 320, in __init__
+    self._load(file)
+  File "C:\Users\ElenaTomson\moonboost\.venv\Lib\site-packages\mido\midifiles\midifiles.py", line 371, in _load
+    self.tracks.append(read_track(infile,
+                       ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ElenaTomson\moonboost\.venv\Lib\site-packages\mido\midifiles\midifiles.py", line 218, in read_track
+    msg = read_message(infile, status_byte, peek_data, delta, clip)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ElenaTomson\moonboost\.venv\Lib\site-packages\mido\midifiles\midifiles.py", line 131, in read_message
+    raise OSError('data byte must be in range 0..127')
+OSError: data byte must be in range 0..127
+
+Failed to process ..\dataset\processed\.._midi_super-nintendo_Soerat.npy:
+..\dataset\processed\.._midi_super-nintendo_Soerat.npy contains large onsets: False, large durations: True
+Largest duration: 3071
+Failed to process ..\midi\super-nintendo\Happosai's_Theme.mid:
+Traceback (most recent call last):
+  File "C:\Users\ElenaTomson\moonboost\Moonbeam-MIDI-Foundation-Model\data_preprocess.py", line 82, in process_midi_file_safe_v2
+    out = process_midi_file_v2(tokenizer, midi_file, split, onset_vocab_size, dur_vocab_size, output_folder, log_file, silence_threshold)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ElenaTomson\moonboost\Moonbeam-MIDI-Foundation-Model\data_preprocess.py", line 138, in process_midi_file_v2
+    compounds = tokenizer.midi_to_compound(midi_file)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ElenaTomson\moonboost\.venv\Lib\site-packages\llama_recipes\datasets\music_tokenizer.py", line 350, in midi_to_compound
+    midi = mido.MidiFile(midifile)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ElenaTomson\moonboost\.venv\Lib\site-packages\mido\midifiles\midifiles.py", line 320, in __init__
+    self._load(file)
+  File "C:\Users\ElenaTomson\moonboost\.venv\Lib\site-packages\mido\midifiles\midifiles.py", line 371, in _load
+    self.tracks.append(read_track(infile,
+                       ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ElenaTomson\moonboost\.venv\Lib\site-packages\mido\midifiles\midifiles.py", line 218, in read_track
+    msg = read_message(infile, status_byte, peek_data, delta, clip)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ElenaTomson\moonboost\.venv\Lib\site-packages\mido\midifiles\midifiles.py", line 131, in read_message
+    raise OSError('data byte must be in range 0..127')
+OSError: data byte must be in range 0..127
+
+Failed to process ..\dataset\processed\.._midi_super-nintendo_GokujyoParodius_Goemon.npy:
+..\dataset\processed\.._midi_super-nintendo_GokujyoParodius_Goemon.npy contains large onsets: False, large durations: True
+Largest duration: 2667
+Failed to process ..\dataset\processed\.._midi_super-nintendo_ter41.npy:
+..\dataset\processed\.._midi_super-nintendo_ter41.npy contains large onsets: False, large durations: True
+Largest duration: 1745
+Failed to process ..\dataset\processed\.._midi_super-nintendo_Doom_Castle.npy:
+..\dataset\processed\.._midi_super-nintendo_Doom_Castle.npy contains large onsets: False, large durations: True
+Largest duration: 6536
+Failed to process ..\dataset\processed\.._midi_super-nintendo_Underworld.npy:
+..\dataset\processed\.._midi_super-nintendo_Underworld.npy contains large onsets: False, large durations: True
+Largest duration: 1338
+Failed to process ..\dataset\processed\.._midi_windows_Background.npy:
+..\dataset\processed\.._midi_windows_Background.npy contains large onsets: False, large durations: True
+Largest duration: 1842
+Failed to process ..\dataset\processed\.._midi_nintendo-ds_MLFTEmpireXhampi_.npy:
+..\dataset\processed\.._midi_nintendo-ds_MLFTEmpireXhampi_.npy contains large onsets: False, large durations: True
+Largest duration: 2215
+Failed to process ..\dataset\processed\.._midi_windows_JazzJackrabbit_6-3_GM.npy:
+..\dataset\processed\.._midi_windows_JazzJackrabbit_6-3_GM.npy contains large onsets: False, large durations: True
+Largest duration: 1536
+Failed to process ..\dataset\processed\.._midi_super-nintendo_lb3_memories.npy:
+..\dataset\processed\.._midi_super-nintendo_lb3_memories.npy contains large onsets: False, large durations: True
+Largest duration: 4803
+Failed to process ..\dataset\processed\.._midi_super-nintendo_SkyRunner.npy:
+..\dataset\processed\.._midi_super-nintendo_SkyRunner.npy contains large onsets: False, large durations: True
+Largest duration: 1477
+Failed to process ..\dataset\processed\.._midi_super-nintendo_Highwaystar.npy:
+..\dataset\processed\.._midi_super-nintendo_Highwaystar.npy contains large onsets: False, large durations: True
+Largest duration: 1094
+Failed to process ..\dataset\processed\.._midi_windows_MR_-_Terminal_City.npy:
+..\dataset\processed\.._midi_windows_MR_-_Terminal_City.npy contains large onsets: False, large durations: True
+Largest duration: 2954
+Failed to process ..\dataset\processed\.._midi_super-nintendo_ter32.npy:
+..\dataset\processed\.._midi_super-nintendo_ter32.npy contains large onsets: False, large durations: True
+Largest duration: 1926
+Failed to process ..\dataset\processed\.._midi_super-nintendo_ff5world.npy:
+..\dataset\processed\.._midi_super-nintendo_ff5world.npy contains large onsets: False, large durations: True
+Largest duration: 1440
+Failed to process ..\dataset\processed\.._midi_super-nintendo_lb3_bt2-1.npy:
+..\dataset\processed\.._midi_super-nintendo_lb3_bt2-1.npy contains large onsets: False, large durations: True
+Largest duration: 1223
+Failed to process ..\dataset\processed\.._midi_windows_Pheasant_Peasant.npy:
+..\dataset\processed\.._midi_windows_Pheasant_Peasant.npy contains large onsets: False, large durations: True
+Largest duration: 5818
+Failed to process ..\dataset\processed\.._midi_star wars_Finale_End_Credits.npy:
+..\dataset\processed\.._midi_star wars_Finale_End_Credits.npy contains large onsets: False, large durations: True
+Largest duration: 5030
+Failed to process ..\dataset\processed\.._midi_super-nintendo_SBomb3-Map1.npy:
+..\dataset\processed\.._midi_super-nintendo_SBomb3-Map1.npy contains large onsets: False, large durations: True
+Largest duration: 3284
+Failed to process ..\dataset\processed\.._midi_super-nintendo_dq6_lastdg.npy:
+..\dataset\processed\.._midi_super-nintendo_dq6_lastdg.npy contains large onsets: False, large durations: True
+Largest duration: 2843
+Failed to process ..\dataset\processed\.._midi_super-nintendo_sftitania.npy:
+..\dataset\processed\.._midi_super-nintendo_sftitania.npy contains large onsets: False, large durations: True
+Largest duration: 6402
+Failed to process ..\dataset\processed\.._midi_nintendo-ds_mmzx_finalarea_v1_0.npy:
+..\dataset\processed\.._midi_nintendo-ds_mmzx_finalarea_v1_0.npy contains large onsets: False, large durations: True
+Largest duration: 6534
+Failed to process ..\dataset\processed\.._midi_nintendo-ds_BOSS_A.npy:
+..\dataset\processed\.._midi_nintendo-ds_BOSS_A.npy contains large onsets: False, large durations: True
+Largest duration: 2472
+Failed to process ..\dataset\processed\.._midi_super-nintendo_feogrehi.npy:
+..\dataset\processed\.._midi_super-nintendo_feogrehi.npy contains large onsets: False, large durations: True
+Largest duration: 5626
+Failed to process ..\dataset\processed\.._midi_wii_SonicU_-_ApotosDay.npy:
+..\dataset\processed\.._midi_wii_SonicU_-_ApotosDay.npy contains large onsets: False, large durations: True
+Largest duration: 3765
+Failed to process ..\midi\super-nintendo\mkr-tent.mid:
+Traceback (most recent call last):
+  File "C:\Users\ElenaTomson\moonboost\Moonbeam-MIDI-Foundation-Model\data_preprocess.py", line 82, in process_midi_file_safe_v2
+    out = process_midi_file_v2(tokenizer, midi_file, split, onset_vocab_size, dur_vocab_size, output_folder, log_file, silence_threshold)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ElenaTomson\moonboost\Moonbeam-MIDI-Foundation-Model\data_preprocess.py", line 138, in process_midi_file_v2
+    compounds = tokenizer.midi_to_compound(midi_file)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ElenaTomson\moonboost\.venv\Lib\site-packages\llama_recipes\datasets\music_tokenizer.py", line 350, in midi_to_compound
+    midi = mido.MidiFile(midifile)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ElenaTomson\moonboost\.venv\Lib\site-packages\mido\midifiles\midifiles.py", line 320, in __init__
+    self._load(file)
+  File "C:\Users\ElenaTomson\moonboost\.venv\Lib\site-packages\mido\midifiles\midifiles.py", line 371, in _load
+    self.tracks.append(read_track(infile,
+                       ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ElenaTomson\moonboost\.venv\Lib\site-packages\mido\midifiles\midifiles.py", line 218, in read_track
+    msg = read_message(infile, status_byte, peek_data, delta, clip)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ElenaTomson\moonboost\.venv\Lib\site-packages\mido\midifiles\midifiles.py", line 131, in read_message
+    raise OSError('data byte must be in range 0..127')
+OSError: data byte must be in range 0..127
+
+Failed to process ..\dataset\processed\.._midi_super-nintendo_GokujyoParodius_Upa.npy:
+..\dataset\processed\.._midi_super-nintendo_GokujyoParodius_Upa.npy contains large onsets: False, large durations: True
+Largest duration: 4284
+Failed to process ..\midi\super-nintendo\VICVIPER.mid:
+Traceback (most recent call last):
+  File "C:\Users\ElenaTomson\moonboost\Moonbeam-MIDI-Foundation-Model\data_preprocess.py", line 82, in process_midi_file_safe_v2
+    out = process_midi_file_v2(tokenizer, midi_file, split, onset_vocab_size, dur_vocab_size, output_folder, log_file, silence_threshold)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ElenaTomson\moonboost\Moonbeam-MIDI-Foundation-Model\data_preprocess.py", line 138, in process_midi_file_v2
+    compounds = tokenizer.midi_to_compound(midi_file)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ElenaTomson\moonboost\.venv\Lib\site-packages\llama_recipes\datasets\music_tokenizer.py", line 350, in midi_to_compound
+    midi = mido.MidiFile(midifile)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ElenaTomson\moonboost\.venv\Lib\site-packages\mido\midifiles\midifiles.py", line 320, in __init__
+    self._load(file)
+  File "C:\Users\ElenaTomson\moonboost\.venv\Lib\site-packages\mido\midifiles\midifiles.py", line 371, in _load
+    self.tracks.append(read_track(infile,
+                       ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ElenaTomson\moonboost\.venv\Lib\site-packages\mido\midifiles\midifiles.py", line 218, in read_track
+    msg = read_message(infile, status_byte, peek_data, delta, clip)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ElenaTomson\moonboost\.venv\Lib\site-packages\mido\midifiles\midifiles.py", line 131, in read_message
+    raise OSError('data byte must be in range 0..127')
+OSError: data byte must be in range 0..127
+
+Failed to process ..\dataset\processed\.._midi_super-nintendo_gra3king.npy:
+..\dataset\processed\.._midi_super-nintendo_gra3king.npy contains large onsets: False, large durations: True
+Largest duration: 2908
+Failed to process ..\dataset\processed\.._midi_super-nintendo_SMASMysterious-V1.1.npy:
+..\dataset\processed\.._midi_super-nintendo_SMASMysterious-V1.1.npy contains large onsets: False, large durations: True
+Largest duration: 1920
+Failed to process ..\dataset\processed\.._midi_super-nintendo_SBomb3-Stage6.npy:
+..\dataset\processed\.._midi_super-nintendo_SBomb3-Stage6.npy contains large onsets: False, large durations: True
+Largest duration: 3944
+Failed to process ..\dataset\processed\.._midi_super-nintendo_SoE-_Great_Pyramid.npy:
+..\dataset\processed\.._midi_super-nintendo_SoE-_Great_Pyramid.npy contains large onsets: False, large durations: True
+Largest duration: 1263
+Failed to process ..\midi\wii\Faron_Woods.mid:
+Traceback (most recent call last):
+  File "C:\Users\ElenaTomson\moonboost\.venv\Lib\site-packages\mido\midifiles\meta.py", line 404, in decode
+    message.key = _key_signature_decode[(key, mode)]
+                  ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+KeyError: (0, 154)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\ElenaTomson\moonboost\Moonbeam-MIDI-Foundation-Model\data_preprocess.py", line 82, in process_midi_file_safe_v2
+    out = process_midi_file_v2(tokenizer, midi_file, split, onset_vocab_size, dur_vocab_size, output_folder, log_file, silence_threshold)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ElenaTomson\moonboost\Moonbeam-MIDI-Foundation-Model\data_preprocess.py", line 138, in process_midi_file_v2
+    compounds = tokenizer.midi_to_compound(midi_file)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ElenaTomson\moonboost\.venv\Lib\site-packages\llama_recipes\datasets\music_tokenizer.py", line 350, in midi_to_compound
+    midi = mido.MidiFile(midifile)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ElenaTomson\moonboost\.venv\Lib\site-packages\mido\midifiles\midifiles.py", line 320, in __init__
+    self._load(file)
+  File "C:\Users\ElenaTomson\moonboost\.venv\Lib\site-packages\mido\midifiles\midifiles.py", line 371, in _load
+    self.tracks.append(read_track(infile,
+                       ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ElenaTomson\moonboost\.venv\Lib\site-packages\mido\midifiles\midifiles.py", line 212, in read_track
+    msg = read_meta_message(infile, delta)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ElenaTomson\moonboost\.venv\Lib\site-packages\mido\midifiles\midifiles.py", line 167, in read_meta_message
+    return build_meta_message(meta_type, data, delta)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ElenaTomson\moonboost\.venv\Lib\site-packages\mido\midifiles\meta.py", line 471, in build_meta_message
+    spec.decode(msg, data)
+  File "C:\Users\ElenaTomson\moonboost\.venv\Lib\site-packages\mido\midifiles\meta.py", line 412, in decode
+    raise KeySignatureError(msg) from ke
+mido.midifiles.meta.KeySignatureError: Could not decode key with 0 flats and mode 154
+
+Failed to process ..\dataset\processed\.._midi_windows_Fine_Layers_Of_Slaysenflite.npy:
+..\dataset\processed\.._midi_windows_Fine_Layers_Of_Slaysenflite.npy contains large onsets: False, large durations: True
+Largest duration: 1111
+Failed to process ..\dataset\processed\.._midi_super-nintendo_SBomb3-Story2.npy:
+..\dataset\processed\.._midi_super-nintendo_SBomb3-Story2.npy contains large onsets: False, large durations: True
+Largest duration: 5176
+Failed to process ..\dataset\processed\.._midi_super-nintendo_ayaagust.npy:
+..\dataset\processed\.._midi_super-nintendo_ayaagust.npy contains large onsets: False, large durations: True
+Largest duration: 6103
+Failed to process ..\dataset\processed\.._midi_wii_the_light_spirit_appears2.npy:
+..\dataset\processed\.._midi_wii_the_light_spirit_appears2.npy contains large onsets: False, large durations: True
+Largest duration: 1976
+Failed to process ..\dataset\processed\.._midi_wii_SonicU_-_TornadoDef1.npy:
+..\dataset\processed\.._midi_wii_SonicU_-_TornadoDef1.npy contains large onsets: False, large durations: True
+Largest duration: 1747
+Failed to process ..\dataset\processed\.._midi_super-nintendo_aiwokatarautoki_2.npy:
+..\dataset\processed\.._midi_super-nintendo_aiwokatarautoki_2.npy contains large onsets: False, large durations: True
+Largest duration: 1570
+Failed to process ..\midi\wii\Midnas_Theme.mid:
+Traceback (most recent call last):
+  File "C:\Users\ElenaTomson\moonboost\Moonbeam-MIDI-Foundation-Model\data_preprocess.py", line 82, in process_midi_file_safe_v2
+    out = process_midi_file_v2(tokenizer, midi_file, split, onset_vocab_size, dur_vocab_size, output_folder, log_file, silence_threshold)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ElenaTomson\moonboost\Moonbeam-MIDI-Foundation-Model\data_preprocess.py", line 138, in process_midi_file_v2
+    compounds = tokenizer.midi_to_compound(midi_file)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ElenaTomson\moonboost\.venv\Lib\site-packages\llama_recipes\datasets\music_tokenizer.py", line 350, in midi_to_compound
+    midi = mido.MidiFile(midifile)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ElenaTomson\moonboost\.venv\Lib\site-packages\mido\midifiles\midifiles.py", line 320, in __init__
+    self._load(file)
+  File "C:\Users\ElenaTomson\moonboost\.venv\Lib\site-packages\mido\midifiles\midifiles.py", line 371, in _load
+    self.tracks.append(read_track(infile,
+                       ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ElenaTomson\moonboost\.venv\Lib\site-packages\mido\midifiles\midifiles.py", line 218, in read_track
+    msg = read_message(infile, status_byte, peek_data, delta, clip)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ElenaTomson\moonboost\.venv\Lib\site-packages\mido\midifiles\midifiles.py", line 131, in read_message
+    raise OSError('data byte must be in range 0..127')
+OSError: data byte must be in range 0..127
+
+Failed to process ..\dataset\processed\.._midi_super-nintendo_24-LabDestroyed.npy:
+..\dataset\processed\.._midi_super-nintendo_24-LabDestroyed.npy contains large onsets: False, large durations: True
+Largest duration: 1218
+Failed to process ..\dataset\processed\.._midi_super-nintendo_TG-Track2.npy:
+..\dataset\processed\.._midi_super-nintendo_TG-Track2.npy contains large onsets: False, large durations: True
+Largest duration: 2477
+Failed to process ..\midi\windows\TrueLoveSong10.mid:
+Traceback (most recent call last):
+  File "C:\Users\ElenaTomson\moonboost\.venv\Lib\site-packages\mido\midifiles\meta.py", line 404, in decode
+    message.key = _key_signature_decode[(key, mode)]
+                  ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+KeyError: (0, 253)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\ElenaTomson\moonboost\Moonbeam-MIDI-Foundation-Model\data_preprocess.py", line 82, in process_midi_file_safe_v2
+    out = process_midi_file_v2(tokenizer, midi_file, split, onset_vocab_size, dur_vocab_size, output_folder, log_file, silence_threshold)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ElenaTomson\moonboost\Moonbeam-MIDI-Foundation-Model\data_preprocess.py", line 138, in process_midi_file_v2
+    compounds = tokenizer.midi_to_compound(midi_file)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ElenaTomson\moonboost\.venv\Lib\site-packages\llama_recipes\datasets\music_tokenizer.py", line 350, in midi_to_compound
+    midi = mido.MidiFile(midifile)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ElenaTomson\moonboost\.venv\Lib\site-packages\mido\midifiles\midifiles.py", line 320, in __init__
+    self._load(file)
+  File "C:\Users\ElenaTomson\moonboost\.venv\Lib\site-packages\mido\midifiles\midifiles.py", line 371, in _load
+    self.tracks.append(read_track(infile,
+                       ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ElenaTomson\moonboost\.venv\Lib\site-packages\mido\midifiles\midifiles.py", line 212, in read_track
+    msg = read_meta_message(infile, delta)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ElenaTomson\moonboost\.venv\Lib\site-packages\mido\midifiles\midifiles.py", line 167, in read_meta_message
+    return build_meta_message(meta_type, data, delta)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ElenaTomson\moonboost\.venv\Lib\site-packages\mido\midifiles\meta.py", line 471, in build_meta_message
+    spec.decode(msg, data)
+  File "C:\Users\ElenaTomson\moonboost\.venv\Lib\site-packages\mido\midifiles\meta.py", line 412, in decode
+    raise KeySignatureError(msg) from ke
+mido.midifiles.meta.KeySignatureError: Could not decode key with 0 flats and mode 253
+
+Failed to process ..\midi\super-nintendo\cryinsor.mid:
+Traceback (most recent call last):
+  File "C:\Users\ElenaTomson\moonboost\.venv\Lib\site-packages\mido\midifiles\meta.py", line 404, in decode
+    message.key = _key_signature_decode[(key, mode)]
+                  ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+KeyError: (-4, 255)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\ElenaTomson\moonboost\Moonbeam-MIDI-Foundation-Model\data_preprocess.py", line 82, in process_midi_file_safe_v2
+    out = process_midi_file_v2(tokenizer, midi_file, split, onset_vocab_size, dur_vocab_size, output_folder, log_file, silence_threshold)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ElenaTomson\moonboost\Moonbeam-MIDI-Foundation-Model\data_preprocess.py", line 138, in process_midi_file_v2
+    compounds = tokenizer.midi_to_compound(midi_file)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ElenaTomson\moonboost\.venv\Lib\site-packages\llama_recipes\datasets\music_tokenizer.py", line 350, in midi_to_compound
+    midi = mido.MidiFile(midifile)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ElenaTomson\moonboost\.venv\Lib\site-packages\mido\midifiles\midifiles.py", line 320, in __init__
+    self._load(file)
+  File "C:\Users\ElenaTomson\moonboost\.venv\Lib\site-packages\mido\midifiles\midifiles.py", line 371, in _load
+    self.tracks.append(read_track(infile,
+                       ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ElenaTomson\moonboost\.venv\Lib\site-packages\mido\midifiles\midifiles.py", line 212, in read_track
+    msg = read_meta_message(infile, delta)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ElenaTomson\moonboost\.venv\Lib\site-packages\mido\midifiles\midifiles.py", line 167, in read_meta_message
+    return build_meta_message(meta_type, data, delta)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ElenaTomson\moonboost\.venv\Lib\site-packages\mido\midifiles\meta.py", line 471, in build_meta_message
+    spec.decode(msg, data)
+  File "C:\Users\ElenaTomson\moonboost\.venv\Lib\site-packages\mido\midifiles\meta.py", line 412, in decode
+    raise KeySignatureError(msg) from ke
+mido.midifiles.meta.KeySignatureError: Could not decode key with 4 flats and mode 255
+
+Failed to process ..\dataset\processed\.._midi_super-nintendo_Legendary_Esper.npy:
+..\dataset\processed\.._midi_super-nintendo_Legendary_Esper.npy contains large onsets: False, large durations: True
+Largest duration: 1280
+Failed to process ..\dataset\processed\.._midi_super-nintendo_GokujyoParodius_Twinbee.npy:
+..\dataset\processed\.._midi_super-nintendo_GokujyoParodius_Twinbee.npy contains large onsets: False, large durations: True
+Largest duration: 3500
+Failed to process ..\dataset\processed\.._midi_super-nintendo_FF5_boss1.npy:
+..\dataset\processed\.._midi_super-nintendo_FF5_boss1.npy contains large onsets: False, large durations: True
+Largest duration: 4751
+Failed to process ..\dataset\processed\.._midi_super-nintendo_FMGH_GunHazard.npy:
+..\dataset\processed\.._midi_super-nintendo_FMGH_GunHazard.npy contains large onsets: False, large durations: True
+Largest duration: 1260
+Failed to process ..\dataset\processed\.._midi_super-nintendo_spklevl2.npy:
+..\dataset\processed\.._midi_super-nintendo_spklevl2.npy contains large onsets: False, large durations: True
+Largest duration: 4825
+Failed to process ..\dataset\processed\.._midi_super-nintendo_GokujyoParodius_Stage2.npy:
+..\dataset\processed\.._midi_super-nintendo_GokujyoParodius_Stage2.npy contains large onsets: False, large durations: True
+Largest duration: 3703
+Failed to process ..\dataset\processed\.._midi_super-nintendo_Soecstl.npy:
+..\dataset\processed\.._midi_super-nintendo_Soecstl.npy contains large onsets: False, large durations: True
+Largest duration: 1280
+Failed to process ..\dataset\processed\.._midi_super-nintendo_GokujyoParodius_Mambo.npy:
+..\dataset\processed\.._midi_super-nintendo_GokujyoParodius_Mambo.npy contains large onsets: False, large durations: True
+Largest duration: 1819
+Failed to process ..\dataset\processed\.._midi_nintendo-ds_PMDPgymbattle.npy:
+..\dataset\processed\.._midi_nintendo-ds_PMDPgymbattle.npy contains large onsets: False, large durations: True
+Largest duration: 14917
+Failed to process ..\dataset\processed\.._midi_super-nintendo_SBomb3-Stage2.npy:
+..\dataset\processed\.._midi_super-nintendo_SBomb3-Stage2.npy contains large onsets: False, large durations: True
+Largest duration: 4421
+Failed to process ..\dataset\processed\.._midi_super-nintendo_RDream-UnderMoonlight.npy:
+..\dataset\processed\.._midi_super-nintendo_RDream-UnderMoonlight.npy contains large onsets: False, large durations: True
+Largest duration: 1200
+Failed to process ..\dataset\processed\.._midi_super-nintendo_kingdom_of_veldan.npy:
+..\dataset\processed\.._midi_super-nintendo_kingdom_of_veldan.npy contains large onsets: False, large durations: True
+Largest duration: 6631
+Failed to process ..\dataset\processed\.._midi_super-nintendo_lb3_flight.npy:
+..\dataset\processed\.._midi_super-nintendo_lb3_flight.npy contains large onsets: False, large durations: True
+Largest duration: 11335
+Failed to process ..\dataset\processed\.._midi_wii_Dark_Samus.npy:
+..\dataset\processed\.._midi_wii_Dark_Samus.npy contains large onsets: False, large durations: True
+Largest duration: 1108
+Failed to process ..\dataset\processed\.._midi_super-nintendo_rd-star_stealing_girl.npy:
+..\dataset\processed\.._midi_super-nintendo_rd-star_stealing_girl.npy contains large onsets: False, large durations: True
+Largest duration: 1500
+Failed to process ..\dataset\processed\.._midi_super-nintendo_sonata.npy:
+..\dataset\processed\.._midi_super-nintendo_sonata.npy contains large onsets: False, large durations: True
+Largest duration: 1156
+Failed to process ..\dataset\processed\.._midi_super-nintendo_cv5stg3.npy:
+..\dataset\processed\.._midi_super-nintendo_cv5stg3.npy contains large onsets: False, large durations: True
+Largest duration: 1241
+Failed to process ..\dataset\processed\.._midi_super-nintendo_Saleste_l21.npy:
+..\dataset\processed\.._midi_super-nintendo_Saleste_l21.npy contains large onsets: False, large durations: True
+Largest duration: 7518
+Failed to process ..\dataset\processed\.._midi_super-nintendo_Soecol2.npy:
+..\dataset\processed\.._midi_super-nintendo_Soecol2.npy contains large onsets: False, large durations: True
+Largest duration: 1324
+Failed to process ..\dataset\processed\.._midi_nintendo-ds_DawnofSorrow_SubterraneanHell.npy:
+..\dataset\processed\.._midi_nintendo-ds_DawnofSorrow_SubterraneanHell.npy contains large onsets: False, large durations: True
+Largest duration: 1867
+Failed to process ..\dataset\processed\.._midi_super-nintendo_EasyBattle2.npy:
+..\dataset\processed\.._midi_super-nintendo_EasyBattle2.npy contains large onsets: False, large durations: True
+Largest duration: 1755
+Failed to process ..\dataset\processed\.._midi_wii_goldenwolf.npy:
+..\dataset\processed\.._midi_wii_goldenwolf.npy contains large onsets: False, large durations: True
+Largest duration: 1895
+Failed to process ..\dataset\processed\.._midi_super-nintendo_DKC3Jungle.npy:
+..\dataset\processed\.._midi_super-nintendo_DKC3Jungle.npy contains large onsets: False, large durations: True
+Largest duration: 2040
+Failed to process ..\dataset\processed\.._midi_super-nintendo_dkccoral.npy:
+..\dataset\processed\.._midi_super-nintendo_dkccoral.npy contains large onsets: False, large durations: True
+Largest duration: 2547
+Failed to process ..\dataset\processed\.._midi_super-nintendo_PLOK_Ploks_House.npy:
+..\dataset\processed\.._midi_super-nintendo_PLOK_Ploks_House.npy contains large onsets: False, large durations: True
+Largest duration: 13325
+Failed to process ..\dataset\processed\.._midi_super-nintendo_dkc2hive.npy:
+..\dataset\processed\.._midi_super-nintendo_dkc2hive.npy contains large onsets: False, large durations: True
+Largest duration: 6152
+Failed to process ..\dataset\processed\.._midi_super-nintendo_cttogood.npy:
+..\dataset\processed\.._midi_super-nintendo_cttogood.npy contains large onsets: False, large durations: True
+Largest duration: 1600
+Failed to process ..\dataset\processed\.._midi_old_transformers_blaster.npy:
+..\dataset\processed\.._midi_old_transformers_blaster.npy contains large onsets: False, large durations: True
+Largest duration: 2126
+Failed to process ..\dataset\processed\.._midi_super-nintendo_feveldan.npy:
+..\dataset\processed\.._midi_super-nintendo_feveldan.npy contains large onsets: False, large durations: True
+Largest duration: 6631
+Failed to process ..\dataset\processed\.._midi_super-nintendo_t_ogre01.npy:
+..\dataset\processed\.._midi_super-nintendo_t_ogre01.npy contains large onsets: False, large durations: True
+Largest duration: 1371
+Failed to process ..\dataset\processed\.._midi_super-nintendo_sftitaniab.npy:
+..\dataset\processed\.._midi_super-nintendo_sftitaniab.npy contains large onsets: False, large durations: True
+Largest duration: 2259
+Failed to process ..\dataset\processed\.._midi_nintendo-ds_PHmonster_ship.npy:
+..\dataset\processed\.._midi_nintendo-ds_PHmonster_ship.npy contains large onsets: False, large durations: True
+Largest duration: 1553
+Failed to process ..\dataset\processed\.._midi_super-nintendo_rd-presentiment.npy:
+..\dataset\processed\.._midi_super-nintendo_rd-presentiment.npy contains large onsets: False, large durations: True
+Largest duration: 2088
+Failed to process ..\dataset\processed\.._midi_super-nintendo_MM7_Turbo_Man-KM.npy:
+..\dataset\processed\.._midi_super-nintendo_MM7_Turbo_Man-KM.npy contains large onsets: False, large durations: True
+Largest duration: 1050
+Failed to process ..\dataset\processed\.._midi_super-nintendo_ayasesen3.npy:
+..\dataset\processed\.._midi_super-nintendo_ayasesen3.npy contains large onsets: False, large durations: True
+Largest duration: 8263
+Failed to process ..\midi\super-nintendo\mkr-overworld.mid:
+Traceback (most recent call last):
+  File "C:\Users\ElenaTomson\moonboost\Moonbeam-MIDI-Foundation-Model\data_preprocess.py", line 82, in process_midi_file_safe_v2
+    out = process_midi_file_v2(tokenizer, midi_file, split, onset_vocab_size, dur_vocab_size, output_folder, log_file, silence_threshold)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ElenaTomson\moonboost\Moonbeam-MIDI-Foundation-Model\data_preprocess.py", line 138, in process_midi_file_v2
+    compounds = tokenizer.midi_to_compound(midi_file)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ElenaTomson\moonboost\.venv\Lib\site-packages\llama_recipes\datasets\music_tokenizer.py", line 350, in midi_to_compound
+    midi = mido.MidiFile(midifile)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ElenaTomson\moonboost\.venv\Lib\site-packages\mido\midifiles\midifiles.py", line 320, in __init__
+    self._load(file)
+  File "C:\Users\ElenaTomson\moonboost\.venv\Lib\site-packages\mido\midifiles\midifiles.py", line 371, in _load
+    self.tracks.append(read_track(infile,
+                       ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ElenaTomson\moonboost\.venv\Lib\site-packages\mido\midifiles\midifiles.py", line 218, in read_track
+    msg = read_message(infile, status_byte, peek_data, delta, clip)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ElenaTomson\moonboost\.venv\Lib\site-packages\mido\midifiles\midifiles.py", line 131, in read_message
+    raise OSError('data byte must be in range 0..127')
+OSError: data byte must be in range 0..127
+
+Failed to process ..\dataset\processed\.._midi_super-nintendo_FrontMissionGunHazard_ApproachToAShrine.npy:
+..\dataset\processed\.._midi_super-nintendo_FrontMissionGunHazard_ApproachToAShrine.npy contains large onsets: False, large durations: True
+Largest duration: 1666
+Failed to process ..\midi\super-nintendo\See_Jim_Run_Run_Jim_Run.mid:
+Traceback (most recent call last):
+  File "C:\Users\ElenaTomson\moonboost\Moonbeam-MIDI-Foundation-Model\data_preprocess.py", line 82, in process_midi_file_safe_v2
+    out = process_midi_file_v2(tokenizer, midi_file, split, onset_vocab_size, dur_vocab_size, output_folder, log_file, silence_threshold)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ElenaTomson\moonboost\Moonbeam-MIDI-Foundation-Model\data_preprocess.py", line 138, in process_midi_file_v2
+    compounds = tokenizer.midi_to_compound(midi_file)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ElenaTomson\moonboost\.venv\Lib\site-packages\llama_recipes\datasets\music_tokenizer.py", line 350, in midi_to_compound
+    midi = mido.MidiFile(midifile)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ElenaTomson\moonboost\.venv\Lib\site-packages\mido\midifiles\midifiles.py", line 320, in __init__
+    self._load(file)
+  File "C:\Users\ElenaTomson\moonboost\.venv\Lib\site-packages\mido\midifiles\midifiles.py", line 371, in _load
+    self.tracks.append(read_track(infile,
+                       ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ElenaTomson\moonboost\.venv\Lib\site-packages\mido\midifiles\midifiles.py", line 218, in read_track
+    msg = read_message(infile, status_byte, peek_data, delta, clip)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ElenaTomson\moonboost\.venv\Lib\site-packages\mido\midifiles\midifiles.py", line 131, in read_message
+    raise OSError('data byte must be in range 0..127')
+OSError: data byte must be in range 0..127
+
+Failed to process ..\dataset\processed\.._midi_nintendo-ds_PKBW_BLACKCITY_KIO_v1-1.npy:
+..\dataset\processed\.._midi_nintendo-ds_PKBW_BLACKCITY_KIO_v1-1.npy contains large onsets: False, large durations: True
+Largest duration: 1812
+Failed to process ..\dataset\processed\.._midi_super-nintendo_Tsms_Ha.npy:
+..\dataset\processed\.._midi_super-nintendo_Tsms_Ha.npy contains large onsets: True, large durations: False
+Largest onset: 5700
+Failed to process ..\midi\super-nintendo\livealive-pureodio.mid:
+Traceback (most recent call last):
+  File "C:\Users\ElenaTomson\moonboost\.venv\Lib\site-packages\mido\midifiles\meta.py", line 404, in decode
+    message.key = _key_signature_decode[(key, mode)]
+                  ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+KeyError: (-128, 7)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\ElenaTomson\moonboost\Moonbeam-MIDI-Foundation-Model\data_preprocess.py", line 82, in process_midi_file_safe_v2
+    out = process_midi_file_v2(tokenizer, midi_file, split, onset_vocab_size, dur_vocab_size, output_folder, log_file, silence_threshold)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ElenaTomson\moonboost\Moonbeam-MIDI-Foundation-Model\data_preprocess.py", line 138, in process_midi_file_v2
+    compounds = tokenizer.midi_to_compound(midi_file)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ElenaTomson\moonboost\.venv\Lib\site-packages\llama_recipes\datasets\music_tokenizer.py", line 350, in midi_to_compound
+    midi = mido.MidiFile(midifile)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ElenaTomson\moonboost\.venv\Lib\site-packages\mido\midifiles\midifiles.py", line 320, in __init__
+    self._load(file)
+  File "C:\Users\ElenaTomson\moonboost\.venv\Lib\site-packages\mido\midifiles\midifiles.py", line 371, in _load
+    self.tracks.append(read_track(infile,
+                       ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ElenaTomson\moonboost\.venv\Lib\site-packages\mido\midifiles\midifiles.py", line 212, in read_track
+    msg = read_meta_message(infile, delta)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ElenaTomson\moonboost\.venv\Lib\site-packages\mido\midifiles\midifiles.py", line 167, in read_meta_message
+    return build_meta_message(meta_type, data, delta)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ElenaTomson\moonboost\.venv\Lib\site-packages\mido\midifiles\meta.py", line 471, in build_meta_message
+    spec.decode(msg, data)
+  File "C:\Users\ElenaTomson\moonboost\.venv\Lib\site-packages\mido\midifiles\meta.py", line 412, in decode
+    raise KeySignatureError(msg) from ke
+mido.midifiles.meta.KeySignatureError: Could not decode key with 128 flats and mode 7
+
+Failed to process ..\dataset\processed\.._midi_windows_bman_pc_aoe2_15to18.npy:
+..\dataset\processed\.._midi_windows_bman_pc_aoe2_15to18.npy contains large onsets: False, large durations: True
+Largest duration: 1422
+Failed to process ..\dataset\processed\.._midi_windows_Talkng_Forest.npy:
+..\dataset\processed\.._midi_windows_Talkng_Forest.npy contains large onsets: False, large durations: True
+Largest duration: 5382
+Failed to process ..\dataset\processed\.._midi_super-nintendo_dkc3watr.npy:
+..\dataset\processed\.._midi_super-nintendo_dkc3watr.npy contains large onsets: False, large durations: True
+Largest duration: 1292
+Failed to process ..\dataset\processed\.._midi_nintendo-ds_ds_nsmb_sm03.npy:
+..\dataset\processed\.._midi_nintendo-ds_ds_nsmb_sm03.npy contains large onsets: False, large durations: True
+Largest duration: 3870
+Failed to process ..\dataset\processed\.._midi_super-nintendo_mushroom.npy:
+..\dataset\processed\.._midi_super-nintendo_mushroom.npy contains large onsets: False, large durations: True
+Largest duration: 5464
+Failed to process ..\dataset\processed\.._midi_random_Tune__Jurassic_Park_4.npy:
+..\dataset\processed\.._midi_random_Tune__Jurassic_Park_4.npy contains large onsets: False, large durations: True
+Largest duration: 2624
+Failed to process ..\dataset\processed\.._midi_super-nintendo_cyber_intro1.npy:
+..\dataset\processed\.._midi_super-nintendo_cyber_intro1.npy contains large onsets: False, large durations: True
+Largest duration: 7227
+Failed to process ..\midi\super-nintendo\topharmn.mid:
+Traceback (most recent call last):
+  File "C:\Users\ElenaTomson\moonboost\Moonbeam-MIDI-Foundation-Model\data_preprocess.py", line 82, in process_midi_file_safe_v2
+    out = process_midi_file_v2(tokenizer, midi_file, split, onset_vocab_size, dur_vocab_size, output_folder, log_file, silence_threshold)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ElenaTomson\moonboost\Moonbeam-MIDI-Foundation-Model\data_preprocess.py", line 138, in process_midi_file_v2
+    compounds = tokenizer.midi_to_compound(midi_file)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ElenaTomson\moonboost\.venv\Lib\site-packages\llama_recipes\datasets\music_tokenizer.py", line 350, in midi_to_compound
+    midi = mido.MidiFile(midifile)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ElenaTomson\moonboost\.venv\Lib\site-packages\mido\midifiles\midifiles.py", line 320, in __init__
+    self._load(file)
+  File "C:\Users\ElenaTomson\moonboost\.venv\Lib\site-packages\mido\midifiles\midifiles.py", line 371, in _load
+    self.tracks.append(read_track(infile,
+                       ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ElenaTomson\moonboost\.venv\Lib\site-packages\mido\midifiles\midifiles.py", line 218, in read_track
+    msg = read_message(infile, status_byte, peek_data, delta, clip)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ElenaTomson\moonboost\.venv\Lib\site-packages\mido\midifiles\midifiles.py", line 131, in read_message
+    raise OSError('data byte must be in range 0..127')
+OSError: data byte must be in range 0..127
+
+Failed to process ..\dataset\processed\.._midi_super-nintendo_rf-King.npy:
+..\dataset\processed\.._midi_super-nintendo_rf-King.npy contains large onsets: False, large durations: True
+Largest duration: 4481
+Failed to process ..\dataset\processed\.._midi_super-nintendo_Borntobewild.npy:
+..\dataset\processed\.._midi_super-nintendo_Borntobewild.npy contains large onsets: False, large durations: True
+Largest duration: 1183
+Failed to process ..\dataset\processed\.._midi_super-nintendo_rsaga201.npy:
+..\dataset\processed\.._midi_super-nintendo_rsaga201.npy contains large onsets: False, large durations: True
+Largest duration: 1851
+Failed to process ..\dataset\processed\.._midi_super-nintendo_GokujyoParodius_Stage4.npy:
+..\dataset\processed\.._midi_super-nintendo_GokujyoParodius_Stage4.npy contains large onsets: False, large durations: True
+Largest duration: 2795
+Failed to process ..\dataset\processed\.._midi_super-nintendo_Mine_Cart_Madness.npy:
+..\dataset\processed\.._midi_super-nintendo_Mine_Cart_Madness.npy contains large onsets: False, large durations: True
+Largest duration: 6379
+Failed to process ..\dataset\processed\.._midi_old_transformers_blaster2.npy:
+..\dataset\processed\.._midi_old_transformers_blaster2.npy contains large onsets: False, large durations: True
+Largest duration: 2150
+Failed to process ..\dataset\processed\.._midi_super-nintendo_FE4-Chapter2_v2.npy:
+..\dataset\processed\.._midi_super-nintendo_FE4-Chapter2_v2.npy contains large onsets: False, large durations: True
+Largest duration: 5416
+Failed to process ..\dataset\processed\.._midi_super-nintendo_PLOK_Beach_v2.npy:
+..\dataset\processed\.._midi_super-nintendo_PLOK_Beach_v2.npy contains large onsets: False, large durations: True
+Largest duration: 2474
+Failed to process ..\dataset\processed\.._midi_super-nintendo_StarOcean_New_Age.npy:
+..\dataset\processed\.._midi_super-nintendo_StarOcean_New_Age.npy contains large onsets: False, large durations: True
+Largest duration: 3842
+Failed to process ..\dataset\processed\.._midi_super-nintendo_rf-Pirate2.npy:
+..\dataset\processed\.._midi_super-nintendo_rf-Pirate2.npy contains large onsets: False, large durations: True
+Largest duration: 3857
+Failed to process ..\dataset\processed\.._midi_nintendo-ds_MLFTForetToadbois.npy:
+..\dataset\processed\.._midi_nintendo-ds_MLFTForetToadbois.npy contains large onsets: False, large durations: True
+Largest duration: 2488
+Failed to process ..\dataset\processed\.._midi_super-nintendo_Shadowrun-HotelRoom.npy:
+..\dataset\processed\.._midi_super-nintendo_Shadowrun-HotelRoom.npy contains large onsets: False, large durations: True
+Largest duration: 3187
+Failed to process ..\dataset\processed\.._midi_nintendo-ds_CVOoE_wandering_the_crystal_blue.npy:
+..\dataset\processed\.._midi_nintendo-ds_CVOoE_wandering_the_crystal_blue.npy contains large onsets: False, large durations: True
+Largest duration: 1189
+Failed to process ..\dataset\processed\.._midi_nintendo-ds_VGAllegro.npy:
+..\dataset\processed\.._midi_nintendo-ds_VGAllegro.npy contains large onsets: False, large durations: True
+Largest duration: 1083
+Failed to process ..\dataset\processed\.._midi_old_transformers_deadop.npy:
+..\dataset\processed\.._midi_old_transformers_deadop.npy contains large onsets: False, large durations: True
+Largest duration: 2182
+Failed to process ..\dataset\processed\.._midi_super-nintendo_DV_-_Distraught.npy:
+..\dataset\processed\.._midi_super-nintendo_DV_-_Distraught.npy contains large onsets: False, large durations: True
+Largest duration: 1500
+Failed to process ..\dataset\processed\.._midi_super-nintendo_t_ogre05.npy:
+..\dataset\processed\.._midi_super-nintendo_t_ogre05.npy contains large onsets: False, large durations: True
+Largest duration: 1691
+Failed to process ..\dataset\processed\.._midi_windows_pc_dond_sm02_XG.npy:
+..\dataset\processed\.._midi_windows_pc_dond_sm02_XG.npy contains large onsets: False, large durations: True
+Largest duration: 2430
+Failed to process ..\dataset\processed\.._midi_super-nintendo_SOEHorace-GM.npy:
+..\dataset\processed\.._midi_super-nintendo_SOEHorace-GM.npy contains large onsets: False, large durations: True
+Largest duration: 1533
+Failed to process ..\dataset\processed\.._midi_super-nintendo_ki.npy:
+..\dataset\processed\.._midi_super-nintendo_ki.npy contains large onsets: False, large durations: True
+Largest duration: 1451
+Failed to process ..\dataset\processed\.._midi_super-nintendo_hotel-trap.npy:
+..\dataset\processed\.._midi_super-nintendo_hotel-trap.npy contains large onsets: False, large durations: True
+Largest duration: 2373
+Failed to process ..\dataset\processed\.._midi_super-nintendo_GokujyoParodius_Stage1.npy:
+..\dataset\processed\.._midi_super-nintendo_GokujyoParodius_Stage1.npy contains large onsets: False, large durations: True
+Largest duration: 3243
+Failed to process ..\dataset\processed\.._midi_super-nintendo_GokujyoParodius_Koitsu.npy:
+..\dataset\processed\.._midi_super-nintendo_GokujyoParodius_Koitsu.npy contains large onsets: False, large durations: True
+Largest duration: 1800
+Failed to process ..\dataset\processed\.._midi_super-nintendo_SMAS-Challenge.npy:
+..\dataset\processed\.._midi_super-nintendo_SMAS-Challenge.npy contains large onsets: False, large durations: True
+Largest duration: 5842
+Failed to process ..\dataset\processed\.._midi_super-nintendo_Voyage_to_the_Bottom_of_the_Sea.npy:
+..\dataset\processed\.._midi_super-nintendo_Voyage_to_the_Bottom_of_the_Sea.npy contains large onsets: False, large durations: True
+Largest duration: 1592
+Failed to process ..\dataset\processed\.._midi_windows_zp-radix1.npy:
+..\dataset\processed\.._midi_windows_zp-radix1.npy contains large onsets: False, large durations: True
+Largest duration: 1857
+Failed to process ..\dataset\processed\.._midi_super-nintendo_Rockman_and_Forte-Groundman.npy:
+..\dataset\processed\.._midi_super-nintendo_Rockman_and_Forte-Groundman.npy contains large onsets: False, large durations: True
+Largest duration: 4882
+Failed to process ..\dataset\processed\.._midi_super-nintendo_cv5boss.npy:
+..\dataset\processed\.._midi_super-nintendo_cv5boss.npy contains large onsets: False, large durations: True
+Largest duration: 2017
+Failed to process ..\dataset\processed\.._midi_super-nintendo_SMRPG_The_Starlights_Flower.npy:
+..\dataset\processed\.._midi_super-nintendo_SMRPG_The_Starlights_Flower.npy contains large onsets: False, large durations: True
+Largest duration: 2083
+Failed to process ..\dataset\processed\.._midi_nintendo-ds_ZeldaST_Cole.npy:
+..\dataset\processed\.._midi_nintendo-ds_ZeldaST_Cole.npy contains large onsets: False, large durations: True
+Largest duration: 1058
+Failed to process ..\dataset\processed\.._midi_super-nintendo_topprem.npy:
+..\dataset\processed\.._midi_super-nintendo_topprem.npy contains large onsets: False, large durations: True
+Largest duration: 1081
+Failed to process ..\dataset\processed\.._midi_super-nintendo_Ninja_Warriors_Again-stage1_FIXED_BASS_LINE.npy:
+..\dataset\processed\.._midi_super-nintendo_Ninja_Warriors_Again-stage1_FIXED_BASS_LINE.npy contains large onsets: False, large durations: True
+Largest duration: 8907
+Failed to process ..\dataset\processed\.._midi_super-nintendo_ct600ad.npy:
+..\dataset\processed\.._midi_super-nintendo_ct600ad.npy contains large onsets: False, large durations: True
+Largest duration: 7500
+Failed to process ..\dataset\processed\.._midi_super-nintendo_SBomb4-World5.npy:
+..\dataset\processed\.._midi_super-nintendo_SBomb4-World5.npy contains large onsets: False, large durations: True
+Largest duration: 5280
+Failed to process ..\dataset\processed\.._midi_super-nintendo_PBobble.npy:
+..\dataset\processed\.._midi_super-nintendo_PBobble.npy contains large onsets: False, large durations: True
+Largest duration: 4385
+Failed to process ..\dataset\processed\.._midi_super-nintendo_ff5air.npy:
+..\dataset\processed\.._midi_super-nintendo_ff5air.npy contains large onsets: False, large durations: True
+Largest duration: 1311
+Failed to process ..\dataset\processed\.._midi_super-nintendo_FMGHWarningOne.npy:
+..\dataset\processed\.._midi_super-nintendo_FMGHWarningOne.npy contains large onsets: False, large durations: True
+Largest duration: 1314
+Failed to process ..\dataset\processed\.._midi_super-nintendo_GokujyoParodius_StageSecret.npy:
+..\dataset\processed\.._midi_super-nintendo_GokujyoParodius_StageSecret.npy contains large onsets: False, large durations: True
+Largest duration: 3000
+Failed to process ..\dataset\processed\.._midi_super-nintendo_som_ending.npy:
+..\dataset\processed\.._midi_super-nintendo_som_ending.npy contains large onsets: False, large durations: True
+Largest duration: 1175
+Failed to process ..\dataset\processed\.._midi_wii_Meg_Man_10_-_Boss_Battle_Arranged.npy:
+..\dataset\processed\.._midi_wii_Meg_Man_10_-_Boss_Battle_Arranged.npy contains large onsets: False, large durations: True
+Largest duration: 1179
+Failed to process ..\dataset\processed\.._midi_old_transformers_backroundmusic.npy:
+..\dataset\processed\.._midi_old_transformers_backroundmusic.npy contains large onsets: False, large durations: True
+Largest duration: 2150
+Failed to process ..\dataset\processed\.._midi_super-nintendo_FE4-Chapter8.npy:
+..\dataset\processed\.._midi_super-nintendo_FE4-Chapter8.npy contains large onsets: False, large durations: True
+Largest duration: 4752
+Failed to process ..\dataset\processed\.._midi_nintendo-ds_Gloomy_Memories.npy:
+..\dataset\processed\.._midi_nintendo-ds_Gloomy_Memories.npy contains large onsets: False, large durations: True
+Largest duration: 2788
+Failed to process ..\dataset\processed\.._midi_nintendo-ds_ZX__Area_MN.npy:
+..\dataset\processed\.._midi_nintendo-ds_ZX__Area_MN.npy contains large onsets: False, large durations: True
+Largest duration: 1599
+Failed to process ..\dataset\processed\.._midi_super-nintendo_SBomb3-Stage4.npy:
+..\dataset\processed\.._midi_super-nintendo_SBomb3-Stage4.npy contains large onsets: False, large durations: True
+Largest duration: 4837
+Failed to process ..\dataset\processed\.._midi_super-nintendo_rf-Magicma2.npy:
+..\dataset\processed\.._midi_super-nintendo_rf-Magicma2.npy contains large onsets: False, large durations: True
+Largest duration: 11832
+Failed to process ..\dataset\processed\.._midi_super-nintendo_EB_Power_Up.npy:
+..\dataset\processed\.._midi_super-nintendo_EB_Power_Up.npy contains large onsets: False, large durations: True
+Largest duration: 1231
+Failed to process ..\dataset\processed\.._midi_super-nintendo_dkc2boss.npy:
+..\dataset\processed\.._midi_super-nintendo_dkc2boss.npy contains large onsets: False, large durations: True
+Largest duration: 3239
+Failed to process ..\dataset\processed\.._midi_super-nintendo_GokujyoParodius_StageSpecial.npy:
+..\dataset\processed\.._midi_super-nintendo_GokujyoParodius_StageSpecial.npy contains large onsets: False, large durations: True
+Largest duration: 13121
+Failed to process ..\dataset\processed\.._midi_wii_Wii_Sports_Smash_Brothers_Remix.npy:
+..\dataset\processed\.._midi_wii_Wii_Sports_Smash_Brothers_Remix.npy contains large onsets: False, large durations: True
+Largest duration: 1209
+Failed to process ..\dataset\processed\.._midi_super-nintendo_popntwinbee-stage6.npy:
+..\dataset\processed\.._midi_super-nintendo_popntwinbee-stage6.npy contains large onsets: False, large durations: True
+Largest duration: 6288
+Failed to process ..\dataset\processed\.._midi_super-nintendo_cttyrano.npy:
+..\dataset\processed\.._midi_super-nintendo_cttyrano.npy contains large onsets: False, large durations: True
+Largest duration: 7021
+Failed to process ..\dataset\processed\.._midi_super-nintendo_front_mission_gh_japan_-_atlas.npy:
+..\dataset\processed\.._midi_super-nintendo_front_mission_gh_japan_-_atlas.npy contains large onsets: False, large durations: True
+Largest duration: 6367
+Failed to process ..\dataset\processed\.._midi_super-nintendo_livealive-victoryroad.npy:
+..\dataset\processed\.._midi_super-nintendo_livealive-victoryroad.npy contains large onsets: False, large durations: True
+Largest duration: 1200
+Failed to process ..\dataset\processed\.._midi_super-nintendo_somSei2-28x.npy:
+..\dataset\processed\.._midi_super-nintendo_somSei2-28x.npy contains large onsets: False, large durations: True
+Largest duration: 2334
+Failed to process ..\dataset\processed\.._midi_super-nintendo_SBomb4-World2.npy:
+..\dataset\processed\.._midi_super-nintendo_SBomb4-World2.npy contains large onsets: False, large durations: True
+Largest duration: 5570
+Failed to process ..\dataset\processed\.._midi_super-nintendo_f2elban.npy:
+..\dataset\processed\.._midi_super-nintendo_f2elban.npy contains large onsets: False, large durations: True
+Largest duration: 1196
+Failed to process ..\dataset\processed\.._midi_super-nintendo_rs1_salute.npy:
+..\dataset\processed\.._midi_super-nintendo_rs1_salute.npy contains large onsets: False, large durations: True
+Largest duration: 1472
+Failed to process ..\dataset\processed\.._midi_super-nintendo_SBomb2-Stage4.npy:
+..\dataset\processed\.._midi_super-nintendo_SBomb2-Stage4.npy contains large onsets: False, large durations: True
+Largest duration: 9405
+Failed to process ..\dataset\processed\.._midi_super-nintendo_SailorMoonAS_Juuban.npy:
+..\dataset\processed\.._midi_super-nintendo_SailorMoonAS_Juuban.npy contains large onsets: False, large durations: True
+Largest duration: 1029
+Failed to process ..\dataset\processed\.._midi_windows_Hoping_for_Real_Betterness.npy:
+..\dataset\processed\.._midi_windows_Hoping_for_Real_Betterness.npy contains large onsets: False, large durations: True
+Largest duration: 3330
+Failed to process ..\dataset\processed\.._midi_super-nintendo_CBUnderground.npy:
+..\dataset\processed\.._midi_super-nintendo_CBUnderground.npy contains large onsets: False, large durations: True
+Largest duration: 2876
+Failed to process ..\dataset\processed\.._midi_nintendo-ds_pokemon_friends.npy:
+..\dataset\processed\.._midi_nintendo-ds_pokemon_friends.npy contains large onsets: False, large durations: True
+Largest duration: 1143
+Failed to process ..\dataset\processed\.._midi_super-nintendo_SBomb1-Stage6.npy:
+..\dataset\processed\.._midi_super-nintendo_SBomb1-Stage6.npy contains large onsets: False, large durations: True
+Largest duration: 3450
+Failed to process ..\dataset\processed\.._midi_super-nintendo_mmx0d.npy:
+..\dataset\processed\.._midi_super-nintendo_mmx0d.npy contains large onsets: False, large durations: True
+Largest duration: 1813
+Failed to process ..\midi\super-nintendo\kss_halberd1.mid:
+Traceback (most recent call last):
+  File "C:\Users\ElenaTomson\moonboost\Moonbeam-MIDI-Foundation-Model\data_preprocess.py", line 82, in process_midi_file_safe_v2
+    out = process_midi_file_v2(tokenizer, midi_file, split, onset_vocab_size, dur_vocab_size, output_folder, log_file, silence_threshold)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ElenaTomson\moonboost\Moonbeam-MIDI-Foundation-Model\data_preprocess.py", line 138, in process_midi_file_v2
+    compounds = tokenizer.midi_to_compound(midi_file)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ElenaTomson\moonboost\.venv\Lib\site-packages\llama_recipes\datasets\music_tokenizer.py", line 350, in midi_to_compound
+    midi = mido.MidiFile(midifile)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ElenaTomson\moonboost\.venv\Lib\site-packages\mido\midifiles\midifiles.py", line 320, in __init__
+    self._load(file)
+  File "C:\Users\ElenaTomson\moonboost\.venv\Lib\site-packages\mido\midifiles\midifiles.py", line 371, in _load
+    self.tracks.append(read_track(infile,
+                       ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ElenaTomson\moonboost\.venv\Lib\site-packages\mido\midifiles\midifiles.py", line 218, in read_track
+    msg = read_message(infile, status_byte, peek_data, delta, clip)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ElenaTomson\moonboost\.venv\Lib\site-packages\mido\midifiles\midifiles.py", line 131, in read_message
+    raise OSError('data byte must be in range 0..127')
+OSError: data byte must be in range 0..127
+
+Failed to process ..\dataset\processed\.._midi_nintendo-ds_VGMVonBolt.npy:
+..\dataset\processed\.._midi_nintendo-ds_VGMVonBolt.npy contains large onsets: False, large durations: True
+Largest duration: 2750
+Failed to process ..\dataset\processed\.._midi_super-nintendo_title(1).npy:
+..\dataset\processed\.._midi_super-nintendo_title(1).npy contains large onsets: False, large durations: True
+Largest duration: 1797
+Failed to process ..\dataset\processed\.._midi_super-nintendo_Secret_of_Mana-In_the_Darkness_Depths.npy:
+..\dataset\processed\.._midi_super-nintendo_Secret_of_Mana-In_the_Darkness_Depths.npy contains large onsets: False, large durations: True
+Largest duration: 1292
+Failed to process ..\dataset\processed\.._midi_windows_Oh_My.npy:
+..\dataset\processed\.._midi_windows_Oh_My.npy contains large onsets: False, large durations: True
+Largest duration: 3209
+Failed to process ..\midi\super-nintendo\RS2kujin2.mid:
+Traceback (most recent call last):
+  File "C:\Users\ElenaTomson\moonboost\Moonbeam-MIDI-Foundation-Model\data_preprocess.py", line 82, in process_midi_file_safe_v2
+    out = process_midi_file_v2(tokenizer, midi_file, split, onset_vocab_size, dur_vocab_size, output_folder, log_file, silence_threshold)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ElenaTomson\moonboost\Moonbeam-MIDI-Foundation-Model\data_preprocess.py", line 138, in process_midi_file_v2
+    compounds = tokenizer.midi_to_compound(midi_file)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ElenaTomson\moonboost\.venv\Lib\site-packages\llama_recipes\datasets\music_tokenizer.py", line 350, in midi_to_compound
+    midi = mido.MidiFile(midifile)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ElenaTomson\moonboost\.venv\Lib\site-packages\mido\midifiles\midifiles.py", line 320, in __init__
+    self._load(file)
+  File "C:\Users\ElenaTomson\moonboost\.venv\Lib\site-packages\mido\midifiles\midifiles.py", line 371, in _load
+    self.tracks.append(read_track(infile,
+                       ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ElenaTomson\moonboost\.venv\Lib\site-packages\mido\midifiles\midifiles.py", line 218, in read_track
+    msg = read_message(infile, status_byte, peek_data, delta, clip)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ElenaTomson\moonboost\.venv\Lib\site-packages\mido\midifiles\midifiles.py", line 131, in read_message
+    raise OSError('data byte must be in range 0..127')
+OSError: data byte must be in range 0..127
+
+Failed to process ..\dataset\processed\.._midi_super-nintendo_smss-fighting-saturn.npy:
+..\dataset\processed\.._midi_super-nintendo_smss-fighting-saturn.npy contains large onsets: False, large durations: True
+Largest duration: 4093
+Failed to process ..\dataset\processed\.._midi_wii_MM9Shop1.npy:
+..\dataset\processed\.._midi_wii_MM9Shop1.npy contains large onsets: False, large durations: True
+Largest duration: 1612
+Failed to process ..\midi\windows\TrueLoveSong8.mid:
+Traceback (most recent call last):
+  File "C:\Users\ElenaTomson\moonboost\.venv\Lib\site-packages\mido\midifiles\meta.py", line 404, in decode
+    message.key = _key_signature_decode[(key, mode)]
+                  ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+KeyError: (0, 2)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\ElenaTomson\moonboost\Moonbeam-MIDI-Foundation-Model\data_preprocess.py", line 82, in process_midi_file_safe_v2
+    out = process_midi_file_v2(tokenizer, midi_file, split, onset_vocab_size, dur_vocab_size, output_folder, log_file, silence_threshold)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ElenaTomson\moonboost\Moonbeam-MIDI-Foundation-Model\data_preprocess.py", line 138, in process_midi_file_v2
+    compounds = tokenizer.midi_to_compound(midi_file)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ElenaTomson\moonboost\.venv\Lib\site-packages\llama_recipes\datasets\music_tokenizer.py", line 350, in midi_to_compound
+    midi = mido.MidiFile(midifile)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ElenaTomson\moonboost\.venv\Lib\site-packages\mido\midifiles\midifiles.py", line 320, in __init__
+    self._load(file)
+  File "C:\Users\ElenaTomson\moonboost\.venv\Lib\site-packages\mido\midifiles\midifiles.py", line 371, in _load
+    self.tracks.append(read_track(infile,
+                       ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ElenaTomson\moonboost\.venv\Lib\site-packages\mido\midifiles\midifiles.py", line 212, in read_track
+    msg = read_meta_message(infile, delta)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ElenaTomson\moonboost\.venv\Lib\site-packages\mido\midifiles\midifiles.py", line 167, in read_meta_message
+    return build_meta_message(meta_type, data, delta)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ElenaTomson\moonboost\.venv\Lib\site-packages\mido\midifiles\meta.py", line 471, in build_meta_message
+    spec.decode(msg, data)
+  File "C:\Users\ElenaTomson\moonboost\.venv\Lib\site-packages\mido\midifiles\meta.py", line 412, in decode
+    raise KeySignatureError(msg) from ke
+mido.midifiles.meta.KeySignatureError: Could not decode key with 0 flats and mode 2
+
+Failed to process ..\dataset\processed\.._midi_super-nintendo_CV4_Ending_Theme.npy:
+..\dataset\processed\.._midi_super-nintendo_CV4_Ending_Theme.npy contains large onsets: False, large durations: True
+Largest duration: 1067
+Failed to process ..\dataset\processed\.._midi_super-nintendo_RomancingSaga3_leon.npy:
+..\dataset\processed\.._midi_super-nintendo_RomancingSaga3_leon.npy contains large onsets: False, large durations: True
+Largest duration: 1037
+Failed to process ..\dataset\processed\.._midi_star wars_Darth_Vaders_Death.npy:
+..\dataset\processed\.._midi_star wars_Darth_Vaders_Death.npy contains large onsets: False, large durations: True
+Largest duration: 1599
+Failed to process ..\dataset\processed\.._midi_windows_zp-radix3.npy:
+..\dataset\processed\.._midi_windows_zp-radix3.npy contains large onsets: False, large durations: True
+Largest duration: 1799
+Failed to process ..\dataset\processed\.._midi_wii_hyrule_field_night.npy:
+..\dataset\processed\.._midi_wii_hyrule_field_night.npy contains large onsets: False, large durations: True
+Largest duration: 1057
+Failed to process ..\dataset\processed\.._midi_super-nintendo_SBomb3-Credits.npy:
+..\dataset\processed\.._midi_super-nintendo_SBomb3-Credits.npy contains large onsets: False, large durations: True
+Largest duration: 3621
+Failed to process ..\dataset\processed\.._midi_super-nintendo_smetsecr.npy:
+..\dataset\processed\.._midi_super-nintendo_smetsecr.npy contains large onsets: False, large durations: True
+Largest duration: 2250
+Failed to process ..\dataset\processed\.._midi_super-nintendo_rudora_no_hihou_japan_-_purgation.npy:
+..\dataset\processed\.._midi_super-nintendo_rudora_no_hihou_japan_-_purgation.npy contains large onsets: False, large durations: True
+Largest duration: 1524
+Failed to process ..\midi\super-nintendo\topmid.mid:
+Traceback (most recent call last):
+  File "C:\Users\ElenaTomson\moonboost\Moonbeam-MIDI-Foundation-Model\data_preprocess.py", line 82, in process_midi_file_safe_v2
+    out = process_midi_file_v2(tokenizer, midi_file, split, onset_vocab_size, dur_vocab_size, output_folder, log_file, silence_threshold)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ElenaTomson\moonboost\Moonbeam-MIDI-Foundation-Model\data_preprocess.py", line 138, in process_midi_file_v2
+    compounds = tokenizer.midi_to_compound(midi_file)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ElenaTomson\moonboost\.venv\Lib\site-packages\llama_recipes\datasets\music_tokenizer.py", line 350, in midi_to_compound
+    midi = mido.MidiFile(midifile)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ElenaTomson\moonboost\.venv\Lib\site-packages\mido\midifiles\midifiles.py", line 320, in __init__
+    self._load(file)
+  File "C:\Users\ElenaTomson\moonboost\.venv\Lib\site-packages\mido\midifiles\midifiles.py", line 371, in _load
+    self.tracks.append(read_track(infile,
+                       ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ElenaTomson\moonboost\.venv\Lib\site-packages\mido\midifiles\midifiles.py", line 218, in read_track
+    msg = read_message(infile, status_byte, peek_data, delta, clip)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ElenaTomson\moonboost\.venv\Lib\site-packages\mido\midifiles\midifiles.py", line 131, in read_message
+    raise OSError('data byte must be in range 0..127')
+OSError: data byte must be in range 0..127
+
+Failed to process ..\dataset\processed\.._midi_super-nintendo_BrutalScene1.npy:
+..\dataset\processed\.._midi_super-nintendo_BrutalScene1.npy contains large onsets: False, large durations: True
+Largest duration: 1341
+Failed to process ..\dataset\processed\.._midi_super-nintendo_som_emporor's_castle.npy:
+..\dataset\processed\.._midi_super-nintendo_som_emporor's_castle.npy contains large onsets: False, large durations: True
+Largest duration: 1493
+Failed to process ..\dataset\processed\.._midi_super-nintendo_TLK_SNES_Return_to_Pride_Rock.npy:
+..\dataset\processed\.._midi_super-nintendo_TLK_SNES_Return_to_Pride_Rock.npy contains large onsets: False, large durations: True
+Largest duration: 1343
+Failed to process ..\dataset\processed\.._midi_super-nintendo_Shenron.npy:
+..\dataset\processed\.._midi_super-nintendo_Shenron.npy contains large onsets: False, large durations: True
+Largest duration: 1092
+Failed to process ..\dataset\processed\.._midi_super-nintendo_livetyu2.npy:
+..\dataset\processed\.._midi_super-nintendo_livetyu2.npy contains large onsets: False, large durations: True
+Largest duration: 2870
+Failed to process ..\dataset\processed\.._midi_super-nintendo_POP_Sound7_Gs.npy:
+..\dataset\processed\.._midi_super-nintendo_POP_Sound7_Gs.npy contains large onsets: False, large durations: True
+Largest duration: 5736
+Failed to process ..\dataset\processed\.._midi_super-nintendo_dkckrool1.npy:
+..\dataset\processed\.._midi_super-nintendo_dkckrool1.npy contains large onsets: False, large durations: True
+Largest duration: 1474
+Failed to process ..\dataset\processed\.._midi_super-nintendo_FMGH-Tension.npy:
+..\dataset\processed\.._midi_super-nintendo_FMGH-Tension.npy contains large onsets: False, large durations: True
+Largest duration: 1024
+Failed to process ..\dataset\processed\.._midi_nintendo-ds_SONG_005.npy:
+..\dataset\processed\.._midi_nintendo-ds_SONG_005.npy contains large onsets: False, large durations: True
+Largest duration: 2449
+Failed to process ..\dataset\processed\.._midi_super-nintendo_dkc2cstl.npy:
+..\dataset\processed\.._midi_super-nintendo_dkc2cstl.npy contains large onsets: False, large durations: True
+Largest duration: 8879
+Failed to process ..\dataset\processed\.._midi_super-nintendo_Saleste_l1_1.npy:
+..\dataset\processed\.._midi_super-nintendo_Saleste_l1_1.npy contains large onsets: False, large durations: True
+Largest duration: 4378
+Failed to process ..\dataset\processed\.._midi_super-nintendo_livealive-silentlabyrinth.npy:
+..\dataset\processed\.._midi_super-nintendo_livealive-silentlabyrinth.npy contains large onsets: False, large durations: True
+Largest duration: 7074
+Failed to process ..\dataset\processed\.._midi_super-nintendo_StarOcean_Depatrues.npy:
+..\dataset\processed\.._midi_super-nintendo_StarOcean_Depatrues.npy contains large onsets: False, large durations: True
+Largest duration: 1586
+Failed to process ..\dataset\processed\.._midi_super-nintendo_dbz2bsgt.npy:
+..\dataset\processed\.._midi_super-nintendo_dbz2bsgt.npy contains large onsets: False, large durations: True
+Largest duration: 6774
+Failed to process ..\dataset\processed\.._midi_super-nintendo_SBomb2-Credits.npy:
+..\dataset\processed\.._midi_super-nintendo_SBomb2-Credits.npy contains large onsets: False, large durations: True
+Largest duration: 3263
+Failed to process ..\dataset\processed\.._midi_super-nintendo_ff5castle2.npy:
+..\dataset\processed\.._midi_super-nintendo_ff5castle2.npy contains large onsets: False, large durations: True
+Largest duration: 2776
+Failed to process ..\dataset\processed\.._midi_super-nintendo_FrontMission_Final_Battle.npy:
+..\dataset\processed\.._midi_super-nintendo_FrontMission_Final_Battle.npy contains large onsets: False, large durations: True
+Largest duration: 2217
+Failed to process ..\dataset\processed\.._midi_super-nintendo_PLOK_Creepy_Crag.npy:
+..\dataset\processed\.._midi_super-nintendo_PLOK_Creepy_Crag.npy contains large onsets: False, large durations: True
+Largest duration: 14608
+Failed to process ..\dataset\processed\.._midi_super-nintendo_dq5viol.npy:
+..\dataset\processed\.._midi_super-nintendo_dq5viol.npy contains large onsets: False, large durations: True
+Largest duration: 7479
+Failed to process ..\dataset\processed\.._midi_super-nintendo_SS-Earthquake.npy:
+..\dataset\processed\.._midi_super-nintendo_SS-Earthquake.npy contains large onsets: False, large durations: True
+Largest duration: 1551
+Failed to process ..\dataset\processed\.._midi_windows_Prontera.npy:
+..\dataset\processed\.._midi_windows_Prontera.npy contains large onsets: False, large durations: True
+Largest duration: 17606
+Failed to process ..\dataset\processed\.._midi_windows_HL2--Lambda_Core_Fixed.npy:
+..\dataset\processed\.._midi_windows_HL2--Lambda_Core_Fixed.npy contains large onsets: False, large durations: True
+Largest duration: 9230
+Failed to process ..\dataset\processed\.._midi_super-nintendo_UNSquadProj4Fortress.npy:
+..\dataset\processed\.._midi_super-nintendo_UNSquadProj4Fortress.npy contains large onsets: False, large durations: True
+Largest duration: 4848
+Failed to process ..\dataset\processed\.._midi_super-nintendo_BlueStone_NessDream.npy:
+..\dataset\processed\.._midi_super-nintendo_BlueStone_NessDream.npy contains large onsets: False, large durations: True
+Largest duration: 9824
+Failed to process ..\dataset\processed\.._midi_super-nintendo_Dynamoma.npy:
+..\dataset\processed\.._midi_super-nintendo_Dynamoma.npy contains large onsets: False, large durations: True
+Largest duration: 14351
+Failed to process ..\dataset\processed\.._midi_super-nintendo_Phalanx-Assault.npy:
+..\dataset\processed\.._midi_super-nintendo_Phalanx-Assault.npy contains large onsets: False, large durations: True
+Largest duration: 5750
+Failed to process ..\dataset\processed\.._midi_wii_queen_rutelaseq.npy:
+..\dataset\processed\.._midi_wii_queen_rutelaseq.npy contains large onsets: False, large durations: True
+Largest duration: 1271
+Failed to process ..\dataset\processed\.._midi_super-nintendo_MXS__Super_Metroid_-_Minako_Hamano_-_Lower_Maridia.npy:
+..\dataset\processed\.._midi_super-nintendo_MXS__Super_Metroid_-_Minako_Hamano_-_Lower_Maridia.npy contains large onsets: False, large durations: True
+Largest duration: 1371
+Failed to process ..\dataset\processed\.._midi_FIRST_Witch Doctor Song _Ooh Eeh Ooh Ah Ah Ting Tang Walla Walla Bing Bang_.npy:
+..\dataset\processed\.._midi_FIRST_Witch Doctor Song _Ooh Eeh Ooh Ah Ah Ting Tang Walla Walla Bing Bang_.npy contains large onsets: False, large durations: True
+Largest duration: 1422
+Failed to process ..\dataset\processed\.._midi_super-nintendo_IoGmother.npy:
+..\dataset\processed\.._midi_super-nintendo_IoGmother.npy contains large onsets: False, large durations: True
+Largest duration: 3895
+Failed to process ..\dataset\processed\.._midi_windows_TYRIAN_TheSong.npy:
+..\dataset\processed\.._midi_windows_TYRIAN_TheSong.npy contains large onsets: False, large durations: True
+Largest duration: 2341
+Failed to process ..\dataset\processed\.._midi_super-nintendo_ffmqlf(2).npy:
+..\dataset\processed\.._midi_super-nintendo_ffmqlf(2).npy contains large onsets: False, large durations: True
+Largest duration: 1103
+Failed to process ..\dataset\processed\.._midi_super-nintendo_Tetris_Attack_-_Bowser_Introduction.npy:
+..\dataset\processed\.._midi_super-nintendo_Tetris_Attack_-_Bowser_Introduction.npy contains large onsets: False, large durations: True
+Largest duration: 2400
+Failed to process ..\midi\super-nintendo\Teir3Orch.mid:
+Traceback (most recent call last):
+  File "C:\Users\ElenaTomson\moonboost\.venv\Lib\site-packages\mido\midifiles\meta.py", line 404, in decode
+    message.key = _key_signature_decode[(key, mode)]
+                  ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+KeyError: (-5, 255)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\ElenaTomson\moonboost\Moonbeam-MIDI-Foundation-Model\data_preprocess.py", line 82, in process_midi_file_safe_v2
+    out = process_midi_file_v2(tokenizer, midi_file, split, onset_vocab_size, dur_vocab_size, output_folder, log_file, silence_threshold)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ElenaTomson\moonboost\Moonbeam-MIDI-Foundation-Model\data_preprocess.py", line 138, in process_midi_file_v2
+    compounds = tokenizer.midi_to_compound(midi_file)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ElenaTomson\moonboost\.venv\Lib\site-packages\llama_recipes\datasets\music_tokenizer.py", line 350, in midi_to_compound
+    midi = mido.MidiFile(midifile)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ElenaTomson\moonboost\.venv\Lib\site-packages\mido\midifiles\midifiles.py", line 320, in __init__
+    self._load(file)
+  File "C:\Users\ElenaTomson\moonboost\.venv\Lib\site-packages\mido\midifiles\midifiles.py", line 371, in _load
+    self.tracks.append(read_track(infile,
+                       ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ElenaTomson\moonboost\.venv\Lib\site-packages\mido\midifiles\midifiles.py", line 212, in read_track
+    msg = read_meta_message(infile, delta)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ElenaTomson\moonboost\.venv\Lib\site-packages\mido\midifiles\midifiles.py", line 167, in read_meta_message
+    return build_meta_message(meta_type, data, delta)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ElenaTomson\moonboost\.venv\Lib\site-packages\mido\midifiles\meta.py", line 471, in build_meta_message
+    spec.decode(msg, data)
+  File "C:\Users\ElenaTomson\moonboost\.venv\Lib\site-packages\mido\midifiles\meta.py", line 412, in decode
+    raise KeySignatureError(msg) from ke
+mido.midifiles.meta.KeySignatureError: Could not decode key with 5 flats and mode 255
+
+Failed to process ..\dataset\processed\.._midi_nintendo-ds_foggyforest.npy:
+..\dataset\processed\.._midi_nintendo-ds_foggyforest.npy contains large onsets: False, large durations: True
+Largest duration: 4650
+Failed to process ..\dataset\processed\.._midi_super-nintendo_dk_zb_mistmine.npy:
+..\dataset\processed\.._midi_super-nintendo_dk_zb_mistmine.npy contains large onsets: False, large durations: True
+Largest duration: 2061
+Failed to process ..\dataset\processed\.._midi_super-nintendo_cv5stg7c.npy:
+..\dataset\processed\.._midi_super-nintendo_cv5stg7c.npy contains large onsets: False, large durations: True
+Largest duration: 2918
+Failed to process ..\dataset\processed\.._midi_wii_ssbb_-_flatzone2.npy:
+..\dataset\processed\.._midi_wii_ssbb_-_flatzone2.npy contains large onsets: False, large durations: True
+Largest duration: 1208
+Failed to process ..\midi\super-nintendo\RS2avalon.mid:
+Traceback (most recent call last):
+  File "C:\Users\ElenaTomson\moonboost\Moonbeam-MIDI-Foundation-Model\data_preprocess.py", line 82, in process_midi_file_safe_v2
+    out = process_midi_file_v2(tokenizer, midi_file, split, onset_vocab_size, dur_vocab_size, output_folder, log_file, silence_threshold)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ElenaTomson\moonboost\Moonbeam-MIDI-Foundation-Model\data_preprocess.py", line 138, in process_midi_file_v2
+    compounds = tokenizer.midi_to_compound(midi_file)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ElenaTomson\moonboost\.venv\Lib\site-packages\llama_recipes\datasets\music_tokenizer.py", line 350, in midi_to_compound
+    midi = mido.MidiFile(midifile)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ElenaTomson\moonboost\.venv\Lib\site-packages\mido\midifiles\midifiles.py", line 320, in __init__
+    self._load(file)
+  File "C:\Users\ElenaTomson\moonboost\.venv\Lib\site-packages\mido\midifiles\midifiles.py", line 371, in _load
+    self.tracks.append(read_track(infile,
+                       ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ElenaTomson\moonboost\.venv\Lib\site-packages\mido\midifiles\midifiles.py", line 218, in read_track
+    msg = read_message(infile, status_byte, peek_data, delta, clip)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ElenaTomson\moonboost\.venv\Lib\site-packages\mido\midifiles\midifiles.py", line 131, in read_message
+    raise OSError('data byte must be in range 0..127')
+OSError: data byte must be in range 0..127
+
+Failed to process ..\dataset\processed\.._midi_wii_cy_world_8_underground_v1_0.npy:
+..\dataset\processed\.._midi_wii_cy_world_8_underground_v1_0.npy contains large onsets: False, large durations: True
+Largest duration: 1195
+Failed to process ..\dataset\processed\.._midi_super-nintendo_smw2castle.npy:
+..\dataset\processed\.._midi_super-nintendo_smw2castle.npy contains large onsets: False, large durations: True
+Largest duration: 4072
+Failed to process ..\dataset\processed\.._midi_super-nintendo_B1L_pilotwings-rocketbelt.npy:
+..\dataset\processed\.._midi_super-nintendo_B1L_pilotwings-rocketbelt.npy contains large onsets: False, large durations: True
+Largest duration: 4181
+Failed to process ..\midi\super-nintendo\relm2.mid:
+Traceback (most recent call last):
+  File "C:\Users\ElenaTomson\moonboost\.venv\Lib\site-packages\mido\midifiles\meta.py", line 404, in decode
+    message.key = _key_signature_decode[(key, mode)]
+                  ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+KeyError: (-6, 255)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\ElenaTomson\moonboost\Moonbeam-MIDI-Foundation-Model\data_preprocess.py", line 82, in process_midi_file_safe_v2
+    out = process_midi_file_v2(tokenizer, midi_file, split, onset_vocab_size, dur_vocab_size, output_folder, log_file, silence_threshold)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ElenaTomson\moonboost\Moonbeam-MIDI-Foundation-Model\data_preprocess.py", line 138, in process_midi_file_v2
+    compounds = tokenizer.midi_to_compound(midi_file)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ElenaTomson\moonboost\.venv\Lib\site-packages\llama_recipes\datasets\music_tokenizer.py", line 350, in midi_to_compound
+    midi = mido.MidiFile(midifile)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ElenaTomson\moonboost\.venv\Lib\site-packages\mido\midifiles\midifiles.py", line 320, in __init__
+    self._load(file)
+  File "C:\Users\ElenaTomson\moonboost\.venv\Lib\site-packages\mido\midifiles\midifiles.py", line 371, in _load
+    self.tracks.append(read_track(infile,
+                       ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ElenaTomson\moonboost\.venv\Lib\site-packages\mido\midifiles\midifiles.py", line 212, in read_track
+    msg = read_meta_message(infile, delta)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ElenaTomson\moonboost\.venv\Lib\site-packages\mido\midifiles\midifiles.py", line 167, in read_meta_message
+    return build_meta_message(meta_type, data, delta)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ElenaTomson\moonboost\.venv\Lib\site-packages\mido\midifiles\meta.py", line 471, in build_meta_message
+    spec.decode(msg, data)
+  File "C:\Users\ElenaTomson\moonboost\.venv\Lib\site-packages\mido\midifiles\meta.py", line 412, in decode
+    raise KeySignatureError(msg) from ke
+mido.midifiles.meta.KeySignatureError: Could not decode key with 6 flats and mode 255
+
+Failed to process ..\dataset\processed\.._midi_wii_TPFishingHole.npy:
+..\dataset\processed\.._midi_wii_TPFishingHole.npy contains large onsets: False, large durations: True
+Largest duration: 1200
+Failed to process ..\dataset\processed\.._midi_super-nintendo_Tetris_Attack-Froggy.npy:
+..\dataset\processed\.._midi_super-nintendo_Tetris_Attack-Froggy.npy contains large onsets: False, large durations: True
+Largest duration: 4173
+Failed to process ..\dataset\processed\.._midi_super-nintendo_SBomb3-Boss1.npy:
+..\dataset\processed\.._midi_super-nintendo_SBomb3-Boss1.npy contains large onsets: False, large durations: True
+Largest duration: 2440
+Failed to process ..\dataset\processed\.._midi_super-nintendo_FF5_musica.npy:
+..\dataset\processed\.._midi_super-nintendo_FF5_musica.npy contains large onsets: False, large durations: True
+Largest duration: 9591
+Failed to process ..\dataset\processed\.._midi_super-nintendo_RockfaceRumble.npy:
+..\dataset\processed\.._midi_super-nintendo_RockfaceRumble.npy contains large onsets: False, large durations: True
+Largest duration: 5385
+Failed to process ..\dataset\processed\.._midi_super-nintendo_SailorMoonR_forest.npy:
+..\dataset\processed\.._midi_super-nintendo_SailorMoonR_forest.npy contains large onsets: False, large durations: True
+Largest duration: 4872
+Failed to process ..\dataset\processed\.._midi_nintendo-ds_CPoR-Troubled_Times.npy:
+..\dataset\processed\.._midi_nintendo-ds_CPoR-Troubled_Times.npy contains large onsets: False, large durations: True
+Largest duration: 5475
+Failed to process ..\dataset\processed\.._midi_super-nintendo_IoGfinal.npy:
+..\dataset\processed\.._midi_super-nintendo_IoGfinal.npy contains large onsets: False, large durations: True
+Largest duration: 2390
+Failed to process ..\dataset\processed\.._midi_super-nintendo_ter28.npy:
+..\dataset\processed\.._midi_super-nintendo_ter28.npy contains large onsets: False, large durations: True
+Largest duration: 1060
+Failed to process ..\dataset\processed\.._midi_super-nintendo_DKC_-_Cave_Dweller_Concert.npy:
+..\dataset\processed\.._midi_super-nintendo_DKC_-_Cave_Dweller_Concert.npy contains large onsets: False, large durations: True
+Largest duration: 1829
+Failed to process ..\dataset\processed\.._midi_super-nintendo_fourside1.npy:
+..\dataset\processed\.._midi_super-nintendo_fourside1.npy contains large onsets: False, large durations: True
+Largest duration: 2656
+Failed to process ..\dataset\processed\.._midi_super-nintendo_Calm_Disrupted.npy:
+..\dataset\processed\.._midi_super-nintendo_Calm_Disrupted.npy contains large onsets: False, large durations: True
+Largest duration: 1048
+Failed to process ..\dataset\processed\.._midi_super-nintendo_SBomb1-Stage1.npy:
+..\dataset\processed\.._midi_super-nintendo_SBomb1-Stage1.npy contains large onsets: False, large durations: True
+Largest duration: 2861
+Failed to process ..\dataset\processed\.._midi_super-nintendo_somflamie.npy:
+..\dataset\processed\.._midi_super-nintendo_somflamie.npy contains large onsets: False, large durations: True
+Largest duration: 4535
+Failed to process ..\dataset\processed\.._midi_super-nintendo_SBomb2-Boss1.npy:
+..\dataset\processed\.._midi_super-nintendo_SBomb2-Boss1.npy contains large onsets: False, large durations: True
+Largest duration: 6931
+Failed to process ..\midi\wii\KAMELLA.mid:
+Traceback (most recent call last):
+  File "C:\Users\ElenaTomson\moonboost\Moonbeam-MIDI-Foundation-Model\data_preprocess.py", line 82, in process_midi_file_safe_v2
+    out = process_midi_file_v2(tokenizer, midi_file, split, onset_vocab_size, dur_vocab_size, output_folder, log_file, silence_threshold)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ElenaTomson\moonboost\Moonbeam-MIDI-Foundation-Model\data_preprocess.py", line 138, in process_midi_file_v2
+    compounds = tokenizer.midi_to_compound(midi_file)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ElenaTomson\moonboost\.venv\Lib\site-packages\llama_recipes\datasets\music_tokenizer.py", line 350, in midi_to_compound
+    midi = mido.MidiFile(midifile)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ElenaTomson\moonboost\.venv\Lib\site-packages\mido\midifiles\midifiles.py", line 320, in __init__
+    self._load(file)
+  File "C:\Users\ElenaTomson\moonboost\.venv\Lib\site-packages\mido\midifiles\midifiles.py", line 371, in _load
+    self.tracks.append(read_track(infile,
+                       ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ElenaTomson\moonboost\.venv\Lib\site-packages\mido\midifiles\midifiles.py", line 218, in read_track
+    msg = read_message(infile, status_byte, peek_data, delta, clip)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ElenaTomson\moonboost\.venv\Lib\site-packages\mido\midifiles\midifiles.py", line 131, in read_message
+    raise OSError('data byte must be in range 0..127')
+OSError: data byte must be in range 0..127
+
+Failed to process ..\dataset\processed\.._midi_super-nintendo_eek_flyingsaucer.npy:
+..\dataset\processed\.._midi_super-nintendo_eek_flyingsaucer.npy contains large onsets: False, large durations: True
+Largest duration: 1600
+Failed to process ..\dataset\processed\.._midi_star wars_Bens_Death_And_TIE_Fighter_Attack.npy:
+..\dataset\processed\.._midi_star wars_Bens_Death_And_TIE_Fighter_Attack.npy contains large onsets: False, large durations: True
+Largest duration: 1037
+Failed to process ..\dataset\processed\.._midi_nintendo-ds_YoshiTNG_Challenge_Course.npy:
+..\dataset\processed\.._midi_nintendo-ds_YoshiTNG_Challenge_Course.npy contains large onsets: False, large durations: True
+Largest duration: 1971
+Failed to process ..\dataset\processed\.._midi_super-nintendo_olivie.npy:
+..\dataset\processed\.._midi_super-nintendo_olivie.npy contains large onsets: False, large durations: True
+Largest duration: 6055
+Failed to process ..\dataset\processed\.._midi_super-nintendo_SC_-_Capital.npy:
+..\dataset\processed\.._midi_super-nintendo_SC_-_Capital.npy contains large onsets: False, large durations: True
+Largest duration: 4505
+Failed to process ..\dataset\processed\.._midi_super-nintendo_cyber_l1.npy:
+..\dataset\processed\.._midi_super-nintendo_cyber_l1.npy contains large onsets: False, large durations: True
+Largest duration: 7104
+Failed to process ..\dataset\processed\.._midi_super-nintendo_ctblkomn.npy:
+..\dataset\processed\.._midi_super-nintendo_ctblkomn.npy contains large onsets: False, large durations: True
+Largest duration: 1116
+Failed to process ..\dataset\processed\.._midi_windows_JJ2Hell.npy:
+..\dataset\processed\.._midi_windows_JJ2Hell.npy contains large onsets: False, large durations: True
+Largest duration: 9546
+Failed to process ..\dataset\processed\.._midi_super-nintendo_som_element.npy:
+..\dataset\processed\.._midi_super-nintendo_som_element.npy contains large onsets: False, large durations: True
+Largest duration: 1669
+Failed to process ..\dataset\processed\.._midi_super-nintendo_Elemen.npy:
+..\dataset\processed\.._midi_super-nintendo_Elemen.npy contains large onsets: False, large durations: True
+Largest duration: 2638
+Failed to process ..\dataset\processed\.._midi_super-nintendo_ewj_heck.npy:
+..\dataset\processed\.._midi_super-nintendo_ewj_heck.npy contains large onsets: False, large durations: True
+Largest duration: 3306
+Failed to process ..\dataset\processed\.._midi_nintendo-ds_BomberBarbara_v1_1.npy:
+..\dataset\processed\.._midi_nintendo-ds_BomberBarbara_v1_1.npy contains large onsets: False, large durations: True
+Largest duration: 2143
+Failed to process ..\dataset\processed\.._midi_super-nintendo_ceremony.npy:
+..\dataset\processed\.._midi_super-nintendo_ceremony.npy contains large onsets: False, large durations: True
+Largest duration: 1412
+Failed to process ..\dataset\processed\.._midi_super-nintendo_Mpntbgm1.npy:
+..\dataset\processed\.._midi_super-nintendo_Mpntbgm1.npy contains large onsets: False, large durations: True
+Largest duration: 2454
+Failed to process ..\dataset\processed\.._midi_super-nintendo_kiglacius.npy:
+..\dataset\processed\.._midi_super-nintendo_kiglacius.npy contains large onsets: False, large durations: True
+Largest duration: 1049
+Failed to process ..\dataset\processed\.._midi_super-nintendo_felast2.npy:
+..\dataset\processed\.._midi_super-nintendo_felast2.npy contains large onsets: False, large durations: True
+Largest duration: 7986
+Failed to process ..\dataset\processed\.._midi_super-nintendo_26-Station1.npy:
+..\dataset\processed\.._midi_super-nintendo_26-Station1.npy contains large onsets: False, large durations: True
+Largest duration: 1619
+Failed to process ..\dataset\processed\.._midi_nintendo-ds_Black_White_Trainer_Battle.npy:
+..\dataset\processed\.._midi_nintendo-ds_Black_White_Trainer_Battle.npy contains large onsets: False, large durations: True
+Largest duration: 9293
+Failed to process ..\dataset\processed\.._midi_super-nintendo_GokujyoParodius_Stage7.npy:
+..\dataset\processed\.._midi_super-nintendo_GokujyoParodius_Stage7.npy contains large onsets: False, large durations: True
+Largest duration: 4875
+Failed to process ..\dataset\processed\.._midi_super-nintendo_K3_12.npy:
+..\dataset\processed\.._midi_super-nintendo_K3_12.npy contains large onsets: False, large durations: True
+Largest duration: 1116
+Failed to process ..\dataset\processed\.._midi_super-nintendo_fe4victory.npy:
+..\dataset\processed\.._midi_super-nintendo_fe4victory.npy contains large onsets: False, large durations: True
+Largest duration: 5943
+Failed to process ..\dataset\processed\.._midi_super-nintendo_MRpgSlope.npy:
+..\dataset\processed\.._midi_super-nintendo_MRpgSlope.npy contains large onsets: False, large durations: True
+Largest duration: 3634
+Failed to process ..\dataset\processed\.._midi_super-nintendo_fewar.npy:
+..\dataset\processed\.._midi_super-nintendo_fewar.npy contains large onsets: False, large durations: True
+Largest duration: 8501
+Failed to process ..\dataset\processed\.._midi_windows_JazzJackrabbit_5-3_GM.npy:
+..\dataset\processed\.._midi_windows_JazzJackrabbit_5-3_GM.npy contains large onsets: False, large durations: True
+Largest duration: 1848
+Failed to process ..\dataset\processed\.._midi_super-nintendo_SBomb2-Story.npy:
+..\dataset\processed\.._midi_super-nintendo_SBomb2-Story.npy contains large onsets: False, large durations: True
+Largest duration: 8122
+Failed to process ..\dataset\processed\.._midi_super-nintendo_ctcrono3.npy:
+..\dataset\processed\.._midi_super-nintendo_ctcrono3.npy contains large onsets: False, large durations: True
+Largest duration: 1427
+Failed to process ..\dataset\processed\.._midi_super-nintendo_t_ogre17.npy:
+..\dataset\processed\.._midi_super-nintendo_t_ogre17.npy contains large onsets: False, large durations: True
+Largest duration: 1209
+Failed to process ..\dataset\processed\.._midi_super-nintendo_SS-Ukyo.npy:
+..\dataset\processed\.._midi_super-nintendo_SS-Ukyo.npy contains large onsets: False, large durations: True
+Largest duration: 10649
+Failed to process ..\dataset\processed\.._midi_super-nintendo_BLEFConflict.npy:
+..\dataset\processed\.._midi_super-nintendo_BLEFConflict.npy contains large onsets: False, large durations: True
+Largest duration: 1262
+Failed to process ..\dataset\processed\.._midi_super-nintendo_ter33.npy:
+..\dataset\processed\.._midi_super-nintendo_ter33.npy contains large onsets: False, large durations: True
+Largest duration: 1338
+Failed to process ..\dataset\processed\.._midi_nintendo-ds_DialgaPalkiaMIDIBeta.npy:
+..\dataset\processed\.._midi_nintendo-ds_DialgaPalkiaMIDIBeta.npy contains large onsets: False, large durations: True
+Largest duration: 8632
+Failed to process ..\dataset\processed\.._midi_super-nintendo_CT_confusingmelody.npy:
+..\dataset\processed\.._midi_super-nintendo_CT_confusingmelody.npy contains large onsets: False, large durations: True
+Largest duration: 5759
+Failed to process ..\midi\super-nintendo\mkr-town.mid:
+Traceback (most recent call last):
+  File "C:\Users\ElenaTomson\moonboost\Moonbeam-MIDI-Foundation-Model\data_preprocess.py", line 82, in process_midi_file_safe_v2
+    out = process_midi_file_v2(tokenizer, midi_file, split, onset_vocab_size, dur_vocab_size, output_folder, log_file, silence_threshold)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ElenaTomson\moonboost\Moonbeam-MIDI-Foundation-Model\data_preprocess.py", line 138, in process_midi_file_v2
+    compounds = tokenizer.midi_to_compound(midi_file)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ElenaTomson\moonboost\.venv\Lib\site-packages\llama_recipes\datasets\music_tokenizer.py", line 350, in midi_to_compound
+    midi = mido.MidiFile(midifile)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ElenaTomson\moonboost\.venv\Lib\site-packages\mido\midifiles\midifiles.py", line 320, in __init__
+    self._load(file)
+  File "C:\Users\ElenaTomson\moonboost\.venv\Lib\site-packages\mido\midifiles\midifiles.py", line 371, in _load
+    self.tracks.append(read_track(infile,
+                       ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ElenaTomson\moonboost\.venv\Lib\site-packages\mido\midifiles\midifiles.py", line 218, in read_track
+    msg = read_message(infile, status_byte, peek_data, delta, clip)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ElenaTomson\moonboost\.venv\Lib\site-packages\mido\midifiles\midifiles.py", line 131, in read_message
+    raise OSError('data byte must be in range 0..127')
+OSError: data byte must be in range 0..127
+
+Failed to process ..\dataset\processed\.._midi_nintendo-ds_RockmanZXAGreysOpeningStageFix.npy:
+..\dataset\processed\.._midi_nintendo-ds_RockmanZXAGreysOpeningStageFix.npy contains large onsets: False, large durations: True
+Largest duration: 1371
+Failed to process ..\dataset\processed\.._midi_super-nintendo_(SDDstg1).npy:
+..\dataset\processed\.._midi_super-nintendo_(SDDstg1).npy contains large onsets: False, large durations: True
+Largest duration: 2600
+Failed to process ..\dataset\processed\.._midi_super-nintendo_BL_fls_boss.npy:
+..\dataset\processed\.._midi_super-nintendo_BL_fls_boss.npy contains large onsets: False, large durations: True
+Largest duration: 5169
+Failed to process ..\dataset\processed\.._midi_super-nintendo_luf2batt.npy:
+..\dataset\processed\.._midi_super-nintendo_luf2batt.npy contains large onsets: False, large durations: True
+Largest duration: 4216
+Failed to process ..\dataset\processed\.._midi_super-nintendo_Aitos.npy:
+..\dataset\processed\.._midi_super-nintendo_Aitos.npy contains large onsets: False, large durations: True
+Largest duration: 1074
+Failed to process ..\dataset\processed\.._midi_super-nintendo_ff2_Epilogue2_mid.npy:
+..\dataset\processed\.._midi_super-nintendo_ff2_Epilogue2_mid.npy contains large onsets: False, large durations: True
+Largest duration: 1600
+Failed to process ..\dataset\processed\.._midi_super-nintendo_27-Station2.npy:
+..\dataset\processed\.._midi_super-nintendo_27-Station2.npy contains large onsets: False, large durations: True
+Largest duration: 1406
+Failed to process ..\dataset\processed\.._midi_super-nintendo_dkckrool1(1).npy:
+..\dataset\processed\.._midi_super-nintendo_dkckrool1(1).npy contains large onsets: False, large durations: True
+Largest duration: 1474
+Failed to process ..\dataset\processed\.._midi_super-nintendo_title.npy:
+..\dataset\processed\.._midi_super-nintendo_title.npy contains large onsets: False, large durations: True
+Largest duration: 1797
+Failed to process ..\dataset\processed\.._midi_windows_rollin9.npy:
+..\dataset\processed\.._midi_windows_rollin9.npy contains large onsets: False, large durations: True
+Largest duration: 14322
+Failed to process ..\dataset\processed\.._midi_super-nintendo_DKC2rig.npy:
+..\dataset\processed\.._midi_super-nintendo_DKC2rig.npy contains large onsets: False, large durations: True
+Largest duration: 2277
+Failed to process ..\dataset\processed\.._midi_super-nintendo_SMAS-NPole.npy:
+..\dataset\processed\.._midi_super-nintendo_SMAS-NPole.npy contains large onsets: False, large durations: True
+Largest duration: 4157
+Failed to process ..\dataset\processed\.._midi_super-nintendo_ct_encounter.npy:
+..\dataset\processed\.._midi_super-nintendo_ct_encounter.npy contains large onsets: False, large durations: True
+Largest duration: 7259
+Failed to process ..\dataset\processed\.._midi_super-nintendo_Clocktower_The_Nightmare_Is_Finally_Over.npy:
+..\dataset\processed\.._midi_super-nintendo_Clocktower_The_Nightmare_Is_Finally_Over.npy contains large onsets: False, large durations: True
+Largest duration: 5610
+Failed to process ..\dataset\processed\.._midi_super-nintendo_empire_2.npy:
+..\dataset\processed\.._midi_super-nintendo_empire_2.npy contains large onsets: False, large durations: True
+Largest duration: 13564
+Failed to process ..\dataset\processed\.._midi_super-nintendo_BlueStone_AndonutsLab.npy:
+..\dataset\processed\.._midi_super-nintendo_BlueStone_AndonutsLab.npy contains large onsets: False, large durations: True
+Largest duration: 3860
+Failed to process ..\dataset\processed\.._midi_wii_courageseq.npy:
+..\dataset\processed\.._midi_wii_courageseq.npy contains large onsets: False, large durations: True
+Largest duration: 1283
+Failed to process ..\dataset\processed\.._midi_super-nintendo_GokujyoParodius_Ranking.npy:
+..\dataset\processed\.._midi_super-nintendo_GokujyoParodius_Ranking.npy contains large onsets: False, large durations: True
+Largest duration: 2710
+Failed to process ..\dataset\processed\.._midi_nintendo-ds_Mystery_Dungeon_-_Sky_Tower.npy:
+..\dataset\processed\.._midi_nintendo-ds_Mystery_Dungeon_-_Sky_Tower.npy contains large onsets: False, large durations: True
+Largest duration: 2461
+Failed to process ..\dataset\processed\.._midi_windows_rollin5.npy:
+..\dataset\processed\.._midi_windows_rollin5.npy contains large onsets: False, large durations: True
+Largest duration: 3632
+Failed to process ..\dataset\processed\.._midi_super-nintendo_RomancingSaga3_thret.npy:
+..\dataset\processed\.._midi_super-nintendo_RomancingSaga3_thret.npy contains large onsets: False, large durations: True
+Largest duration: 4825
+Failed to process ..\dataset\processed\.._midi_super-nintendo_BL_bof_story.npy:
+..\dataset\processed\.._midi_super-nintendo_BL_bof_story.npy contains large onsets: False, large durations: True
+Largest duration: 1764
+Failed to process ..\dataset\processed\.._midi_super-nintendo_dkc2shiphold.npy:
+..\dataset\processed\.._midi_super-nintendo_dkc2shiphold.npy contains large onsets: False, large durations: True
+Largest duration: 4243
+Failed to process ..\dataset\processed\.._midi_super-nintendo_fmgh-silencer-b.npy:
+..\dataset\processed\.._midi_super-nintendo_fmgh-silencer-b.npy contains large onsets: False, large durations: True
+Largest duration: 1600
+Failed to process ..\dataset\processed\.._midi_super-nintendo_sd371.npy:
+..\dataset\processed\.._midi_super-nintendo_sd371.npy contains large onsets: False, large durations: True
+Largest duration: 1535
+Failed to process ..\dataset\processed\.._midi_wii_Sammers.npy:
+..\dataset\processed\.._midi_wii_Sammers.npy contains large onsets: False, large durations: True
+Largest duration: 2117
+Failed to process ..\midi\super-nintendo\Rudora_no_Hihou_Storm_Over_The_Place_DW.mid:
+Traceback (most recent call last):
+  File "C:\Users\ElenaTomson\moonboost\Moonbeam-MIDI-Foundation-Model\data_preprocess.py", line 82, in process_midi_file_safe_v2
+    out = process_midi_file_v2(tokenizer, midi_file, split, onset_vocab_size, dur_vocab_size, output_folder, log_file, silence_threshold)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ElenaTomson\moonboost\Moonbeam-MIDI-Foundation-Model\data_preprocess.py", line 138, in process_midi_file_v2
+    compounds = tokenizer.midi_to_compound(midi_file)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ElenaTomson\moonboost\.venv\Lib\site-packages\llama_recipes\datasets\music_tokenizer.py", line 350, in midi_to_compound
+    midi = mido.MidiFile(midifile)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ElenaTomson\moonboost\.venv\Lib\site-packages\mido\midifiles\midifiles.py", line 320, in __init__
+    self._load(file)
+  File "C:\Users\ElenaTomson\moonboost\.venv\Lib\site-packages\mido\midifiles\midifiles.py", line 371, in _load
+    self.tracks.append(read_track(infile,
+                       ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ElenaTomson\moonboost\.venv\Lib\site-packages\mido\midifiles\midifiles.py", line 218, in read_track
+    msg = read_message(infile, status_byte, peek_data, delta, clip)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ElenaTomson\moonboost\.venv\Lib\site-packages\mido\midifiles\midifiles.py", line 131, in read_message
+    raise OSError('data byte must be in range 0..127')
+OSError: data byte must be in range 0..127
+
+Failed to process ..\dataset\processed\.._midi_star wars_The_Emperor_Arrives.npy:
+..\dataset\processed\.._midi_star wars_The_Emperor_Arrives.npy contains large onsets: False, large durations: True
+Largest duration: 1528
+Failed to process ..\dataset\processed\.._midi_super-nintendo_actraiser_ancient.npy:
+..\dataset\processed\.._midi_super-nintendo_actraiser_ancient.npy contains large onsets: False, large durations: True
+Largest duration: 1515
+Failed to process ..\dataset\processed\.._midi_super-nintendo_SS-Haohmaru.npy:
+..\dataset\processed\.._midi_super-nintendo_SS-Haohmaru.npy contains large onsets: False, large durations: True
+Largest duration: 11661
+Failed to process ..\midi\super-nintendo\evoBolbox.mid:
+Traceback (most recent call last):
+  File "C:\Users\ElenaTomson\moonboost\Moonbeam-MIDI-Foundation-Model\data_preprocess.py", line 82, in process_midi_file_safe_v2
+    out = process_midi_file_v2(tokenizer, midi_file, split, onset_vocab_size, dur_vocab_size, output_folder, log_file, silence_threshold)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ElenaTomson\moonboost\Moonbeam-MIDI-Foundation-Model\data_preprocess.py", line 138, in process_midi_file_v2
+    compounds = tokenizer.midi_to_compound(midi_file)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ElenaTomson\moonboost\.venv\Lib\site-packages\llama_recipes\datasets\music_tokenizer.py", line 350, in midi_to_compound
+    midi = mido.MidiFile(midifile)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ElenaTomson\moonboost\.venv\Lib\site-packages\mido\midifiles\midifiles.py", line 320, in __init__
+    self._load(file)
+  File "C:\Users\ElenaTomson\moonboost\.venv\Lib\site-packages\mido\midifiles\midifiles.py", line 371, in _load
+    self.tracks.append(read_track(infile,
+                       ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ElenaTomson\moonboost\.venv\Lib\site-packages\mido\midifiles\midifiles.py", line 218, in read_track
+    msg = read_message(infile, status_byte, peek_data, delta, clip)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ElenaTomson\moonboost\.venv\Lib\site-packages\mido\midifiles\midifiles.py", line 131, in read_message
+    raise OSError('data byte must be in range 0..127')
+OSError: data byte must be in range 0..127
+
+Failed to process ..\dataset\processed\.._midi_super-nintendo_GokujyoParodius_Stage6.npy:
+..\dataset\processed\.._midi_super-nintendo_GokujyoParodius_Stage6.npy contains large onsets: False, large durations: True
+Largest duration: 7633
+Failed to process ..\dataset\processed\.._midi_windows_HL2--Kaon.npy:
+..\dataset\processed\.._midi_windows_HL2--Kaon.npy contains large onsets: False, large durations: True
+Largest duration: 2079
+Failed to process ..\dataset\processed\.._midi_super-nintendo_sd327.npy:
+..\dataset\processed\.._midi_super-nintendo_sd327.npy contains large onsets: False, large durations: True
+Largest duration: 1438
+Failed to process ..\midi\super-nintendo\RS2battle.mid:
+Traceback (most recent call last):
+  File "C:\Users\ElenaTomson\moonboost\Moonbeam-MIDI-Foundation-Model\data_preprocess.py", line 82, in process_midi_file_safe_v2
+    out = process_midi_file_v2(tokenizer, midi_file, split, onset_vocab_size, dur_vocab_size, output_folder, log_file, silence_threshold)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ElenaTomson\moonboost\Moonbeam-MIDI-Foundation-Model\data_preprocess.py", line 138, in process_midi_file_v2
+    compounds = tokenizer.midi_to_compound(midi_file)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ElenaTomson\moonboost\.venv\Lib\site-packages\llama_recipes\datasets\music_tokenizer.py", line 350, in midi_to_compound
+    midi = mido.MidiFile(midifile)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ElenaTomson\moonboost\.venv\Lib\site-packages\mido\midifiles\midifiles.py", line 320, in __init__
+    self._load(file)
+  File "C:\Users\ElenaTomson\moonboost\.venv\Lib\site-packages\mido\midifiles\midifiles.py", line 371, in _load
+    self.tracks.append(read_track(infile,
+                       ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ElenaTomson\moonboost\.venv\Lib\site-packages\mido\midifiles\midifiles.py", line 218, in read_track
+    msg = read_message(infile, status_byte, peek_data, delta, clip)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ElenaTomson\moonboost\.venv\Lib\site-packages\mido\midifiles\midifiles.py", line 131, in read_message
+    raise OSError('data byte must be in range 0..127')
+OSError: data byte must be in range 0..127
+
+Failed to process ..\dataset\processed\.._midi_super-nintendo_Gradius3_UnchartedTerritory.npy:
+..\dataset\processed\.._midi_super-nintendo_Gradius3_UnchartedTerritory.npy contains large onsets: False, large durations: True
+Largest duration: 2250
+Failed to process ..\dataset\processed\.._midi_super-nintendo_(SDDstg2).npy:
+..\dataset\processed\.._midi_super-nintendo_(SDDstg2).npy contains large onsets: False, large durations: True
+Largest duration: 3793
+Failed to process ..\dataset\processed\.._midi_super-nintendo_rd-facing.npy:
+..\dataset\processed\.._midi_super-nintendo_rd-facing.npy contains large onsets: False, large durations: True
+Largest duration: 2059
+Failed to process ..\dataset\processed\.._midi_super-nintendo_SMT_DMusic.npy:
+..\dataset\processed\.._midi_super-nintendo_SMT_DMusic.npy contains large onsets: False, large durations: True
+Largest duration: 1956
+Failed to process ..\midi\super-nintendo\Axelay_-_Silence.mid:
+Traceback (most recent call last):
+  File "C:\Users\ElenaTomson\moonboost\Moonbeam-MIDI-Foundation-Model\data_preprocess.py", line 82, in process_midi_file_safe_v2
+    out = process_midi_file_v2(tokenizer, midi_file, split, onset_vocab_size, dur_vocab_size, output_folder, log_file, silence_threshold)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ElenaTomson\moonboost\Moonbeam-MIDI-Foundation-Model\data_preprocess.py", line 138, in process_midi_file_v2
+    compounds = tokenizer.midi_to_compound(midi_file)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ElenaTomson\moonboost\.venv\Lib\site-packages\llama_recipes\datasets\music_tokenizer.py", line 350, in midi_to_compound
+    midi = mido.MidiFile(midifile)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ElenaTomson\moonboost\.venv\Lib\site-packages\mido\midifiles\midifiles.py", line 320, in __init__
+    self._load(file)
+  File "C:\Users\ElenaTomson\moonboost\.venv\Lib\site-packages\mido\midifiles\midifiles.py", line 371, in _load
+    self.tracks.append(read_track(infile,
+                       ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ElenaTomson\moonboost\.venv\Lib\site-packages\mido\midifiles\midifiles.py", line 218, in read_track
+    msg = read_message(infile, status_byte, peek_data, delta, clip)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ElenaTomson\moonboost\.venv\Lib\site-packages\mido\midifiles\midifiles.py", line 131, in read_message
+    raise OSError('data byte must be in range 0..127')
+OSError: data byte must be in range 0..127
+
+Failed to process ..\dataset\processed\.._midi_super-nintendo_PNTB_l41.npy:
+..\dataset\processed\.._midi_super-nintendo_PNTB_l41.npy contains large onsets: False, large durations: True
+Largest duration: 7850
+Failed to process ..\dataset\processed\.._midi_super-nintendo_t_ogre41.npy:
+..\dataset\processed\.._midi_super-nintendo_t_ogre41.npy contains large onsets: False, large durations: True
+Largest duration: 1948
+Failed to process ..\dataset\processed\.._midi_super-nintendo_sfsectorx.npy:
+..\dataset\processed\.._midi_super-nintendo_sfsectorx.npy contains large onsets: False, large durations: True
+Largest duration: 6986
+Failed to process ..\midi\super-nintendo\bigwhale.mid:
+Traceback (most recent call last):
+  File "C:\Users\ElenaTomson\moonboost\.venv\Lib\site-packages\mido\midifiles\meta.py", line 404, in decode
+    message.key = _key_signature_decode[(key, mode)]
+                  ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+KeyError: (-4, 255)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\ElenaTomson\moonboost\Moonbeam-MIDI-Foundation-Model\data_preprocess.py", line 82, in process_midi_file_safe_v2
+    out = process_midi_file_v2(tokenizer, midi_file, split, onset_vocab_size, dur_vocab_size, output_folder, log_file, silence_threshold)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ElenaTomson\moonboost\Moonbeam-MIDI-Foundation-Model\data_preprocess.py", line 138, in process_midi_file_v2
+    compounds = tokenizer.midi_to_compound(midi_file)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ElenaTomson\moonboost\.venv\Lib\site-packages\llama_recipes\datasets\music_tokenizer.py", line 350, in midi_to_compound
+    midi = mido.MidiFile(midifile)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ElenaTomson\moonboost\.venv\Lib\site-packages\mido\midifiles\midifiles.py", line 320, in __init__
+    self._load(file)
+  File "C:\Users\ElenaTomson\moonboost\.venv\Lib\site-packages\mido\midifiles\midifiles.py", line 371, in _load
+    self.tracks.append(read_track(infile,
+                       ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ElenaTomson\moonboost\.venv\Lib\site-packages\mido\midifiles\midifiles.py", line 212, in read_track
+    msg = read_meta_message(infile, delta)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ElenaTomson\moonboost\.venv\Lib\site-packages\mido\midifiles\midifiles.py", line 167, in read_meta_message
+    return build_meta_message(meta_type, data, delta)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ElenaTomson\moonboost\.venv\Lib\site-packages\mido\midifiles\meta.py", line 471, in build_meta_message
+    spec.decode(msg, data)
+  File "C:\Users\ElenaTomson\moonboost\.venv\Lib\site-packages\mido\midifiles\meta.py", line 412, in decode
+    raise KeySignatureError(msg) from ke
+mido.midifiles.meta.KeySignatureError: Could not decode key with 4 flats and mode 255
+
+Failed to process ..\dataset\processed\.._midi_super-nintendo_eb_onett.npy:
+..\dataset\processed\.._midi_super-nintendo_eb_onett.npy contains large onsets: False, large durations: True
+Largest duration: 7064
+Failed to process ..\dataset\processed\.._midi_super-nintendo_Corneria_v1_1.npy:
+..\dataset\processed\.._midi_super-nintendo_Corneria_v1_1.npy contains large onsets: False, large durations: True
+Largest duration: 1063
+Failed to process ..\dataset\processed\.._midi_super-nintendo_The3fiends.npy:
+..\dataset\processed\.._midi_super-nintendo_The3fiends.npy contains large onsets: False, large durations: True
+Largest duration: 1512
+Failed to process ..\dataset\processed\.._midi_super-nintendo_GokujyoParodius_Pentarou.npy:
+..\dataset\processed\.._midi_super-nintendo_GokujyoParodius_Pentarou.npy contains large onsets: False, large durations: True
+Largest duration: 1481
+Failed to process ..\dataset\processed\.._midi_super-nintendo_Mini-Boss.npy:
+..\dataset\processed\.._midi_super-nintendo_Mini-Boss.npy contains large onsets: False, large durations: True
+Largest duration: 1280
+Failed to process ..\dataset\processed\.._midi_super-nintendo_liveoveragain.npy:
+..\dataset\processed\.._midi_super-nintendo_liveoveragain.npy contains large onsets: False, large durations: True
+Largest duration: 1067
+Failed to process ..\dataset\processed\.._midi_super-nintendo_FE3-Mystery.npy:
+..\dataset\processed\.._midi_super-nintendo_FE3-Mystery.npy contains large onsets: False, large durations: True
+Largest duration: 1393
+Failed to process ..\dataset\processed\.._midi_super-nintendo_DKC_-_Northern_Hemispheres.npy:
+..\dataset\processed\.._midi_super-nintendo_DKC_-_Northern_Hemispheres.npy contains large onsets: False, large durations: True
+Largest duration: 3600
+Failed to process ..\dataset\processed\.._midi_wii_MM9_-_OverDrive.npy:
+..\dataset\processed\.._midi_wii_MM9_-_OverDrive.npy contains large onsets: False, large durations: True
+Largest duration: 1300
+Failed to process ..\dataset\processed\.._midi_super-nintendo_SMASMediasByCryogen.npy:
+..\dataset\processed\.._midi_super-nintendo_SMASMediasByCryogen.npy contains large onsets: False, large durations: True
+Largest duration: 1550
+Failed to process ..\dataset\processed\.._midi_super-nintendo_Mm7fre~1.npy:
+..\dataset\processed\.._midi_super-nintendo_Mm7fre~1.npy contains large onsets: False, large durations: True
+Largest duration: 6006
+Failed to process ..\dataset\processed\.._midi_super-nintendo_ter20.npy:
+..\dataset\processed\.._midi_super-nintendo_ter20.npy contains large onsets: False, large durations: True
+Largest duration: 14144
+Failed to process ..\dataset\processed\.._midi_super-nintendo_FrontMissionGunHazard_Remains.npy:
+..\dataset\processed\.._midi_super-nintendo_FrontMissionGunHazard_Remains.npy contains large onsets: False, large durations: True
+Largest duration: 1526
+Failed to process ..\midi\super-nintendo\RS3abyss.mid:
+Traceback (most recent call last):
+  File "C:\Users\ElenaTomson\moonboost\Moonbeam-MIDI-Foundation-Model\data_preprocess.py", line 82, in process_midi_file_safe_v2
+    out = process_midi_file_v2(tokenizer, midi_file, split, onset_vocab_size, dur_vocab_size, output_folder, log_file, silence_threshold)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ElenaTomson\moonboost\Moonbeam-MIDI-Foundation-Model\data_preprocess.py", line 138, in process_midi_file_v2
+    compounds = tokenizer.midi_to_compound(midi_file)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ElenaTomson\moonboost\.venv\Lib\site-packages\llama_recipes\datasets\music_tokenizer.py", line 350, in midi_to_compound
+    midi = mido.MidiFile(midifile)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ElenaTomson\moonboost\.venv\Lib\site-packages\mido\midifiles\midifiles.py", line 320, in __init__
+    self._load(file)
+  File "C:\Users\ElenaTomson\moonboost\.venv\Lib\site-packages\mido\midifiles\midifiles.py", line 371, in _load
+    self.tracks.append(read_track(infile,
+                       ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ElenaTomson\moonboost\.venv\Lib\site-packages\mido\midifiles\midifiles.py", line 218, in read_track
+    msg = read_message(infile, status_byte, peek_data, delta, clip)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ElenaTomson\moonboost\.venv\Lib\site-packages\mido\midifiles\midifiles.py", line 131, in read_message
+    raise OSError('data byte must be in range 0..127')
+OSError: data byte must be in range 0..127
+
+Failed to process ..\dataset\processed\.._midi_super-nintendo_DKC_-_Voices_of_the_Temple.npy:
+..\dataset\processed\.._midi_super-nintendo_DKC_-_Voices_of_the_Temple.npy contains large onsets: False, large durations: True
+Largest duration: 1600
+Failed to process ..\dataset\processed\.._midi_super-nintendo_dkcwink.npy:
+..\dataset\processed\.._midi_super-nintendo_dkcwink.npy contains large onsets: False, large durations: True
+Largest duration: 5927
+Failed to process ..\dataset\processed\.._midi_super-nintendo_Seiken_Densetsu_2_-_The_Legend.npy:
+..\dataset\processed\.._midi_super-nintendo_Seiken_Densetsu_2_-_The_Legend.npy contains large onsets: False, large durations: True
+Largest duration: 6153
+Failed to process ..\dataset\processed\.._midi_nintendo-ds_Moderate.npy:
+..\dataset\processed\.._midi_nintendo-ds_Moderate.npy contains large onsets: False, large durations: True
+Largest duration: 1200
+Failed to process ..\dataset\processed\.._midi_super-nintendo_FZ_Mute_City_Arr-KM.npy:
+..\dataset\processed\.._midi_super-nintendo_FZ_Mute_City_Arr-KM.npy contains large onsets: False, large durations: True
+Largest duration: 2106
+Failed to process ..\dataset\processed\.._midi_super-nintendo_Dk1ice.npy:
+..\dataset\processed\.._midi_super-nintendo_Dk1ice.npy contains large onsets: False, large durations: True
+Largest duration: 1964
+Failed to process ..\dataset\processed\.._midi_super-nintendo_tophydro.npy:
+..\dataset\processed\.._midi_super-nintendo_tophydro.npy contains large onsets: False, large durations: True
+Largest duration: 1252
+Failed to process ..\dataset\processed\.._midi_super-nintendo_Star_Ocean_Ambition.npy:
+..\dataset\processed\.._midi_super-nintendo_Star_Ocean_Ambition.npy contains large onsets: False, large durations: True
+Largest duration: 1333
+Failed to process ..\dataset\processed\.._midi_super-nintendo_battle4.npy:
+..\dataset\processed\.._midi_super-nintendo_battle4.npy contains large onsets: False, large durations: True
+Largest duration: 9100
+Failed to process ..\midi\nintendo-ds\RIDDLE.mid:
+Traceback (most recent call last):
+  File "C:\Users\ElenaTomson\moonboost\Moonbeam-MIDI-Foundation-Model\data_preprocess.py", line 82, in process_midi_file_safe_v2
+    out = process_midi_file_v2(tokenizer, midi_file, split, onset_vocab_size, dur_vocab_size, output_folder, log_file, silence_threshold)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ElenaTomson\moonboost\Moonbeam-MIDI-Foundation-Model\data_preprocess.py", line 138, in process_midi_file_v2
+    compounds = tokenizer.midi_to_compound(midi_file)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ElenaTomson\moonboost\.venv\Lib\site-packages\llama_recipes\datasets\music_tokenizer.py", line 350, in midi_to_compound
+    midi = mido.MidiFile(midifile)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ElenaTomson\moonboost\.venv\Lib\site-packages\mido\midifiles\midifiles.py", line 320, in __init__
+    self._load(file)
+  File "C:\Users\ElenaTomson\moonboost\.venv\Lib\site-packages\mido\midifiles\midifiles.py", line 371, in _load
+    self.tracks.append(read_track(infile,
+                       ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ElenaTomson\moonboost\.venv\Lib\site-packages\mido\midifiles\midifiles.py", line 218, in read_track
+    msg = read_message(infile, status_byte, peek_data, delta, clip)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ElenaTomson\moonboost\.venv\Lib\site-packages\mido\midifiles\midifiles.py", line 131, in read_message
+    raise OSError('data byte must be in range 0..127')
+OSError: data byte must be in range 0..127
+
+Failed to process ..\dataset\processed\.._midi_windows_rollin2.npy:
+..\dataset\processed\.._midi_windows_rollin2.npy contains large onsets: False, large durations: True
+Largest duration: 17186
+Failed to process ..\dataset\processed\.._midi_super-nintendo_SBomb3-Stage5.npy:
+..\dataset\processed\.._midi_super-nintendo_SBomb3-Stage5.npy contains large onsets: False, large durations: True
+Largest duration: 5949
+Failed to process ..\dataset\processed\.._midi_super-nintendo_ImpatienceArranged.npy:
+..\dataset\processed\.._midi_super-nintendo_ImpatienceArranged.npy contains large onsets: False, large durations: True
+Largest duration: 3075
+Failed to process ..\dataset\processed\.._midi_star wars_The_Asteroid_Field.npy:
+..\dataset\processed\.._midi_star wars_The_Asteroid_Field.npy contains large onsets: False, large durations: True
+Largest duration: 1620
+Failed to process ..\dataset\processed\.._midi_windows_zp-radix2.npy:
+..\dataset\processed\.._midi_windows_zp-radix2.npy contains large onsets: False, large durations: True
+Largest duration: 2614
+Failed to process ..\midi\super-nintendo\figaro.mid:
+Traceback (most recent call last):
+  File "C:\Users\ElenaTomson\moonboost\.venv\Lib\site-packages\mido\midifiles\meta.py", line 404, in decode
+    message.key = _key_signature_decode[(key, mode)]
+                  ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+KeyError: (-5, 255)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\ElenaTomson\moonboost\Moonbeam-MIDI-Foundation-Model\data_preprocess.py", line 82, in process_midi_file_safe_v2
+    out = process_midi_file_v2(tokenizer, midi_file, split, onset_vocab_size, dur_vocab_size, output_folder, log_file, silence_threshold)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ElenaTomson\moonboost\Moonbeam-MIDI-Foundation-Model\data_preprocess.py", line 138, in process_midi_file_v2
+    compounds = tokenizer.midi_to_compound(midi_file)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ElenaTomson\moonboost\.venv\Lib\site-packages\llama_recipes\datasets\music_tokenizer.py", line 350, in midi_to_compound
+    midi = mido.MidiFile(midifile)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ElenaTomson\moonboost\.venv\Lib\site-packages\mido\midifiles\midifiles.py", line 320, in __init__
+    self._load(file)
+  File "C:\Users\ElenaTomson\moonboost\.venv\Lib\site-packages\mido\midifiles\midifiles.py", line 371, in _load
+    self.tracks.append(read_track(infile,
+                       ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ElenaTomson\moonboost\.venv\Lib\site-packages\mido\midifiles\midifiles.py", line 212, in read_track
+    msg = read_meta_message(infile, delta)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ElenaTomson\moonboost\.venv\Lib\site-packages\mido\midifiles\midifiles.py", line 167, in read_meta_message
+    return build_meta_message(meta_type, data, delta)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ElenaTomson\moonboost\.venv\Lib\site-packages\mido\midifiles\meta.py", line 471, in build_meta_message
+    spec.decode(msg, data)
+  File "C:\Users\ElenaTomson\moonboost\.venv\Lib\site-packages\mido\midifiles\meta.py", line 412, in decode
+    raise KeySignatureError(msg) from ke
+mido.midifiles.meta.KeySignatureError: Could not decode key with 5 flats and mode 255
+
+Failed to process ..\dataset\processed\.._midi_nintendo-ds_awdsnormalcopower.npy:
+..\dataset\processed\.._midi_nintendo-ds_awdsnormalcopower.npy contains large onsets: False, large durations: True
+Largest duration: 1579
+Failed to process ..\dataset\processed\.._midi_super-nintendo_CT_medina_village.npy:
+..\dataset\processed\.._midi_super-nintendo_CT_medina_village.npy contains large onsets: False, large durations: True
+Largest duration: 1233
+Failed to process ..\dataset\processed\.._midi_star wars_Main_Title.npy:
+..\dataset\processed\.._midi_star wars_Main_Title.npy contains large onsets: False, large durations: True
+Largest duration: 2066
+Failed to process ..\dataset\processed\.._midi_windows_Orc4gm.npy:
+..\dataset\processed\.._midi_windows_Orc4gm.npy contains large onsets: False, large durations: True
+Largest duration: 1368
+Failed to process ..\dataset\processed\.._midi_wii_Trailer_-_Zelda_Twilight_Princess.npy:
+..\dataset\processed\.._midi_wii_Trailer_-_Zelda_Twilight_Princess.npy contains large onsets: False, large durations: True
+Largest duration: 1131
+Failed to process ..\dataset\processed\.._midi_super-nintendo_ter23.npy:
+..\dataset\processed\.._midi_super-nintendo_ter23.npy contains large onsets: False, large durations: True
+Largest duration: 3572
+Failed to process ..\dataset\processed\.._midi_super-nintendo_LFMGH-102Emergency.npy:
+..\dataset\processed\.._midi_super-nintendo_LFMGH-102Emergency.npy contains large onsets: False, large durations: True
+Largest duration: 3054
+Failed to process ..\dataset\processed\.._midi_nintendo-ds_CVPoRIronBlueIntention.npy:
+..\dataset\processed\.._midi_nintendo-ds_CVPoRIronBlueIntention.npy contains large onsets: False, large durations: True
+Largest duration: 5411
+Failed to process ..\dataset\processed\.._midi_super-nintendo_GokujyoParodius_VicViper.npy:
+..\dataset\processed\.._midi_super-nintendo_GokujyoParodius_VicViper.npy contains large onsets: False, large durations: True
+Largest duration: 1796
+Failed to process ..\dataset\processed\.._midi_super-nintendo_FE4-Chapter1.npy:
+..\dataset\processed\.._midi_super-nintendo_FE4-Chapter1.npy contains large onsets: False, large durations: True
+Largest duration: 5712
+Failed to process ..\dataset\processed\.._midi_super-nintendo_Lovaous.npy:
+..\dataset\processed\.._midi_super-nintendo_Lovaous.npy contains large onsets: False, large durations: True
+Largest duration: 3070
+Failed to process ..\midi\wii\mm10sheepmanfixed.mid:
+Traceback (most recent call last):
+  File "C:\Users\ElenaTomson\moonboost\Moonbeam-MIDI-Foundation-Model\data_preprocess.py", line 82, in process_midi_file_safe_v2
+    out = process_midi_file_v2(tokenizer, midi_file, split, onset_vocab_size, dur_vocab_size, output_folder, log_file, silence_threshold)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ElenaTomson\moonboost\Moonbeam-MIDI-Foundation-Model\data_preprocess.py", line 138, in process_midi_file_v2
+    compounds = tokenizer.midi_to_compound(midi_file)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ElenaTomson\moonboost\.venv\Lib\site-packages\llama_recipes\datasets\music_tokenizer.py", line 350, in midi_to_compound
+    midi = mido.MidiFile(midifile)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ElenaTomson\moonboost\.venv\Lib\site-packages\mido\midifiles\midifiles.py", line 320, in __init__
+    self._load(file)
+  File "C:\Users\ElenaTomson\moonboost\.venv\Lib\site-packages\mido\midifiles\midifiles.py", line 371, in _load
+    self.tracks.append(read_track(infile,
+                       ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ElenaTomson\moonboost\.venv\Lib\site-packages\mido\midifiles\midifiles.py", line 218, in read_track
+    msg = read_message(infile, status_byte, peek_data, delta, clip)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ElenaTomson\moonboost\.venv\Lib\site-packages\mido\midifiles\midifiles.py", line 131, in read_message
+    raise OSError('data byte must be in range 0..127')
+OSError: data byte must be in range 0..127
+
+Failed to process ..\dataset\processed\.._midi_windows_Harmony.npy:
+..\dataset\processed\.._midi_windows_Harmony.npy contains large onsets: False, large durations: True
+Largest duration: 6026
+Failed to process ..\dataset\processed\.._midi_super-nintendo_GokujyoParodius_Stage5.npy:
+..\dataset\processed\.._midi_super-nintendo_GokujyoParodius_Stage5.npy contains large onsets: False, large durations: True
+Largest duration: 5911
+Failed to process ..\dataset\processed\.._midi_wii_save_iliaseq.npy:
+..\dataset\processed\.._midi_wii_save_iliaseq.npy contains large onsets: False, large durations: True
+Largest duration: 1129
+Failed to process ..\dataset\processed\.._midi_super-nintendo_bofworld2.npy:
+..\dataset\processed\.._midi_super-nintendo_bofworld2.npy contains large onsets: False, large durations: True
+Largest duration: 1068
+Failed to process ..\dataset\processed\.._midi_super-nintendo_SuperDoubleDragon-Mission3-1.npy:
+..\dataset\processed\.._midi_super-nintendo_SuperDoubleDragon-Mission3-1.npy contains large onsets: False, large durations: True
+Largest duration: 1249
+Failed to process ..\dataset\processed\.._midi_super-nintendo_MKR_Boss_Xg.npy:
+..\dataset\processed\.._midi_super-nintendo_MKR_Boss_Xg.npy contains large onsets: False, large durations: True
+Largest duration: 7177
+Failed to process ..\dataset\processed\.._midi_super-nintendo_RomancingSaga3_dkc.npy:
+..\dataset\processed\.._midi_super-nintendo_RomancingSaga3_dkc.npy contains large onsets: False, large durations: True
+Largest duration: 2449
+Failed to process ..\dataset\processed\.._midi_super-nintendo_MMXFortB.npy:
+..\dataset\processed\.._midi_super-nintendo_MMXFortB.npy contains large onsets: False, large durations: True
+Largest duration: 5544
+Failed to process ..\dataset\processed\.._midi_quake_the-underworld.npy:
+..\dataset\processed\.._midi_quake_the-underworld.npy contains large onsets: False, large durations: True
+Largest duration: 1600
+Failed to process ..\midi\nintendo-ds\PDPP_EternaCity.mid:
+Traceback (most recent call last):
+  File "C:\Users\ElenaTomson\moonboost\Moonbeam-MIDI-Foundation-Model\data_preprocess.py", line 82, in process_midi_file_safe_v2
+    out = process_midi_file_v2(tokenizer, midi_file, split, onset_vocab_size, dur_vocab_size, output_folder, log_file, silence_threshold)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ElenaTomson\moonboost\Moonbeam-MIDI-Foundation-Model\data_preprocess.py", line 138, in process_midi_file_v2
+    compounds = tokenizer.midi_to_compound(midi_file)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ElenaTomson\moonboost\.venv\Lib\site-packages\llama_recipes\datasets\music_tokenizer.py", line 350, in midi_to_compound
+    midi = mido.MidiFile(midifile)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ElenaTomson\moonboost\.venv\Lib\site-packages\mido\midifiles\midifiles.py", line 320, in __init__
+    self._load(file)
+  File "C:\Users\ElenaTomson\moonboost\.venv\Lib\site-packages\mido\midifiles\midifiles.py", line 371, in _load
+    self.tracks.append(read_track(infile,
+                       ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ElenaTomson\moonboost\.venv\Lib\site-packages\mido\midifiles\midifiles.py", line 218, in read_track
+    msg = read_message(infile, status_byte, peek_data, delta, clip)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ElenaTomson\moonboost\.venv\Lib\site-packages\mido\midifiles\midifiles.py", line 131, in read_message
+    raise OSError('data byte must be in range 0..127')
+OSError: data byte must be in range 0..127
+
+Failed to process ..\dataset\processed\.._midi_windows_JazzJackrabbit_5-2_GM.npy:
+..\dataset\processed\.._midi_windows_JazzJackrabbit_5-2_GM.npy contains large onsets: False, large durations: True
+Largest duration: 2688
+Failed to process ..\dataset\processed\.._midi_nintendo-ds_Dusks_Holy_Mark.npy:
+..\dataset\processed\.._midi_nintendo-ds_Dusks_Holy_Mark.npy contains large onsets: False, large durations: True
+Largest duration: 1112
+Failed to process ..\dataset\processed\.._midi_super-nintendo_CV4-DraculasTheme.npy:
+..\dataset\processed\.._midi_super-nintendo_CV4-DraculasTheme.npy contains large onsets: False, large durations: True
+Largest duration: 1500
+Failed to process ..\dataset\processed\.._midi_super-nintendo_DKC_Water-Arr-KM.npy:
+..\dataset\processed\.._midi_super-nintendo_DKC_Water-Arr-KM.npy contains large onsets: False, large durations: True
+Largest duration: 1297
+Failed to process ..\midi\super-nintendo\tmm_Input_Name.mid:
+Traceback (most recent call last):
+  File "C:\Users\ElenaTomson\moonboost\Moonbeam-MIDI-Foundation-Model\data_preprocess.py", line 82, in process_midi_file_safe_v2
+    out = process_midi_file_v2(tokenizer, midi_file, split, onset_vocab_size, dur_vocab_size, output_folder, log_file, silence_threshold)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ElenaTomson\moonboost\Moonbeam-MIDI-Foundation-Model\data_preprocess.py", line 138, in process_midi_file_v2
+    compounds = tokenizer.midi_to_compound(midi_file)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ElenaTomson\moonboost\.venv\Lib\site-packages\llama_recipes\datasets\music_tokenizer.py", line 350, in midi_to_compound
+    midi = mido.MidiFile(midifile)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ElenaTomson\moonboost\.venv\Lib\site-packages\mido\midifiles\midifiles.py", line 320, in __init__
+    self._load(file)
+  File "C:\Users\ElenaTomson\moonboost\.venv\Lib\site-packages\mido\midifiles\midifiles.py", line 371, in _load
+    self.tracks.append(read_track(infile,
+                       ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ElenaTomson\moonboost\.venv\Lib\site-packages\mido\midifiles\midifiles.py", line 218, in read_track
+    msg = read_message(infile, status_byte, peek_data, delta, clip)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ElenaTomson\moonboost\.venv\Lib\site-packages\mido\midifiles\midifiles.py", line 131, in read_message
+    raise OSError('data byte must be in range 0..127')
+OSError: data byte must be in range 0..127
+
+Failed to process ..\midi\super-nintendo\ff2babil.mid:
+Traceback (most recent call last):
+  File "C:\Users\ElenaTomson\moonboost\.venv\Lib\site-packages\mido\midifiles\meta.py", line 404, in decode
+    message.key = _key_signature_decode[(key, mode)]
+                  ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+KeyError: (-3, 255)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\ElenaTomson\moonboost\Moonbeam-MIDI-Foundation-Model\data_preprocess.py", line 82, in process_midi_file_safe_v2
+    out = process_midi_file_v2(tokenizer, midi_file, split, onset_vocab_size, dur_vocab_size, output_folder, log_file, silence_threshold)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ElenaTomson\moonboost\Moonbeam-MIDI-Foundation-Model\data_preprocess.py", line 138, in process_midi_file_v2
+    compounds = tokenizer.midi_to_compound(midi_file)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ElenaTomson\moonboost\.venv\Lib\site-packages\llama_recipes\datasets\music_tokenizer.py", line 350, in midi_to_compound
+    midi = mido.MidiFile(midifile)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ElenaTomson\moonboost\.venv\Lib\site-packages\mido\midifiles\midifiles.py", line 320, in __init__
+    self._load(file)
+  File "C:\Users\ElenaTomson\moonboost\.venv\Lib\site-packages\mido\midifiles\midifiles.py", line 371, in _load
+    self.tracks.append(read_track(infile,
+                       ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ElenaTomson\moonboost\.venv\Lib\site-packages\mido\midifiles\midifiles.py", line 212, in read_track
+    msg = read_meta_message(infile, delta)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ElenaTomson\moonboost\.venv\Lib\site-packages\mido\midifiles\midifiles.py", line 167, in read_meta_message
+    return build_meta_message(meta_type, data, delta)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ElenaTomson\moonboost\.venv\Lib\site-packages\mido\midifiles\meta.py", line 471, in build_meta_message
+    spec.decode(msg, data)
+  File "C:\Users\ElenaTomson\moonboost\.venv\Lib\site-packages\mido\midifiles\meta.py", line 412, in decode
+    raise KeySignatureError(msg) from ke
+mido.midifiles.meta.KeySignatureError: Could not decode key with 3 flats and mode 255
+
+Failed to process ..\dataset\processed\.._midi_super-nintendo_zebes6.npy:
+..\dataset\processed\.._midi_super-nintendo_zebes6.npy contains large onsets: False, large durations: True
+Largest duration: 12020
+Failed to process ..\dataset\processed\.._midi_super-nintendo_dkc3frst.npy:
+..\dataset\processed\.._midi_super-nintendo_dkc3frst.npy contains large onsets: False, large durations: True
+Largest duration: 1278
+Failed to process ..\dataset\processed\.._midi_nintendo-ds_CHAOTIC_PLAYGROUND.npy:
+..\dataset\processed\.._midi_nintendo-ds_CHAOTIC_PLAYGROUND.npy contains large onsets: True, large durations: False
+Largest onset: 2036
+Failed to process ..\dataset\processed\.._midi_wii_Kid_Icarus_Original_Medley.npy:
+..\dataset\processed\.._midi_wii_Kid_Icarus_Original_Medley.npy contains large onsets: False, large durations: True
+Largest duration: 11727
+Failed to process ..\dataset\processed\.._midi_super-nintendo_actraiser_great_tree.npy:
+..\dataset\processed\.._midi_super-nintendo_actraiser_great_tree.npy contains large onsets: False, large durations: True
+Largest duration: 1836
+Failed to process ..\dataset\processed\.._midi_super-nintendo_dkc1treetop.npy:
+..\dataset\processed\.._midi_super-nintendo_dkc1treetop.npy contains large onsets: False, large durations: True
+Largest duration: 8100
+Failed to process ..\dataset\processed\.._midi_super-nintendo_SailorMoonR_moon.npy:
+..\dataset\processed\.._midi_super-nintendo_SailorMoonR_moon.npy contains large onsets: False, large durations: True
+Largest duration: 9774
+Failed to process ..\dataset\processed\.._midi_super-nintendo_GokujyoParodius_Stage3.npy:
+..\dataset\processed\.._midi_super-nintendo_GokujyoParodius_Stage3.npy contains large onsets: False, large durations: True
+Largest duration: 3464
+Failed to process ..\midi\super-nintendo\mkr-mashinshrine.mid:
+Traceback (most recent call last):
+  File "C:\Users\ElenaTomson\moonboost\Moonbeam-MIDI-Foundation-Model\data_preprocess.py", line 82, in process_midi_file_safe_v2
+    out = process_midi_file_v2(tokenizer, midi_file, split, onset_vocab_size, dur_vocab_size, output_folder, log_file, silence_threshold)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ElenaTomson\moonboost\Moonbeam-MIDI-Foundation-Model\data_preprocess.py", line 138, in process_midi_file_v2
+    compounds = tokenizer.midi_to_compound(midi_file)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ElenaTomson\moonboost\.venv\Lib\site-packages\llama_recipes\datasets\music_tokenizer.py", line 350, in midi_to_compound
+    midi = mido.MidiFile(midifile)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ElenaTomson\moonboost\.venv\Lib\site-packages\mido\midifiles\midifiles.py", line 320, in __init__
+    self._load(file)
+  File "C:\Users\ElenaTomson\moonboost\.venv\Lib\site-packages\mido\midifiles\midifiles.py", line 371, in _load
+    self.tracks.append(read_track(infile,
+                       ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ElenaTomson\moonboost\.venv\Lib\site-packages\mido\midifiles\midifiles.py", line 218, in read_track
+    msg = read_message(infile, status_byte, peek_data, delta, clip)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ElenaTomson\moonboost\.venv\Lib\site-packages\mido\midifiles\midifiles.py", line 131, in read_message
+    raise OSError('data byte must be in range 0..127')
+OSError: data byte must be in range 0..127
+
+Failed to process ..\dataset\processed\.._midi_star wars_Clash_of_Lightsabers.npy:
+..\dataset\processed\.._midi_star wars_Clash_of_Lightsabers.npy contains large onsets: False, large durations: True
+Largest duration: 2309
+Failed to process ..\dataset\processed\.._midi_super-nintendo_SBomb2-Stage5.npy:
+..\dataset\processed\.._midi_super-nintendo_SBomb2-Stage5.npy contains large onsets: False, large durations: True
+Largest duration: 13267
