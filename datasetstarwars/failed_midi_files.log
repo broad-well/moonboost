@@ -1,0 +1,48 @@
+Failed to process ..\datasetstarwars\processed\.._midi_starwars_The_Dune_Sea_of_Tatooine_And_Jawa_Sandcrawler.npy:
+..\datasetstarwars\processed\.._midi_starwars_The_Dune_Sea_of_Tatooine_And_Jawa_Sandcrawler.npy contains large onsets: False, large durations: True
+Largest duration: 1604
+Failed to process ..\datasetstarwars\processed\.._midi_starwars_Clash_of_Lightsabers.npy:
+..\datasetstarwars\processed\.._midi_starwars_Clash_of_Lightsabers.npy contains large onsets: False, large durations: True
+Largest duration: 2309
+Failed to process ..\datasetstarwars\processed\.._midi_starwars_Finale_End_Credits.npy:
+..\datasetstarwars\processed\.._midi_starwars_Finale_End_Credits.npy contains large onsets: False, large durations: True
+Largest duration: 5030
+Failed to process ..\datasetstarwars\processed\.._midi_starwars_Bens_Death_And_TIE_Fighter_Attack.npy:
+..\datasetstarwars\processed\.._midi_starwars_Bens_Death_And_TIE_Fighter_Attack.npy contains large onsets: False, large durations: True
+Largest duration: 1037
+Failed to process ..\datasetstarwars\processed\.._midi_starwars_Main_Title.npy:
+..\datasetstarwars\processed\.._midi_starwars_Main_Title.npy contains large onsets: False, large durations: True
+Largest duration: 2066
+Failed to process ..\datasetstarwars\processed\.._midi_starwars_Darth_Vaders_Death.npy:
+..\datasetstarwars\processed\.._midi_starwars_Darth_Vaders_Death.npy contains large onsets: False, large durations: True
+Largest duration: 1599
+Failed to process ..\datasetstarwars\processed\.._midi_starwars_The_Emperor_Arrives.npy:
+..\datasetstarwars\processed\.._midi_starwars_The_Emperor_Arrives.npy contains large onsets: False, large durations: True
+Largest duration: 1528
+Failed to process ..\datasetstarwars\processed\.._midi_starwars_The_Asteroid_Field.npy:
+..\datasetstarwars\processed\.._midi_starwars_The_Asteroid_Field.npy contains large onsets: False, large durations: True
+Largest duration: 1620
+Failed to process ..\datasetstarwars\processed\.._midi_starwars_The_Dune_Sea_of_Tatooine_And_Jawa_Sandcrawler.npy:
+..\datasetstarwars\processed\.._midi_starwars_The_Dune_Sea_of_Tatooine_And_Jawa_Sandcrawler.npy contains large onsets: False, large durations: True
+Largest duration: 1604
+Failed to process ..\datasetstarwars\processed\.._midi_starwars_Bens_Death_And_TIE_Fighter_Attack.npy:
+..\datasetstarwars\processed\.._midi_starwars_Bens_Death_And_TIE_Fighter_Attack.npy contains large onsets: False, large durations: True
+Largest duration: 1037
+Failed to process ..\datasetstarwars\processed\.._midi_starwars_Clash_of_Lightsabers.npy:
+..\datasetstarwars\processed\.._midi_starwars_Clash_of_Lightsabers.npy contains large onsets: False, large durations: True
+Largest duration: 2309
+Failed to process ..\datasetstarwars\processed\.._midi_starwars_Finale_End_Credits.npy:
+..\datasetstarwars\processed\.._midi_starwars_Finale_End_Credits.npy contains large onsets: False, large durations: True
+Largest duration: 5030
+Failed to process ..\datasetstarwars\processed\.._midi_starwars_Main_Title.npy:
+..\datasetstarwars\processed\.._midi_starwars_Main_Title.npy contains large onsets: False, large durations: True
+Largest duration: 2066
+Failed to process ..\datasetstarwars\processed\.._midi_starwars_Darth_Vaders_Death.npy:
+..\datasetstarwars\processed\.._midi_starwars_Darth_Vaders_Death.npy contains large onsets: False, large durations: True
+Largest duration: 1599
+Failed to process ..\datasetstarwars\processed\.._midi_starwars_The_Emperor_Arrives.npy:
+..\datasetstarwars\processed\.._midi_starwars_The_Emperor_Arrives.npy contains large onsets: False, large durations: True
+Largest duration: 1528
+Failed to process ..\datasetstarwars\processed\.._midi_starwars_The_Asteroid_Field.npy:
+..\datasetstarwars\processed\.._midi_starwars_The_Asteroid_Field.npy contains large onsets: False, large durations: True
+Largest duration: 1620

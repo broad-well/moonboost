@@ -1,0 +1,74 @@
+Failed to process ..\datasetsmall\processed\.._midi_small_random_Tune__Jurassic_Park_4.npy:
+..\datasetsmall\processed\.._midi_small_random_Tune__Jurassic_Park_4.npy contains large onsets: False, large durations: True
+Largest duration: 2624
+Failed to process ..\datasetsmall\processed\.._midi_small_old_transformers_blaster2.npy:
+..\datasetsmall\processed\.._midi_small_old_transformers_blaster2.npy contains large onsets: False, large durations: True
+Largest duration: 2150
+Failed to process ..\datasetsmall\processed\.._midi_small_starwars_Darth_Vaders_Death.npy:
+..\datasetsmall\processed\.._midi_small_starwars_Darth_Vaders_Death.npy contains large onsets: False, large durations: True
+Largest duration: 1599
+Failed to process ..\datasetsmall\processed\.._midi_small_quake_the-underworld.npy:
+..\datasetsmall\processed\.._midi_small_quake_the-underworld.npy contains large onsets: False, large durations: True
+Largest duration: 1600
+Failed to process ..\datasetsmall\processed\.._midi_small_starwars_The_Dune_Sea_of_Tatooine_And_Jawa_Sandcrawler.npy:
+..\datasetsmall\processed\.._midi_small_starwars_The_Dune_Sea_of_Tatooine_And_Jawa_Sandcrawler.npy contains large onsets: False, large durations: True
+Largest duration: 1604
+Failed to process ..\datasetsmall\processed\.._midi_small_FIRST_Witch Doctor Song _Ooh Eeh Ooh Ah Ah Ting Tang Walla Walla Bing Bang_.npy:
+..\datasetsmall\processed\.._midi_small_FIRST_Witch Doctor Song _Ooh Eeh Ooh Ah Ah Ting Tang Walla Walla Bing Bang_.npy contains large onsets: False, large durations: True
+Largest duration: 1422
+Failed to process ..\midi_small\minecraft\MoogCity(clavinet).mid:
+Traceback (most recent call last):
+  File "C:\Users\ElenaTomson\moonboost\Moonbeam-MIDI-Foundation-Model\data_preprocess.py", line 82, in process_midi_file_safe_v2
+    out = process_midi_file_v2(tokenizer, midi_file, split, onset_vocab_size, dur_vocab_size, output_folder, log_file, silence_threshold)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ElenaTomson\moonboost\Moonbeam-MIDI-Foundation-Model\data_preprocess.py", line 138, in process_midi_file_v2
+    compounds = tokenizer.midi_to_compound(midi_file)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ElenaTomson\moonboost\.venv\Lib\site-packages\llama_recipes\datasets\music_tokenizer.py", line 350, in midi_to_compound
+    midi = mido.MidiFile(midifile)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ElenaTomson\moonboost\.venv\Lib\site-packages\mido\midifiles\midifiles.py", line 320, in __init__
+    self._load(file)
+  File "C:\Users\ElenaTomson\moonboost\.venv\Lib\site-packages\mido\midifiles\midifiles.py", line 371, in _load
+    self.tracks.append(read_track(infile,
+                       ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ElenaTomson\moonboost\.venv\Lib\site-packages\mido\midifiles\midifiles.py", line 218, in read_track
+    msg = read_message(infile, status_byte, peek_data, delta, clip)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ElenaTomson\moonboost\.venv\Lib\site-packages\mido\midifiles\midifiles.py", line 131, in read_message
+    raise OSError('data byte must be in range 0..127')
+OSError: data byte must be in range 0..127
+
+Failed to process ..\datasetsmall\processed\.._midi_small_minecraft_C418-Subwoofer-Lullaby-Anonymous-20220409225647-nonstop2k.com.npy:
+..\datasetsmall\processed\.._midi_small_minecraft_C418-Subwoofer-Lullaby-Anonymous-20220409225647-nonstop2k.com.npy contains large onsets: False, large durations: True
+Largest duration: 1378
+Failed to process ..\datasetsmall\processed\.._midi_small_starwars_Clash_of_Lightsabers.npy:
+..\datasetsmall\processed\.._midi_small_starwars_Clash_of_Lightsabers.npy contains large onsets: False, large durations: True
+Largest duration: 2309
+Failed to process ..\datasetsmall\processed\.._midi_small_starwars_Finale_End_Credits.npy:
+..\datasetsmall\processed\.._midi_small_starwars_Finale_End_Credits.npy contains large onsets: False, large durations: True
+Largest duration: 5030
+Failed to process ..\datasetsmall\processed\.._midi_small_old_transformers_blaster.npy:
+..\datasetsmall\processed\.._midi_small_old_transformers_blaster.npy contains large onsets: False, large durations: True
+Largest duration: 2126
+Failed to process ..\datasetsmall\processed\.._midi_small_starwars_The_Emperor_Arrives.npy:
+..\datasetsmall\processed\.._midi_small_starwars_The_Emperor_Arrives.npy contains large onsets: False, large durations: True
+Largest duration: 1528
+Failed to process ..\datasetsmall\processed\.._midi_small_starwars_The_Asteroid_Field.npy:
+..\datasetsmall\processed\.._midi_small_starwars_The_Asteroid_Field.npy contains large onsets: False, large durations: True
+Largest duration: 1620
+Failed to process ..\datasetsmall\processed\.._midi_small_quake_descent-into-cerberon.npy:
+..\datasetsmall\processed\.._midi_small_quake_descent-into-cerberon.npy contains large onsets: False, large durations: True
+Largest duration: 1732
+Failed to process ..\datasetsmall\processed\.._midi_small_starwars_Main_Title.npy:
+..\datasetsmall\processed\.._midi_small_starwars_Main_Title.npy contains large onsets: False, large durations: True
+Largest duration: 2066
+Failed to process ..\datasetsmall\processed\.._midi_small_starwars_Bens_Death_And_TIE_Fighter_Attack.npy:
+..\datasetsmall\processed\.._midi_small_starwars_Bens_Death_And_TIE_Fighter_Attack.npy contains large onsets: False, large durations: True
+Largest duration: 1037
+Failed to process ..\datasetsmall\processed\.._midi_small_old_transformers_deadop.npy:
+..\datasetsmall\processed\.._midi_small_old_transformers_deadop.npy contains large onsets: False, large durations: True
+Largest duration: 2182
+Failed to process ..\datasetsmall\processed\.._midi_small_old_transformers_backroundmusic.npy:
+..\datasetsmall\processed\.._midi_small_old_transformers_backroundmusic.npy contains large onsets: False, large durations: True
+Largest duration: 2150
